@@ -1,0 +1,23 @@
+# Prompt Engineering
+
+## Core Techniques
+
+Zero-shot prompting instructs the model to perform a task without any examples. The model relies entirely on knowledge from pretraining. It works well for simple, common tasks but may underperform on tasks requiring specific formats or reasoning chains.
+
+Few-shot prompting includes a small number of input-output examples (typically 2–8) before the target query. The model infers the task format and style from the examples. Example quality and diversity matter more than quantity. Few-shot prompting is effective when zero-shot fails due to format complexity or domain specificity.
+
+Chain-of-thought (CoT) prompting encourages the model to produce intermediate reasoning steps before the final answer. Few-shot CoT provides examples with reasoning steps; zero-shot CoT appends "Let's think step by step" to the prompt. CoT improves performance on multi-step arithmetic, logical, and commonsense reasoning tasks where direct answer generation fails.
+
+Self-consistency samples multiple CoT reasoning paths independently, then selects the most frequent answer by majority vote. It reduces variance in reasoning-intensive tasks and outperforms single-path CoT on math and logic benchmarks.
+
+## System Prompts
+
+A system prompt sets the model's persona, constraints, and behavioral guidelines before any user interaction. It is processed at a higher privilege level than user messages. Well-implemented APIs enforce instruction hierarchy, preventing user messages from overriding system-level constraints. System prompts are used to enforce tone, restrict topics, define output format, or inject context.
+
+## Security
+
+Prompt injection is an attack where malicious user input overrides system prompt instructions, causing the model to ignore safety guidelines or reveal confidential information. Indirect prompt injection occurs when the malicious instruction is embedded in retrieved documents (relevant in RAG systems). Mitigations include input/output filtering, structured output formats (JSON mode), privilege separation, and instruction hierarchy enforcement.
+
+## Best Practices
+
+Clear, specific instructions consistently outperform vague ones. Defining the output format explicitly (e.g., "Respond in JSON with fields: answer, confidence") reduces post-processing errors. Providing the model with a role ("You are an expert in...") improves task focus. Iterating on prompts using systematic evaluation (A/B testing with metrics) is more reliable than intuition alone.

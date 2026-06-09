@@ -1,0 +1,25 @@
+# Public LLM Benchmarks
+
+## MMLU
+
+MMLU (Massive Multitask Language Understanding) covers 57 academic subjects across STEM, humanities, social sciences, law, medicine, and professional domains. Each question is multiple-choice with four options. It measures breadth of world knowledge and academic reasoning. Human expert performance is approximately 89% average accuracy. GPT-4 class models score above 85%; smaller models typically score 50–70%.
+
+## HumanEval
+
+HumanEval consists of 164 Python programming problems. Each problem provides a function signature, docstring, and unit tests; the model generates the function body. The primary metric is pass@k: the probability that at least one of k generated solutions passes all unit tests. pass@1 measures single-generation accuracy; pass@100 measures the model's ceiling capability.
+
+## HellaSwag
+
+HellaSwag tests commonsense natural language inference. Given a partial sentence or paragraph, the model selects the most plausible continuation from four options. Questions are adversarially filtered so that surface-level cues do not predict the correct answer. Human accuracy is ~95%; earlier models scored around 40%.
+
+## BIG-Bench
+
+BIG-Bench (Beyond the Imitation Game Benchmark) contains over 200 diverse tasks contributed by researchers worldwide, covering reasoning, translation, code, math, and social understanding. BIG-Bench Hard (BBH) isolates 23 tasks where frontier models were previously near chance, providing a harder evaluation floor.
+
+## GSM8K
+
+GSM8K is a dataset of 8,500 grade-school math word problems requiring multi-step arithmetic reasoning. It is a standard benchmark for evaluating chain-of-thought prompting because problems require multiple reasoning steps but use only elementary arithmetic. Models using CoT show large improvements over direct-answer generation on GSM8K.
+
+## Benchmark Limitations
+
+All benchmarks have limitations: contamination (training data may include benchmark examples), saturation (frontier models score near ceiling), and task-specific optimization (prompt tuning for a benchmark does not generalize). Holistic evaluation requires combining multiple benchmarks with human evaluation and domain-specific tests.

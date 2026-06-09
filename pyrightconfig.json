@@ -1,0 +1,10 @@
+{
+  "include": ["src/llm_eval", "scripts", "tests"],
+  "extraPaths": ["src", "scripts"],
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonVersion": "3.11",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "warning",
+  "reportMissingModuleSource": "none"
+}
