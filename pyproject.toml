@@ -101,8 +101,8 @@ ingest-docs    = "scripts.ingest:main"          # chunk + embed docs into chroma
 evaluate-rag   = "scripts.evaluate_rag:main"    # run RAGAS evaluation on RAG pipeline
 
 [project.urls]
-Repository = "https://github.com/otniel-andrade/llm-eval-suite"
-Issues     = "https://github.com/otniel-andrade/llm-eval-suite/issues"
+Repository = "https://github.com/OtnielGomes/llm-eval-suite"
+Issues     = "https://github.com/OtnielGomes/llm-eval-suite/issues"
 
 # ── Build system ──────────────────────────────────────────────────────────────
 # hatchling is the uv-recommended build backend for src/ layout projects.
