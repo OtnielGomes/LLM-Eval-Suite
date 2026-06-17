@@ -158,7 +158,7 @@ uv run evaluate-rag --strategy naive --model qwen3-coder:480b-cloud --limit 10
 
 ### Benchmark — Accuracy
 
-![Accuracy per Strategy × Model](docs/assets/benchmark_accuracy_grouped.jpg)
+![Accuracy per Strategy × Model](docs/assets/benchmark_accuracy_grouped.png)
 
 | Model | Zero-Shot | Few-Shot | CoT | Mean |
 |---|---|---|---|---|
@@ -170,7 +170,7 @@ uv run evaluate-rag --strategy naive --model qwen3-coder:480b-cloud --limit 10
 
 ### Benchmark — LLM-as-Judge Score
 
-![Judge Score Heatmap](docs/assets/benchmark_judge_heatmap.jpg)
+![Judge Score Heatmap](docs/assets/benchmark_judge_heatmap.png)
 
 > ⚠️ Judge Score measures **fluency and reasoning completeness**, not answer correctness. Use `judge_correct` (accuracy) as the primary metric.
 
@@ -178,13 +178,13 @@ uv run evaluate-rag --strategy naive --model qwen3-coder:480b-cloud --limit 10
 
 ### Benchmark — Mean Latency
 
-![Mean Latency per Strategy × Model](docs/assets/benchmark_latency.jpg)
+![Mean Latency per Strategy × Model](docs/assets/benchmark_latency.png)
 
 ---
 
 ### RAG — Composite RAGAS Score
 
-![Composite RAGAS Score per Strategy × Model](docs/assets/rag_composite_grouped.jpg)
+![Composite RAGAS Score per Strategy × Model](docs/assets/rag_composite_grouped.png)
 
 | Model | Naive | HyDE | Reranking | Mean |
 |---|---|---|---|---|
@@ -196,13 +196,13 @@ uv run evaluate-rag --strategy naive --model qwen3-coder:480b-cloud --limit 10
 
 ### RAG — Individual RAGAS Metrics
 
-![RAGAS Metrics — Faithfulness, Answer Relevancy, Context Recall, Context Precision](docs/assets/rag_heatmaps.jpg)
+![RAGAS Metrics — Faithfulness, Answer Relevancy, Context Recall, Context Precision](docs/assets/rag_heatmaps.png)
 
 ---
 
 ### RAG — Context Recall Distribution
 
-![Context Recall Distribution per Question — Strategy × Model](docs/assets/rag_recall_dist.jpg)
+![Context Recall Distribution per Question — Strategy × Model](docs/assets/rag_recall_dist.png)
 
 > ⚠️ Qwen3-Coder 480B shows a **bimodal distribution under Reranking** — the cross-encoder discards relevant chunks for some technical queries, causing context recall to drop near 0.
 
