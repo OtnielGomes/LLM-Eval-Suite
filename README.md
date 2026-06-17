@@ -266,4 +266,13 @@ uv run pytest tests/ -v
 
 ## License
 
-MIT
+Distributed under the MIT License. See [`LICENSE.txt`](https://github.com/OtnielGomes/Document-Rag-Agent/blob/main/LICENSE) for more information.
+
+## Contact
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/otnielgomes
