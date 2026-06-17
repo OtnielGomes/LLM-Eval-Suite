@@ -1,0 +1,217 @@
+# Pharmacology
+
+The Pharmacologist}}
+
+'''Pharmacology''' is the science of drugs and medications, including a substance's origin, composition and interaction with biological systems; specifically through pharmacokinetics, pharmacodynamics, therapeutic use, and toxicology. The discipline examines these interactions through pharmacokinetics (what the body does to the drug) and pharmacodynamics (what the drug does to the body), both of which determine how a substance alters normal or abnormal biochemical function. Substances with medicinal properties are classified as pharmaceuticals, while the term drug encompasses any chemical agent that alters biological processes.
+
+The field encompasses drug composition and properties, functions, sources, medicinal chemistry, drug design, molecular and cellular mechanisms, organ/systems mechanisms, signal transduction/cellular communication, molecular diagnostics, interactions, chemical biology, therapy, medical applications, toxicology, and antipathogenic capabilities. The two main areas of pharmacology are pharmacodynamics and pharmacokinetics. Pharmacodynamics studies the effects of a drug on biological systems, and pharmacokinetics studies the effects of biological systems on a drug. In broad terms, pharmacodynamics discusses the chemicals with biological receptors, and pharmacokinetics discusses the liberation, absorption, distribution, metabolism, and excretion (LADME) of chemicals from the biological systems.
+
+Pharmacology is not synonymous with pharmacy, though the two terms are frequently confused. Pharmacology is a branch of medical and biological sciences which encompasses the research, discovery, and characterization of chemicals exhibiting biological effects, alongside the elucidation of cellular and organismal function in relation to these chemicals. In contrast, pharmacy, a health services profession, is concerned with the application of the principles learned from pharmacology, pharmaceutics, medicinal chemistry, pharmacognosy, clinical pharmacy and others in its clinical settings; whether it be in a dispensing or clinical care role. In either field, the primary contrast between the two is their distinction between direct-patient care, pharmacy practice, and the science-oriented research field, driven by pharmacology.
+
+## Etymology
+
+The word ''pharmacology'' is derived from Greek word ,  ''pharmakon'', meaning "drug" or "poison", together with another Greek word , ''logia'' with the meaning of "study of" or "knowledge of" (cf. the etymology of ''pharmacy''). Pharmakon is related to pharmakos, the ritualistic sacrifice or exile of a human scapegoat or victim in Ancient Greek religion.
+
+The modern term ''pharmacon'' is used more broadly than the term ''drug'' because it includes endogenous substances, and biologically active substances which are not used as drugs.  Typically it includes pharmacological agonists and antagonists, but also enzyme inhibitors (such as monoamine oxidase inhibitors).
+
+##  History 
+
+ from opium poppies has been used as a drug since before 1100 BCE.]]
+, was first isolated in 1804 and is now known to act as an opioid agonist. |date=2009 |isbn=978-3-7643-8335-0 |title=Molecular, Clinical and Environmental Toxicology |series=Experientia Supplementum |volume=99 |publisher=Birkhäuser Basel |location=Basel |editor1-first=Andreas |editor1-last=Luch }} | title = Untitled letter to the editor | journal = Journal der Pharmacie für Aerzte, Apotheker und Chemisten (Journal of Pharmacy for Physicians, Apothecaries, and Chemists) | volume = 13 | pages = 229–243 }}; see especially "III.  Säure im Opium" (acid in opium), pp. 234–235, and  "I.  Nachtrag zur Charakteristik der Säure im Opium" (Addendum on the characteristics of the acid in opium), pp. 236–241.]]
+The origins of clinical pharmacology date back to the Middle Ages, with pharmacognosy, Avicenna's ''The Canon of Medicine'', Peter of Spain's ''Commentary on Isaac'', and John of St Amand's ''Commentary on the Antedotary of Nicholas''. Early pharmacology focused on herbalism and natural substances, mainly plant extracts while medicines were compiled in books called pharmacopoeias. Crude drugs have been used since prehistory as a preparation of substances from natural sources. However, the active pharmaceutical ingredient (API) of crude drugs are not purified and the substance is adulterated with other substances.
+
+Traditional medicine varies between cultures and may be specific to a particular culture, such as in traditional Chinese, Mongolian, Tibetan, and Korean medicine. However much of this has since been regarded as pseudoscience. Pharmacological substances known as entheogens may have spiritual and religious use and a historical context.
+
+In the 17th century, the English physician Nicholas Culpeper translated and used pharmacological texts. Culpeper detailed plants and the conditions they could treat. In the 18th century, much of clinical pharmacology was established by the work of William Withering. | title = Introduction to pharmacology | publisher = CRC Press | page = 4 | isbn = 0-415-28033-8 }} Pharmacology as a scientific discipline did not further advance until the mid-19th century amid the great biomedical resurgence of that period. Before the second half of the nineteenth century, the remarkable potency and specificity of the actions of drugs such as morphine, quinine, and digitalis were explained vaguely and with reference to extraordinary chemical powers and affinities to certain organs or tissues. The first pharmacology department was set up by Rudolf Buchheim in 1847, at the University of Tartu, in recognition of the need to understand how therapeutic drugs and poisons produced their effects. Subsequently, the first pharmacology department in England was set up in 1905 at University College London.
+
+Pharmacology developed in the 19th century as a biomedical science that applied the principles of scientific experimentation to therapeutic contexts. The advancement of research techniques propelled pharmacological research and understanding. The development of the organ bath preparation, where tissue samples are connected to recording devices, such as a myograph, and physiological responses are recorded after drug application, allowed analysis of drugs' effects on tissues. The development of the ligand binding assay in 1945 allowed quantification of the binding affinity of drugs at chemical targets. Modern pharmacologists use techniques from genetics, molecular biology, biochemistry, and other advanced tools to transform information about molecular mechanisms and targets into therapies directed against disease, defects or pathogens, and create methods for preventive care, diagnostics, and ultimately personalized medicine.
+
+## Divisions
+
+The discipline of pharmacology can be divided into many sub disciplines each with a specific focus.
+
+##  Systems of the body 
+
+Pharmacology can focus on specific systems comprising the body. Divisions related to bodily systems study the effects of drugs in different systems of the body. These include neuropharmacology, in the central and peripheral nervous systems; immunopharmacology in the immune system. Other divisions include cardiovascular, renal, and endocrine pharmacology. Psychopharmacology is the study of the use of drugs that affect the psyche, mind, and behavior (e.g. antidepressants) in treating mental disorders (e.g. depression). It incorporates approaches and techniques from neuropharmacology, animal behavior and behavioral neuroscience, and is interested in the behavioral and neurobiological mechanisms of action of psychoactive drugs. The related field of neuropsychopharmacology focuses on the effects of drugs at the overlap between the nervous system and the psyche.
+
+Pharmacometabolomics, also known as pharmacometabolomics, is a field which stems from metabolomics, the quantification and analysis of metabolites produced by the body. It refers to the direct measurement of metabolites in an individual's bodily fluids, in order to predict or evaluate the metabolism of pharmaceutical compounds, and to better understand the pharmacokinetic profile of a drug. Pharmacometabolomics can be applied to measure metabolite levels following the administration of a drug, in order to monitor the effects of the drug on metabolic pathways. Pharmacomicrobiomics studies the effect of microbiome variations on drug disposition, action, and toxicity. Pharmacomicrobiomics is concerned with the interaction between drugs and the gut microbiome. Pharmacogenomics is the application of genomic technologies to drug discovery and further characterization of drugs related to an organism's entire genome. For pharmacology regarding individual genes, pharmacogenetics studies how genetic variation gives rise to differing responses to drugs. Pharmacoepigenetics studies the underlying epigenetic marking patterns that lead to variation in an individual's response to medical treatment.
+
+## Clinical practice and drug discovery
+
+ working in a lab]]
+Pharmacology can be applied within clinical sciences. Clinical pharmacology is the application of pharmacological methods and principles in the study of drugs in humans. An example of this is '''posology''', which is the study of the dosage of medicines.
+
+Pharmacology is closely related to toxicology. Both pharmacology and toxicology are scientific disciplines that focus on understanding the properties and actions of chemicals. However, pharmacology emphasizes the therapeutic effects of chemicals, usually drugs or compounds that could become drugs, whereas toxicology is the study of chemical's adverse effects and risk assessment.
+
+Pharmacological knowledge is used to advise pharmacotherapy in medicine and pharmacy.
+
+##  Drug discovery 
+
+Drug discovery is the initial phase of research focused on identifying and validating new chemical compounds (lead compounds) that are intended to treat a disease. Drug design is an inventive method used within the discovery phase and encompasses the designing of molecules that are complementary in polarity (charge) and shape (stereochemistry) to a given biomolecular target. After a lead compound has been identified through drug discovery, drug development involves bringing the drug to the market. Clinical Center|url=https://www.cc.nih.gov/orcs/ind/what-is-an-ind|website=www.cc.nih.gov|access-date=2025-11-28|archive-url=https://web.archive.org/web/20250806154945/https://www.cc.nih.gov/orcs/ind/what-is-an-ind|archive-date=6 August 2025|language=en|url-status=live}} Drug discovery is related to pharmacoeconomics, which is the sub-discipline of health economics that considers the value of drugs. Pharmacoeconomics evaluates the cost and benefits of drugs in order to guide optimal healthcare resource allocation. The techniques used for the formulation and manufacturing of drugs are studied by pharmaceutical engineering, a branch of engineering. Safety pharmacology specializes in detecting and investigating potential undesirable and adverse effects of drugs.
+
+Development of medication is a vital concern to medicine, but also has strong economical and political implications. To protect the consumer and prevent abuse, many governments regulate the manufacture, sale, and administration of medication. In the United States, the main body that regulates pharmaceuticals is the Food and Drug Administration; they enforce standards set by the United States Pharmacopoeia. In the European Union, the main body that regulates pharmaceuticals is the European Medicines Agency (EMA), and they enforce standards set by the European Pharmacopoeia. Scilife |url=https://www.scilife.io/blog/fda-and-ema-inspections-pharma |access-date=2026-03-08 |website=www.scilife.io |language=en}}
+
+The metabolic stability and the reactivity of a library of candidate drug compounds have to be assessed for drug metabolism and toxicological studies. Many methods have been proposed for quantitative predictions in drug metabolism; one example of a recent computational method is SPORCalc. A slight alteration to the chemical structure of a medicinal compound could alter its medicinal properties, depending on how the alteration relates to the structure of the substrate or receptor site on which it acts: this is called the structural activity relationship (SAR). When a useful activity has been identified, chemists will make many similar compounds called analogues, to try to maximize the desired medicinal effect(s). This can take anywhere from a few years to a decade or more, and is very expensive. |last1=Newton|first1=David| first2 = Alasdair | last2 = Thorpe | first3 = Chris | last3 = Otter | name-list-style = vanc |publisher=Heinemann Educational Publishers|year=2004|isbn=0-435-58347-6|page=1}} One must also determine how safe the medicine is to consume, its stability in the human body and the best form for delivery to the desired organ system, such as tablet or aerosol. After extensive testing, which can take up to six years, the new medicine is ready for marketing and selling.
+
+Because of these long timescales and the fact that only one out of every 5000 potential new medicines will ever reach the open market, this is an expensive way of doing things, often costing over 1 USD billion per drug. To recoup this outlay, pharmaceutical companies may do a number of things:
+* Carefully research the demand for their potential new product before spending an outlay of company funds.
+* Obtain a patent on the new medicine preventing other companies from producing that medicine for a certain allocation of time.
+
+The Inverse Benefit Law describes the relationship between a drug's therapeutic benefits and the socioeconomic status (overall health risk/need) of the population undergoing treatment. The law states that the therapeutic benefit conferred by medical interventions upon a population is inversely proportional to its incidence of disease or socioeconomic need.
+
+When designing drugs, the placebo effect must be considered to assess the drug's true therapeutic value.
+
+Drug development uses techniques from medicinal chemistry to chemically design drugs. This overlaps with the biological approach of finding targets and physiological effects.
+
+##  Wider contexts 
+
+Pharmacology can be studied in relation to wider contexts than the physiology of individuals. For example, pharmacoepidemiology concerns the variations of the effects of drugs in or between populations, it is the bridge between clinical pharmacology and epidemiology. Pharmacoenvironmentology or environmental pharmacology is the study of the effects of used pharmaceuticals and personal care products (PPCPs) on the environment after their elimination from the body. Human health and ecology are intimately related so environmental pharmacology studies the environmental effect of drugs and pharmaceuticals and personal care products in the environment.
+
+Drugs may also have ethnocultural importance, so ethnopharmacology studies the ethnic and cultural aspects of pharmacology. 
+
+##  Emerging fields 
+
+Photopharmacology is an emerging approach in medicine in which drugs are activated and deactivated with light. The energy of light is used to change for shape and chemical properties of the drug, resulting in different biological activity. This is done to ultimately achieve control when and where drugs are active in a reversible manner, to prevent side effects and pollution of drugs into the environment.
+
+Epigenetic therapy may offer an alternative 'master switch' to gene therapy to introduce persistent changes to the phenotype. Aging is well-known to be measurable through epigenetic clock.
+
+Drugs may induce ''persistent changes''. When they cause drugs to lose efficacy, it is called drug tolerance. On the other hand, they may introduce benign changes to the body. Psychoplastogen produce profound effects by regulating neuroplasticity. Psychostimulants prevent grey matter loss in ADHD patients, at therapeutic doses. 
+
+##  Theory of pharmacology 
+
+Pharmacology is the scientific study of drugs and their interactions with living systems. it is broadly divided into two main branches: pharmacokinetics and pharmacodynamics.
+
+##  Pharmacokinetics 
+
+Pharmacokinetics refers to the movement of drugs within the body and describes what the body does to a drug. It includes five main processes:
+* '''Liberation''' '''–''' When the active pharmaceutical ingredient is released from its pharmaceutical formulation and becomes available for absorption.
+* '''Absorption –''' How the drug enters the bloodstream.
+* '''Distribution –''' How the drug spreads throughout the body's tissue and fluids.
+* '''Metabolism –''' How the drug is chemically altered, primarily in the liver.
+* '''Excretion –''' How the drug and its metabolites are eliminated, mainly through the kidneys.
+
+##  Key physiological parameters in pharmacokinetics include 
+
+* '''Half-life (''t''½)''' '''–''' The time required for the drug's plasma concentration to reduce by half.
+* '''Volume of distribution (''VD'') –''' A theoretical volume that relates the total amount of a drug in the body to its measured concentration in the blood (or plasma).
+* '''Total Clearance (''Cl''tot) –''' A theoretical pharmacokinetic parameter that statistically explains the efficiency with which a drug is irreversibly eliminated from the body, quantified as the volume of plasma cleared of the drug per unit of time, typically measured in L/h or mL/min.
+* '''Area Under the Curve (AUC)''' '''–''' The definite integral of the plasma drug concentration versus time curve from time zero to infinity, which represents the total systemic exposure of the body to a drug overtime (AUC0−∞).
+
+##  Pharmacodynamics 
+
+Pharmacodynamics refers to the biochemical and physiological effects of drugs on the body and the mechanism of the action. it answers the question, "What does the drug do to the body?"
+
+This include :
+
+* '''Receptor binding''' – Most drugs exert their effects by binding to specific cell receptors (proteins on cell surfaces or inside cells)
+* '''Dose-response relationship''' – Illustrated using drug-response curves, these relationships show the effect of different drug doses on the magnitude of a response.
+* '''Therapeutic window''' – The range of doses between the minimum effective concentration and the minimum toxic concentration.
+
+s. Dose response curves are studied extensively in pharmacology.]]
+
+##  Systems, receptors and ligands 
+
+ synapse. Targets in synapses can be modulated with pharmacological agents. In this case, cholinergics (such as muscarine) and anticholinergics (such as atropine) target receptors; transporter inhibitors (such as hemicholinium) target membrane transport proteins and anticholinesterases (such as sarin) target enzymes.]]
+
+Pharmacology is often studied by focusing on specific systems, such as endogenous neurotransmitter systems. The major systems studied in pharmacology can be categorized by their ligands and their receptors which include, but are not limited to, acetylcholine (ACh), adenosine, adrenaline, anandamide, aspartate, glutamate, glycine, purines, substance P, eicosanoids, GABA, dopamine (DA), histamine, serotonin (5-HT), serine, cannabinoids, opioids, melatonin, vasopressin (ADH), and norepinephrine (NE).
+
+Molecular targets in pharmacology include receptors, enzymes, and membrane transport proteins. Enzymes can be targeted with enzyme inhibitors. Receptors are typically categorized based on structure and function. Major receptor types studied in pharmacology include G protein coupled receptors, ligand gated ion channels, and receptor tyrosine kinases.
+
+Network pharmacology is a subfield of pharmacology that combines principles from pharmacology, systems biology, and network analysis to study the complex interactions between drugs and targets (receptors or enzymes etc.) in biological systems. The topology of a biochemical reaction network determines the shape of drug dose-response curve as well as the type of drug-drug interactions, thus can help designing efficient and safe therapeutic strategies. The topology Network pharmacology utilizes computational tools and network analysis algorithms to identify drug targets, predict drug-drug interactions, elucidate signaling pathways, and explore the polypharmacology of drugs.
+
+##  Pharmacodynamics 
+
+Pharmacodynamics is defined as how the body reacts to the drugs. Pharmacodynamics theory often investigates the binding affinity of ligands to their receptors. Ligands can be agonists, partial agonists or antagonists at specific receptors in the body. Agonists bind to receptors and produce a biological response, a partial agonist produces a biological response lower than that of a full agonist, antagonists have affinity for a receptor but do not produce a biological response.
+
+The ability of a ligand to produce a biological response is termed efficacy, in a dose-response profile it is indicated as percentage on the y-axis, where 100% is the maximal efficacy (all receptors are occupied).
+
+Binding affinity is the ability of a ligand to form a ligand-receptor complex either through weak attractive forces (reversible) or covalent bond (irreversible), therefore efficacy is dependent on binding affinity.
+
+Potency of drug is the measure of its effectiveness, EC50 is the drug concentration of a drug that produces an efficacy of 50% and the lower the concentration the higher the potency of the drug therefore EC50 can be used to compare potencies of drugs.
+
+Medication is said to have a narrow or wide ''therapeutic index,'' certain safety factor, or ''therapeutic window''. This describes the ratio of desired effect to toxic effect. A compound with a narrow therapeutic index (close to one) exerts its desired effect at a dose close to its toxic dose. A compound with a wide therapeutic index (greater than five) exerts its desired effect at a dose substantially below its toxic dose. Those with a narrow margin are more difficult to dose and administer, and may require therapeutic drug monitoring (examples are warfarin, some antiepileptics, aminoglycoside antibiotics). Most anti-cancer drugs have a narrow therapeutic margin: toxic side-effects are almost always encountered at doses used to kill tumors.
+
+The effect of drugs can be described with Loewe additivity which is one of several common reference models.
+
+Other models include the Hill equation, Cheng–Prusoff equation and Schild regression.
+
+##  Pharmacokinetics 
+
+}}
+
+Pharmacokinetics is the study of the bodily absorption, distribution, metabolism, and excretion of drugs.
+
+When describing the pharmacokinetic properties of the chemical that is the active ingredient or active pharmaceutical ingredient, pharmacologists are often interested in ''L-ADME'':
+* Liberation – How is the active pharmaceutical ingredient disintegrated (for solid oral forms (breaking down into smaller particles), dispersed, or dissolved from the medication?
+* Absorption – How is the active pharmaceutical ingredient absorbed (through the skin, the intestine, the oral mucosa)?
+* Distribution – How does the active pharmaceutical ingredient spread through the organism?
+* Metabolism – Is the active pharmaceutical ingredient converted chemically inside the body, and into which substances. Are these active (as well)? Could they be toxic?
+* Excretion – How is the active pharmaceutical ingredient excreted (through the bile, urine, breath, skin)?
+
+Drug metabolism is assessed in pharmacokinetics and is important in drug research and prescribing.
+
+Pharmacokinetics is the movement of the drug in the body, it is usually described as 'what the body does to the drug' the physico-chemical properties of a drug will affect the rate and extent of absorption, extent of distribution, metabolism and elimination. The drug needs to have the appropriate molecular weight, polarity etc. in order to be absorbed, the fraction of a drug that reaches the systemic circulation is termed bioavailability, this is simply a ratio of the peak plasma drug levels after oral administration and the drug concentration after an IV administration (first pass effect is avoided and therefore no amount drug is lost). A drug must be lipophilic (lipid soluble) in order to pass through biological membranes because biological membranes are made up of a lipid bilayer (phospholipids etc.). Once the drug reaches the blood circulation it is then distributed throughout the body and being more concentrated in highly perfused organs.
+
+##  Gene expression modulation and epigenetics 
+
+Apart from classical pharmacological targets, drugs may exert effects through direct or indirect gene expression modulation, or even introduce persistent state changes through epigenetic reprogramming.
+
+Therefore, drugs should be screened for off-target activity by gene expression profiling, in addition to conventional ligand binding, enzyme assays, etc.
+
+##  Administration, drug policy and safety 
+
+##  Drug policy 
+
+In the United States, the Food and Drug Administration (FDA) is responsible for creating guidelines for the approval and use of drugs. The FDA requires that all approved drugs fulfill two requirements:
+# The drug must be found to be effective against the disease for which it is seeking approval (where 'effective' means only that the drug performed better than placebo or competitors in at least two trials).
+# The drug must meet safety criteria by being subject to animal and controlled human testing.
+
+Gaining FDA approval usually takes several years. Testing done on animals must be extensive and must include several species to help in the evaluation of both the effectiveness and toxicity of the drug. The dosage of any drug approved for use is intended to fall within a range in which the drug produces a therapeutic effect or desired outcome.
+
+The safety and effectiveness of prescription drugs in the U.S. are regulated by the federal Prescription Drug Marketing Act of 1987.
+
+The Medicines and Healthcare products Regulatory Agency (MHRA) has a similar role in the UK.
+
+Medicare Part D is a prescription drug plan in the U.S.
+
+The Prescription Drug Marketing Act (PDMA) is an act related to drug policy.
+
+Prescription drugs are drugs regulated by legislation.
+
+##  Societies and education 
+
+##  Societies and administration 
+
+The International Union of Basic and Clinical Pharmacology, Federation of European Pharmacological Societies, and European Association for Clinical Pharmacology and Therapeutics are organizations representing standardization and regulation of clinical and scientific pharmacology.
+
+Systems for medical classification of drugs with pharmaceutical codes have been developed. These include the National Drug Code (NDC), administered by Food and Drug Administration; Drug Identification Number (DIN), administered by Health Canada under the Food and Drugs Act; Hong Kong Drug Registration, administered by the Pharmaceutical Service of the Department of Health (Hong Kong), and National Pharmaceutical Product Index in South Africa. Hierarchical systems have also been developed, including the Anatomical Therapeutic Chemical Classification System (AT, or ATC/DDD), administered by World Health Organization; Generic Product Identifier, a hierarchical classification number published by MediSpan and SNOMED, C axis. Ingredients of drugs have been categorized by Unique Ingredient Identifiers.
+
+##  Education 
+
+The study of pharmacology overlaps with biomedical sciences and is the study of the effects of drugs on living organisms. Pharmacological research can lead to new drug discoveries, and promote a better understanding of human physiology. Students of pharmacology must have a detailed working knowledge of aspects in physiology, pathology, and chemistry. They may also require knowledge of plants as sources of pharmacologically active compounds.  Modern pharmacology is interdisciplinary and involves biophysical and computational sciences and analytical chemistry. A pharmacist needs to be well-equipped with knowledge on pharmacology for application in pharmaceutical research or pharmacy practice in hospitals or commercial organizations selling to customers. Pharmacologists, however, usually work in a laboratory undertaking research or development of new products. Pharmacological research is important in academic research (medical and non-medical), private industrial positions, science writing, scientific patents and law, consultation, biotech and pharmaceutical employment, the alcohol industry, food industry, forensics/law enforcement, public health, and environmental/ecological sciences. Pharmacology is often taught to pharmacy and medicine students as part of a Medical School curriculum.
+
+##  See also 
+
+##  References 
+
+}}
+
+##  External links 
+
+* [http://www.aspet.org American Society for Pharmacology and Experimental Therapeutics]
+* [http://www.bps.ac.uk British Pharmacological Society]
+* [http://www.ich.org/ International Conference on Harmonisation]
+* [http://www.usp.org US Pharmacopeia]
+* [http://www.iuphar.org International Union of Basic and Clinical Pharmacology]
+* [http://www.iuphar-db.org IUPHAR Committee on Receptor Nomenclature and Drug Classification]
+* [http://www.guidetopharmacology.org/ IUPHAR/BPS Guide to Pharmacology]
+
+##  Further reading 
+
+* 
+* 
+* 
+
+ 
+Category:Biochemistry
+Category:Life sciences industry

@@ -1,0 +1,1761 @@
+# Climate change
+
+The Arctic has warmed the most, and temperatures on land have generally increased more than sea surface temperatures.
+|image2 = Global Temperature And Forces With Fahrenheit.svg
+|alt2 = Timeseries of global warming from 1880 to 2020 compared to simulated temperatures given only natural forcing. The first shows a positive trend since around 1950 and the second stays relatively flat.
+|caption2 = Earth's average surface air temperature has increased about  since the Industrial Revolution. Natural forces cause some variability, but the persistent temperature increase shows the progressive influence of human activity.Sources for data and graphic:
+* Annual global mean surface temperature data from: 
+* Natural driver graphic is at:  Click on "Datasets".
+* Natural driver dataset is downloadable by clicking on "gmst_changes_model_and_obs.csv" at: 
+}}
+
+Present-day '''climate change''' includes both '''global warming'''—the ongoing increase in global average temperature—and its wider effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution.: "The indicators show that, for the 2014–2023 decade average, observed warming was 1.19 [1.06 to 1.30] °C, of which 1.19 [1.0 to 1.4] °C was human-induced." Fossil fuel use, deforestation, and some agricultural and industrial practices release greenhouse gases. These gases absorb some of the heat that the Earth radiates after it warms from sunlight, warming the lower atmosphere. Earth's atmosphere now has roughly 50% more carbon dioxide, the main gas driving global warming, than it did at the end of the pre-industrial era, reaching levels not seen for millions of years.: "Concentrations of , methane (), and nitrous oxide () have increased to levels unprecedented in at least 800,000 years, and there is high confidence that current  concentrations have not been experienced for at least 2 million years."
+
+Climate change has an increasingly large impact on the environment. Heat waves and wildfires are becoming more common.*: "Observed increases in areas burned by wildfires have been attributed to human-induced climate change in some regions (medium to high confidence)" Amplified warming in the Arctic has contributed to thawing permafrost, retreat of glaciers and sea ice decline.: "Over the last decades, global warming has led to widespread shrinking of the cryosphere, with mass loss from ice sheets and glaciers (very high confidence), reductions in snow cover (high confidence) and Arctic sea ice extent and thickness (very high confidence), and increased permafrost temperature (very high confidence)." Higher temperatures are also causing more intense storms, droughts, and other weather extremes. Rapid environmental change in mountains, coral reefs, and the Arctic is forcing many species to relocate or become extinct. Even if efforts to minimize future warming are successful, some effects will continue for centuries. These include ocean heating, ocean acidification and sea level rise.: "Sustained net zero anthropogenic emissions of  and declining net anthropogenic non- radiative forcing over a multi-decade period would halt anthropogenic global warming over that period, although it would not halt sea level rise or many other aspects of climate system adjustment."
+
+Climate change threatens people with increased flooding, extreme heat, increased food and water scarcity, more disease, and economic loss. Human migration and conflict can also be a result.
+*
+*
+* The World Health Organization calls climate change one of the biggest threats to global health in the 21st century. Societies and ecosystems will experience more severe risks without action to limit warming. Adapting to climate change through efforts like flood control measures or drought-resistant crops partially reduces climate change risks, although some limits to adaptation have already been reached.
+* 
+* 
+* : "Effectiveness15 of adaptation in reducing climate risks16 is documented for specific contexts, sectors and regions (high confidence) ... Soft limits to adaptation are currently being experienced by small-scale farmers and households along some low-lying coastal areas (medium confidence) resulting from financial, governance, institutional and policy constraints (high confidence). Some tropical, coastal, polar and mountain ecosystems have reached hard adaptation limits (high confidence). Adaptation does not prevent all losses and damages, even with effective adaptation and before reaching soft and hard limits (high confidence)." Poorer communities are responsible for a small share of global emissions, yet have the least ability to adapt and are most vulnerable to climate change.
+
+| footer            = Examples of some effects of climate change: Wildfire intensified by heat and drought, bleaching of corals occurring more often due to marine heatwaves, and worsening droughts compromising water supplies.
+}}
+
+Many climate change impacts have been observed in the first decades of the 21st century, with 2024 the warmest on record at + since regular tracking began in 1850. Additional warming will increase these impacts and can trigger tipping points, such as melting all of the Greenland ice sheet. Under the 2015 Paris Agreement, nations collectively agreed to keep warming "well under 2&nbsp;°C". However, with pledges made under the Agreement, global warming would still reach about  by the end of the century.: "The full implementation and continuation of the level of mitigation effort implied by unconditional or conditional NDC scenarios lower these projections to 2.8&nbsp;°C (range: 1.9–3.7) and 2.6&nbsp;°C (range: 1.9–3.6), respectively. All with at least a 66 per cent chance." 
+
+There is widespread support for climate action worldwide, and most countries aim to stop emitting carbon dioxide.: "As at 1 June 2024, 101 parties representing 107 countries and covering approximately 82 per cent of global GHG emissions had adopted net-zero pledges either in law (28 parties), in a policy document such as an NDC or a long-term strategy (56 parties), or in an announcement by a high-level government official (17 parties)." Fossil fuels can be phased out by stopping subsidising them, conserving energy and switching to energy sources that do not produce significant carbon pollution. These energy sources include wind, solar, hydro, and nuclear power.
+* 
+*  
+*  Cleanly generated electricity can replace fossil fuels for powering transportation, heating buildings, and running industrial processes.: "Stringent emissions reductions at the level required for 2°C or 1.5°C are achieved through the increased electrification of buildings, transport, and industry, consequently all pathways entail increased electricity generation (high confidence)." Carbon can also be removed from the atmosphere, for instance by increasing forest cover and farming with methods that store carbon in soil.
+* 
+* 
+* 
+
+ 
+
+##  Terminology 
+
+Before the 1980s, it was unclear whether the warming effect of increased greenhouse gases was stronger than the cooling effect of airborne particulates in air pollution. Scientists used the term ''inadvertent climate modification'' to refer to human impacts on the climate at this time.. In the 1980s, the terms ''global warming'' and ''climate change'' became more common, often being used interchangeably.: "'Climate change' and 'global warming' are often used interchangeably but have distinct meanings.&nbsp;... Global warming refers to the upward temperature trend across the entire Earth since the early 20th century&nbsp;... Climate change refers to a broad range of global phenomena&nbsp;...[which] include the increased temperature trends described by global warming.": "The terms global warming and climate change can be used interchangeably. Climate change is more accurate scientifically to describe the various effects of greenhouse gases on the world because it includes extreme weather, storms and changes in rainfall patterns, ocean acidification and sea level". Scientifically, ''global warming'' refers only to increased global average surface temperature, while ''climate change'' describes both global warming and its effects on Earth's climate system, such as precipitation changes.
+
+''Climate change'' can also be used more broadly to include changes to the climate that have happened throughout Earth's history as result of natural processes.: "Climate change refers to a change in the state of the climate that can be identified (e.g., by using statistical tests) by changes in the mean and/or the variability of its properties and that persists for an extended period, typically decades or longer. Climate change may be due to natural internal processes or external forcings such as modulations of the solar cycles, volcanic eruptions and persistent anthropogenic changes in the composition of the atmosphere or in land use." The term ''anthropogenic climate change'' is sometimes used to describe climate change resulting from human activities. 
+
+''Global warming''—used as early as 1975—became the more popular term after NASA climate scientist James Hansen used it in his 1988 testimony in the U.S. Senate., [http://history.aip.org/climate/public2.htm#L_0575 "News reporters gave only a little attention&nbsp;..."]. Since the 2000s, usage of ''climate change'' has increased.. Various scientists, politicians and media may use the terms ''climate crisis'' or ''climate emergency'' to talk about climate change, and may use the term ''global heating'' instead of ''global warming''.
+
+##  Global temperature rise 
+
+##  Temperatures prior to present-day global warming 
+
+ reconstruction over the past 2000 years using proxy data from tree rings, corals, and ice cores in blue.. Directly observed data is in red.]]
+Over the last few million years the climate cycled through ice ages. One of the hotter periods was the Last Interglacial, around 125,000 years ago, where temperatures were between 0.5&nbsp;°C and 1.5&nbsp;°C warmer than before the start of global warming. This period saw sea levels 5 to 10 metres higher than today. The most recent glacial maximum 20,000 years ago was some 5–7&nbsp;°C colder. This period has sea levels that were over  lower than today.
+
+Temperatures stabilized in the current interglacial period beginning 11,700 years ago. This period also saw the start of agriculture. Historical patterns of warming and cooling, like the Medieval Warm Period and the Little Ice Age, did not occur at the same time across different regions. Temperatures may have reached as high as those of the late 20th century in a limited set of regions. Climate information for that period comes from climate proxies, such as trees and ice cores.: "This report adopts the 51-year reference period, 1850–1900 inclusive, assessed as an approximation of pre-industrial levels in AR5&nbsp;... Temperatures rose by 0.0&nbsp;°C–0.2&nbsp;°C from 1720–1800 to 1850–1900"
+
+##  Warming since the Industrial Revolution 
+
+ during recent decades as the oceans absorb over 90% of the heat from global warming.''Top 700 meters:''  ● ''Top 2000 meters:'' ]]
+Around 1850 thermometer records began to provide global coverage.: "Global-scale observations from the instrumental era began in the mid-19th century for temperature and other variables&nbsp;... the period 1880 to 2012&nbsp;... multiple independently produced datasets exist."
+Between the 18th century and 1970 there was little net warming, as the warming impact of greenhouse gas emissions was offset by cooling from sulfur dioxide emissions. Sulfur dioxide causes acid rain, but it also produces sulfate aerosols in the atmosphere, which reflect sunlight and cause global dimming. After 1970, the increasing accumulation of greenhouse gases and controls on sulfur pollution led to a marked increase in temperature.
+
+Ongoing changes in climate have had no precedent for several thousand years. Multiple datasets all show worldwide increases in surface temperature, at a rate of around 0.2&nbsp;°C per decade.. The 2014–2023 decade warmed to an average 1.19&nbsp;°C [1.06–1.30&nbsp;°C] compared to the pre-industrial baseline (1850–1900). Not every single year was warmer than the last: internal climate variability processes can make any year 0.2&nbsp;°C warmer or colder than the average. From 1998 to 2013, negative phases of two such processes, Pacific Decadal Oscillation (PDO) and Atlantic Multidecadal Oscillation (AMO) caused a short slower period of warming called the "global warming hiatus". After the "hiatus", the opposite occurred, with 2024 well above the recent average at more than +1.5&nbsp;°C. This is why the temperature change is defined in terms of a 20-year average, which reduces the noise of hot and cold years and decadal climate patterns, and detects the long-term signal.
+
+A wide range of other observations reinforce the evidence of warming.. Figure 2.5. The upper atmosphere is cooling, because greenhouse gases are trapping heat near the Earth's surface, and so less heat is radiating into space. Warming reduces average snow cover and forces the retreat of glaciers. At the same time, warming also causes greater evaporation from the oceans, leading to more atmospheric humidity, and more and heavier precipitation. Plants are flowering earlier in spring, and thousands of animal species have been permanently moving to cooler areas.
+
+##  Differences by region 
+
+Different regions of the world warm at different rates. The pattern is independent of where greenhouse gases are emitted, because the gases persist long enough to diffuse across the planet. Since the pre-industrial period, the average surface temperature over land regions has increased almost twice as fast as the global average surface temperature. This is because oceans lose more heat by evaporation and oceans can store a lot of heat.. The thermal energy in the global climate system has grown with only brief pauses since at least 1970, and over 90% of this extra energy has been stored in the ocean.: "Ocean warming dominates the global energy change inventory. Warming of the ocean accounts for about 93% of the increase in the Earth's energy inventory between 1971 and 2010 (high confidence), with warming of the upper (0 to 700 m) ocean accounting for about 64% of the total. The rest has heated the atmosphere, melted ice, and warmed the continents.
+
+The Northern Hemisphere and the North Pole have warmed much faster than the South Pole and Southern Hemisphere. The Northern Hemisphere not only has much more land, but also more seasonal snow cover and sea ice. As these surfaces flip from reflecting a lot of light to being dark after the ice has melted, they start absorbing more heat.. Local black carbon deposits on snow and ice also contribute to Arctic warming.: "Black carbon that is deposited on snow and ice darkens those surfaces and decreases their reflectivity (albedo). This is known as the snow/ice albedo effect. This effect results in the increased absorption of radiation that accelerates melting." Arctic surface temperatures are increasing between three and four times faster than in the rest of the world. Melting of ice sheets near the poles weakens both the Atlantic and the Antarctic limb of thermohaline circulation, which further changes the distribution of heat and precipitation around the globe.
+
+##  Future global temperatures 
+
+ multi-model projections of global surface temperature changes for the year 2090 relative to the 1850–1900 average. The current trajectory for warming by the end of the century is roughly halfway between these two extremes.]]
+The World Meteorological Organization estimates there is almost a 50% chance of the five-year average global temperature exceeding +1.5&nbsp;°C between 2024 and 2028. The IPCC expects the 20-year average to exceed +1.5&nbsp;°C in the early 2030s.
+
+The IPCC Sixth Assessment Report (2021) included projections that by 2100 global warming is very likely to reach 1.0–1.8&nbsp;°C under a scenario with very low emissions of greenhouse gases, 2.1–3.5&nbsp;°C under an intermediate emissions scenario,
+or 3.3–5.7&nbsp;°C under a very high emissions scenario. The warming will continue past 2100 in the intermediate and high emission scenarios, with future projections of global surface temperatures by year 2300 being similar to millions of years ago.
+
+The remaining carbon budget for staying beneath certain temperature increases is determined by modelling the carbon cycle and climate sensitivity to greenhouse gases. According to UNEP, global warming can be kept below 2.0&nbsp;°C with a 50% chance if emissions after 2023 do not exceed 900 gigatonnes of . This carbon budget corresponds to around 16 years of current emissions.
+
+##  Causes of recent global temperature rise 
+
+ of global warming that has happened so far. Future global warming potential for long lived drivers like carbon dioxide emissions is not represented. Whiskers on each bar show the possible error range.]]
+
+The climate system experiences various cycles on its own which can last for years, decades or even centuries. For example, El Niño events cause short-term spikes in surface temperature while La Niña events cause short term cooling. Their relative frequency can affect global temperature trends on a decadal timescale. Other changes are caused by an imbalance of energy from external forcings. Examples of these include changes in the concentrations of greenhouse gases, solar luminosity, volcanic eruptions, and variations in the Earth's orbit around the Sun..
+
+To determine the human contribution to climate change, unique "fingerprints" for all potential causes are developed and compared with both observed patterns and known internal climate variability.;  For example, solar forcing—whose fingerprint involves warming the entire atmosphere—is ruled out because only the lower atmosphere has warmed. Atmospheric aerosols produce a smaller, cooling effect. Other drivers, such as changes in albedo, are less impactful.
+
+##  Greenhouse gases 
+
+Greenhouse gases are transparent to sunlight, and thus allow it to pass through the atmosphere to heat the Earth's surface. The Earth radiates it as heat, and greenhouse gases absorb a portion of it. This absorption slows the rate at which heat escapes into space, trapping heat near the Earth's surface and warming it over time.
+
+While water vapour (≈50%) and clouds (≈25%) are the biggest contributors to the greenhouse effect, they primarily change as a function of temperature and are therefore mostly considered to be feedbacks that change climate sensitivity. On the other hand, concentrations of gases such as  (≈20%), tropospheric ozone,Ozone acts as a greenhouse gas in the lowest layer of the atmosphere, the troposphere (as opposed to the stratospheric ozone layer).  CFCs and nitrous oxide are added or removed independently from temperature, and are therefore considered to be external forcings that change global temperatures.; 
+
+Before the Industrial Revolution, naturally occurring amounts of greenhouse gases caused the air near the surface to be about 33&nbsp;°C warmer than it would have been in their absence.: "To emit 240 W m−2, a surface would have to have a temperature of around −19&nbsp;°C. This is much colder than the conditions that actually exist at the Earth's surface (the global mean surface temperature is about 14&nbsp;°C). Human activity since the Industrial Revolution, mainly extracting and burning fossil fuels (coal, oil, and natural gas),. has increased the amount of greenhouse gases in the atmosphere. In 2022, the concentrations of  and methane had increased by about 50% and 164%, respectively, since 1750.. These  levels are higher than they have been at any time during the last 14 million years. Concentrations of methane are far higher than they were over the last 800,000 years.
+
+ shows how additions to  have been caused by different sources ramping up one after another.References for Global Carbon Budget chart updated through 2024:
+* For ''carbon'' entries:  Click "Global Carbon Budget v2025" to download Excel xlsx file. Multiply these ''carbon'' entries by 3.664 to arrive at ''carbon dioxide'' figures. Contains land use data only since 1959; see OWID references for complete data:
+* For ''carbon dioxide'' entries for other industry, flaring, cement, gas, oil, and coal:  Download data from chosen chart, "CO₂ emissions by fuel or industry type, World".
+* For ''carbon dioxide'' entries for land use:  Select "Line", choose "Download", select "Data", click "Download displayed data".
+]]
+Global human-caused greenhouse gas emissions in 2019 were equivalent to 59&nbsp;billion tonnes of . Of these emissions, 75% was , 18% was methane, 4% was nitrous oxide, and 2% was fluorinated gases.  emissions primarily come from burning fossil fuels to provide energy for transport, manufacturing, heating, and electricity. Additional  emissions come from deforestation and industrial processes, which include the  released by the chemical reactions for making cement, steel, aluminium, and fertilizer.; : "Greenhouse gas emissions from industry primarily come from burning fossil fuels for energy, as well as greenhouse gas emissions from certain chemical reactions necessary to produce goods from raw materials.": "Carbon dioxide gas is formed at the anode, as the carbon anode is consumed upon reaction of carbon with the oxygen ions from the alumina (). Formation of carbon dioxide is unavoidable as long as carbon anodes are used, and it is of great concern because  is a greenhouse gas." Methane emissions come from livestock, manure, rice cultivation, landfills, wastewater, and coal mining, as well as oil and gas extraction.: "Estimated Global Anthropogenic Methane Emissions by Source, 2020: Enteric fermentation (27%), Manure Management (3%), Coal Mining (9%), Municipal Solid Waste (11%), Oil & Gas (24%), Wastewater (7%), Rice Cultivation (7%)." Nitrous oxide emissions largely come from the microbial decomposition of fertilizer.: "Agricultural activities, such as fertilizer use, are the primary source of  emissions.": "2.0% of manure nitrogen and 2.5% of fertilizer nitrogen was converted to nitrous oxide between 1860 and 2005; these percentage contributions explain the entire pattern of increasing nitrous oxide concentrations over this period."
+
+While methane only lasts in the atmosphere for an average of 12 years,  lasts much longer. The Earth's surface absorbs  as part of the carbon cycle. While plants on land and in the ocean absorb most excess emissions of  every year, that  is returned to the atmosphere when biological matter is digested, burns, or decays. Land-surface carbon sink processes, such as carbon fixation in the soil and photosynthesis, remove about 29% of annual global  emissions. The ocean has absorbed 20 to 30% of emitted  over the last two decades..  is only removed from the atmosphere for the long term when it is stored in the Earth's crust, which is a process that can take millions of years to complete.
+
+##  Land surface changes 
+
+Around 30% of Earth's land area is largely unusable for humans (glaciers, deserts, etc.), 26% is forests, 10% is shrubland and 34% is agricultural land. Deforestation is the main land use change contributor to global warming,; . as the destroyed trees release , and are not replaced by new trees, removing that carbon sink. Between 2001 and 2018, 27% of deforestation was from permanent clearing to enable agricultural expansion for crops and livestock. Another 24% has been lost to temporary clearing under the shifting cultivation agricultural systems. 26% was due to logging for wood and derived products, and wildfires have accounted for the remaining 23%. Some forests have not been fully cleared, but were already degraded by these impacts. Restoring these forests also recovers their potential as a carbon sink.
+
+Local vegetation cover impacts how much of the sunlight gets reflected back into space (albedo), and how much heat is lost by evaporation. For instance, the change from a dark forest to grassland makes the surface lighter, causing it to reflect more sunlight. Deforestation can also modify the release of chemical compounds that influence clouds, and can change the roughness of Earth’s surface in a way affecting wind speed. In tropic and temperate areas the net effect is to produce significant warming, and forest restoration can make local temperatures cooler. At latitudes closer to the poles, there is a cooling effect as forest is replaced by snow-covered (and more reflective) plains. Globally, these increases in surface albedo have been the dominant direct influence on temperature from land use change. Thus, land use change to date is estimated to have a slight cooling effect.: "The global biophysical cooling alone has been estimated by a larger range of climate models and is −0.10 ± 0.14&nbsp;°C; it ranges from −0.57&nbsp;°C to +0.06&nbsp;°C&nbsp;... This cooling is essentially dominated by increases in surface albedo: historical land cover changes have generally led to a dominant brightening of land."
+
+##  Other factors 
+
+##  Aerosols and clouds 
+
+Air pollution, in the form of aerosols, affects the climate on a large scale.; ; . Aerosols scatter and absorb solar radiation. From 1961 to 1990, a gradual reduction in the amount of sunlight reaching the Earth's surface was observed. This phenomenon is popularly known as ''global dimming'',. and is primarily attributed to sulfate aerosols produced by the combustion of fossil fuels with heavy sulfur concentrations like coal and bunker fuel. Smaller contributions come from black carbon (from combustion of fossil fuels and biomass), and from dust.;  Scripps Institution of Oceanography |url=https://scripps.ucsd.edu/news/increased-atmospheric-dust-has-masked-power-greenhouse-gases-warm-planet |access-date=8 November 2024 |website=scripps.ucsd.edu |language=en}} Globally, aerosols have been declining since 1990 due to pollution controls, meaning that they no longer mask greenhouse gas warming as much.; ; .
+
+Aerosols also have indirect effects on the Earth's energy budget. Sulfate aerosols act as cloud condensation nuclei and lead to clouds that have more and smaller cloud droplets. These clouds reflect solar radiation more efficiently than clouds with fewer and larger droplets.. They also reduce the growth of raindrops, which makes clouds more reflective to incoming sunlight.. Indirect effects of aerosols are the largest uncertainty in radiative forcing.
+
+While aerosols typically limit global warming by reflecting sunlight, black carbon in soot that falls on snow or ice can contribute to global warming. The resulting excess heat accelerates the melting of ice sheets and glaciers, which in turn contributes significantly to global sea-level rise.. Limiting new black carbon deposits in the Arctic could reduce global warming by 0.2&nbsp;°C by 2050. The effect of decreasing sulfur content of fuel oil for ships since 2020 is estimated to cause an additional 0.05&nbsp;°C increase in global mean temperature by 2050.
+
+##  Solar and volcanic activity 
+
+ ("NCA4", USGCRP, 2017) includes charts illustrating that neither solar nor volcanic activity can explain the observed warming. Adapted directly from Fig. 3.3.]]
+As the Sun is the Earth's primary energy source, changes in incoming sunlight directly affect the climate system.. Solar irradiance has been measured directly by satellites, and indirect measurements are available from the early 1600s onwards. Since 1880, there has been no upward trend in the amount of the Sun's energy reaching the Earth, in contrast to the warming of the lower atmosphere (the troposphere). The upper atmosphere (the stratosphere) would also be warming if the Sun was sending more energy to Earth, but instead, it has been cooling..
+This is consistent with greenhouse gases preventing heat from leaving the Earth's atmosphere.; .
+
+Explosive volcanic eruptions can release gases, dust and ash that partially block sunlight and reduce temperatures, or they can send water vapour into the atmosphere, which adds to greenhouse gases and increases temperatures. These impacts on temperature only last for several years, because both water vapour and volcanic material have low persistence in the atmosphere. Volcanic  emissions are more persistent, but they are equivalent to less than 1% of current human-caused  emissions. Volcanic activity still represents the single largest natural impact (forcing) on temperature in the industrial era. Yet, like the other natural forcings, it has had negligible impacts on global temperature trends since the Industrial Revolution.
+
+##  Climate change feedbacks 
+
+.]]
+
+The climate system's response to an initial forcing is shaped by feedbacks, which either amplify or dampen the change. ''Self-reinforcing'' or ''positive'' feedbacks increase the response, while ''balancing'' or ''negative'' feedbacks reduce it. The main reinforcing feedbacks are the water-vapour feedback, the ice–albedo feedback, and the net cloud feedback.: "The net effect of changes in clouds in response to global warming is to amplify human-induced warming, that is, the net cloud feedback is positive (high confidence)" The primary balancing mechanism is radiative cooling, as Earth's surface gives off more heat to space in response to rising temperature. In addition to temperature feedbacks, there are feedbacks in the carbon cycle, such as the fertilizing effect of  on plant growth. Feedbacks are expected to trend in a positive direction as greenhouse gas emissions continue, raising climate sensitivity.: "Feedback processes are expected to become more positive overall (more amplifying of global surface temperature changes) on multi-decadal time scales as the spatial pattern of surface warming evolves and global surface temperature increases."
+
+These feedback processes alter the pace of global warming. For instance, warmer air can hold more moisture in the form of water vapour, which is itself a potent greenhouse gas. Warmer air can also make clouds higher and thinner, and therefore more insulating, increasing climate warming. The reduction of snow cover and sea ice in the Arctic is another major feedback, this reduces the reflectivity of the Earth's surface in the region and accelerates Arctic warming... This additional warming also contributes to permafrost thawing, which releases methane and  into the atmosphere.
+
+Around half of human-caused  emissions have been absorbed by land plants and by the oceans.: "Carbon cycle experts estimate that natural "sinks"—processes that remove carbon from the atmosphere—on land and in the ocean absorbed the equivalent of about half of the carbon dioxide we emitted each year in the 2011–2020 decade." This fraction is not static and if future  emissions decrease, the Earth will be able to absorb up to around 70%. If they increase substantially, it'll still absorb more carbon than now, but the overall fraction will decrease to below 40%. This is because climate change increases droughts and heat waves that eventually inhibit plant growth on land, and soils will release more carbon from dead plants when they are warmer.: Our first-order estimate of a warming-induced loss of 190 Pg of soil carbon over the 21st century is equivalent to the past two decades of carbon emissions from fossil fuel burning.. The rate at which oceans absorb atmospheric carbon will be lowered as they become more acidic and experience changes in thermohaline circulation and phytoplankton distribution. Uncertainty over feedbacks, particularly cloud cover,: "Clouds remain the largest contribution to overall uncertainty in climate feedbacks." is the major reason why different climate models project different magnitudes of warming for a given amount of emissions.: "the nature and magnitude of these feedbacks are the principal cause of uncertainty in the response of Earth's climate (over multi-decadal and longer periods) to a particular emissions scenario or greenhouse gas concentration pathway."
+
+##  Modelling 
+
+ that heats the planet up.]]
+A climate model is a representation of the physical, chemical and biological processes that affect the climate system.. Models include natural processes like changes in the Earth's orbit, historical changes in the Sun's activity, and volcanic forcing. Models are used to estimate the degree of warming future emissions will cause when accounting for the strength of climate feedbacks. Models also predict the circulation of the oceans, the annual cycle of the seasons, and the flows of carbon between the land surface and the atmosphere.
+
+The physical realism of models is tested by examining their ability to simulate current or past climates., FAQ 8.1. Past models have underestimated the rate of Arctic shrinkage;  and underestimated the rate of precipitation increase.. Sea level rise since 1990 was underestimated in older models, but more recent models agree well with observations.;  The 2017 United States-published National Climate Assessment notes that "climate models may still be underestimating or missing relevant feedback processes".. Additionally, climate models may be unable to adequately predict short-term regional climatic shifts.
+
+A subset of climate models add societal factors to a physical climate model. These models simulate how population, economic growth, and energy use affect—and interact with—the physical climate. With this information, these models can produce scenarios of future greenhouse gas emissions. This is then used as input for physical climate models and carbon cycle models to predict how atmospheric concentrations of greenhouse gases might change. Depending on the socioeconomic scenario and the mitigation scenario, models produce atmospheric  concentrations that range widely between 380 and 1400 ppm.; .
+
+##  Impacts 
+
+ have concluded that human-caused global warming has increased the number of days of extreme heat events over long-term norms. Click on "Download the data", and in spreadsheet choose "Countries and territories" tab at bottom to view raw data]]
+
+##  Environmental effects 
+
+The environmental effects of climate change are broad and far-reaching, affecting oceans, ice, and weather. Changes may occur gradually or rapidly. Evidence for these effects comes from studying climate change in the past, from modelling, and from modern observations.; . Since the 1950s, droughts and heat waves have appeared simultaneously with increasing frequency.. Extremely wet or dry events within the monsoon period have increased in India and East Asia.; . Monsoonal precipitation over the Northern Hemisphere has increased since 1980. The rainfall rate and intensity of hurricanes and typhoons is likely increasing,. and the geographic range likely expanding poleward in response to climate warming. The frequency of tropical cyclones has not increased as a result of climate change.
+
+Global sea level is rising as a consequence of thermal expansion and the melting of glaciers and ice sheets. Sea level rise has increased over time, reaching 4.8&nbsp;cm per decade between 2014 and 2023.. Over the 21st century, the IPCC projects 32–62&nbsp;cm of sea level rise under a low emission scenario, 44–76&nbsp;cm under an intermediate one and 65–101&nbsp;cm under a very high emission scenario. Marine ice sheet instability processes in Antarctica may add substantially to these values, including the possibility of a 2-meter sea level rise by 2100 under high emissions.
+
+Climate change has led to decades of shrinking and thinning of the Arctic sea ice. While ice-free summers are expected to be rare at 1.5&nbsp;°C degrees of warming, they are set to occur once every three to ten years at a warming level of 2&nbsp;°C. Higher atmospheric  concentrations cause more  to dissolve in the oceans, which is making them more acidic.. Because oxygen is less soluble in warmer water, its concentrations in the ocean are decreasing, and dead zones are expanding.; 
+
+##  Tipping points and long-term impacts 
+
+Greater degrees of global warming increase the risk of passing through 'tipping points'—thresholds beyond which certain major impacts can no longer be avoided even if temperatures return to their previous state.. For instance, the Greenland ice sheet is already melting, but if global warming reaches levels between 1.7&nbsp;°C and 2.3&nbsp;°C, its melting will continue until it fully disappears. If the warming is later reduced to 1.5&nbsp;°C or less, it will still lose a lot more ice than if the warming was never allowed to reach the threshold in the first place. While the ice sheets would melt over millennia, other tipping points would occur faster and give societies less time to respond. The collapse of major ocean currents like the Atlantic meridional overturning circulation (AMOC), and irreversible damage to key ecosystems like the Amazon rainforest and coral reefs can unfold in a matter of decades. The collapse of the AMOC would be a severe climate catastrophe, resulting in a cooling of the Northern Hemisphere.
+
+The long-term effects of climate change on oceans include further ice melt, ocean warming, sea level rise, ocean acidification and ocean deoxygenation. The timescale of long-term impacts are centuries to millennia due to 's long atmospheric lifetime. The result is an estimated total sea level rise of  after 2000 years.;  Oceanic  uptake is slow enough that ocean acidification will also continue for hundreds to thousands of years. Deep oceans (below ) are also already committed to losing over 10% of their dissolved oxygen by the warming which occurred to date. Further, the West Antarctic ice sheet appears committed to practically irreversible melting, which would increase the sea levels by at least  over approximately 2000 years.
+
+## Nature and wildlife
+
+Recent warming has driven many terrestrial and freshwater species poleward and towards higher altitudes.. For instance, the range of hundreds of North American birds has shifted northward at an average rate of 1.5&nbsp;km/year over the past 55 years. Higher atmospheric  levels and an extended growing season have resulted in global greening. However, heatwaves and drought have reduced ecosystem productivity in some regions. The future balance of these opposing effects is unclear. A related phenomenon driven by climate change is woody plant encroachment, affecting up to 500 million hectares globally. Climate change has contributed to the expansion of drier climate zones, such as the expansion of deserts in the subtropics.; . The size and speed of global warming is making abrupt changes in ecosystems more likely. Overall, it is expected that climate change will result in the extinction of many species.
+
+The oceans have heated more slowly than the land, but plants and animals in the ocean have migrated towards the colder poles faster than species on land.;  Just as on land, heat waves in the ocean occur more frequently due to climate change, harming a wide range of organisms such as corals, kelp, and seabirds. Ocean acidification makes it harder for marine calcifying organisms such as mussels, barnacles and corals to produce shells and skeletons; and heatwaves have bleached coral reefs. Harmful algal blooms enhanced by climate change and eutrophication lower oxygen levels, disrupt food webs and cause great loss of marine life. Coastal ecosystems are under particular stress. Almost half of global wetlands have disappeared due to climate change and other human impacts. Plants have come under increased stress from damage by insects.
+
+{| class="center toccolours"
+|+ '''Climate change impacts on the environment'''
+|
+File:Bleachedcoral.jpg|alt=Underwater photograph of branching coral that is bleached white|Ecological collapse. Coral bleaching from thermal stress has damaged the Great Barrier Reef and threatens coral reefs worldwide.
+File:Orroral Valley Fire viewed from Tuggeranong January 2020.jpg|alt=Photograph of evening in a valley settlement. The skyline in the hills beyond is lit up red from the fires.|Extreme weather. Drought and high temperatures worsened the 2020 bushfires in Australia..
+File:National Park Service Thawing permafrost (27759123542).jpg|alt=The green landscape is interrupted by a huge muddy scar where the ground has subsided.|Arctic warming. Permafrost thaws undermine infrastructure and release methane, a greenhouse gas.
+File:Endangered arctic - starving polar bear (cropped).jpg|alt=An emaciated polar bear stands atop the remains of a melting ice floe.|Habitat destruction. Many arctic animals rely on sea ice, which has been disappearing in a warming Arctic.: "Within 50 to 70 years, loss of hunting habitats may lead to elimination of polar bears from seasonally ice-covered areas, where two-thirds of their world population currently live."
+File:Mountain Pine Beetle damage in the Fraser Experimental Forest 2007.jpg|alt=Photograph of a large area of forest. The green trees are interspersed with large patches of damaged or dead trees turning purple-brown and light red.|Pest propagation. Mild winters allow more pine beetles to survive to kill large swaths of forest.
+
+|}
+
+##  Humans 
+
+The effects of climate change are impacting humans everywhere in the world. Impacts can be observed on all continents and ocean regions, with low-latitude, less developed areas facing the greatest risk.. Continued warming has potentially "severe, pervasive and irreversible impacts" for people and ecosystems. The risks are unevenly distributed, but are generally greater for disadvantaged people in developing and developed countries.
+
+##  Health and food 
+
+The World Health Organization calls climate change one of the biggest threats to global health in the 21st century. Scientists have warned about the irreversible harms it poses. Extreme weather events affect public health, and food and water security. Temperature extremes lead to increased illness and death. Climate change increases the intensity and frequency of extreme weather events. It can affect transmission of infectious diseases, such as dengue fever and malaria. According to the World Economic Forum, 14.5&nbsp;million more deaths are expected due to climate change by 2050. 30% of the global population currently live in areas where extreme heat and humidity are already associated with excess deaths. By 2100, 50% to 75% of the global population would live in such areas.
+
+While total crop yields have been increasing in the past 50 years due to agricultural improvements, climate change has already decreased the rate of yield growth. Fisheries have been negatively affected in multiple regions. While agricultural productivity has been positively affected in some high latitude areas, mid- and low-latitude areas have been negatively affected. Climate change affects land suitability for many crops, with suitable areas for given crops usually moving to higher latitudes and altitudes.  According to the World Economic Forum, an increase in drought in certain regions could cause 3.2&nbsp;million deaths from malnutrition by 2050 and stunting in children. With 2&nbsp;°C warming, global livestock headcounts could decline by 7–10% by 2050, as less animal feed will be available. If the emissions continue to increase for the rest of century, then over 9 million climate-related deaths would occur annually by 2100.
+
+##  Economics, livelihoods and inequality 
+
+Economic damages due to climate change may be severe and there is a chance of disastrous consequences.; . Severe impacts are expected in South-East Asia and sub-Saharan Africa, where most of the local inhabitants are dependent upon natural and agricultural resources. Heat stress can prevent outdoor labourers from working. If warming reaches 4&nbsp;°C then labour capacity in those regions could be reduced by 30 to 50%. The World Bank estimates that between 2016 and 2030, climate change could drive over 120 million people into extreme poverty without adaptation.
+
+Inequalities based on wealth and social status have worsened due to climate change.. Major difficulties in mitigating, adapting to, and recovering from climate shocks are faced by marginalized people who have less control over resources.Grabe, Grose and Dutt, 2014; FAO, 2011; FAO, 2021a; Fisher and Carr, 2015; IPCC, 2014; Resurrección et al., 2019; UNDRR, 2019; Yeboah et al., 2019. Indigenous people, who are subsistent on their land and ecosystems, will face endangerment to their wellness and lifestyles due to climate change. United Nations For Indigenous Peoples |url=https://www.un.org/development/desa/indigenouspeoples/climate-change.html |access-date=29 April 2022 |website=United Nations Department of Economic and Social Affairs}} An expert elicitation concluded that the role of climate change in armed conflict has been small compared to factors such as socio-economic inequality and state capabilities.
+
+While women are not inherently more at risk from climate change and shocks, limits on women's resources and discriminatory gender norms constrain their adaptive capacity and resilience.  For example, women's work burdens, including hours worked in agriculture, tend to decline less than men's during climate shocks such as heat stress.
+
+Climate change threatens the sports economy by disrupting seasons, damaging infrastructure and reducing fan engagement, with the most immediate risks seen in football, winter sports and outdoor events.
+
+## Climate migration
+
+Low-lying islands and coastal communities are threatened by sea level rise, which makes urban flooding more common. Sometimes, land is permanently lost to the sea. This could lead to statelessness for people in island nations, such as the Maldives and Tuvalu.. In some regions, the rise in temperature and humidity may be too severe for humans to adapt to. With worst-case climate change, models project that areas almost one-third of humanity live in might become Sahara-like uninhabitable and extremely hot climates.
+
+These factors can drive climate or environmental migration, within and between countries.;  More people are expected to be displaced because of sea level rise, extreme weather and conflict from increased competition over natural resources. Climate change may also increase vulnerability, leading to "trapped populations" who are not able to move due to a lack of resources.; 
+
+{| class="center toccolours"
+|+ '''Climate change impacts on people'''
+|
+File:Village Telly in Mali.jpg|Environmental migration. Sparser rainfall leads to desertification that harms agriculture and can displace populations. Shown: Telly, Mali (2008)..
+File:Corn shows the affect of drought.jpg|Agricultural changes. Droughts, rising temperatures, and extreme weather negatively impact agriculture. Shown: Texas, US (2013)..
+File:Acqua alta in Piazza San Marco-original.jpg|Tidal flooding. Sea-level rise increases flooding in low-lying coastal regions. Shown: Venice, Italy (2004).
+File:US Navy 071120-M-8966H-005 An aerial view over southern Bangladesh reveals extensive flooding as a result of Cyclone Sidr.jpg|Storm intensification. Bangladesh after Cyclone Sidr (2007) is an example of catastrophic flooding from increased rainfall..
+File:Argentina geos5 202211.jpg|Heat wave intensification. Events like the 2022 Southern Cone heat wave are becoming more common..
+
+|}
+
+##  Reducing and recapturing emissions 
+
+Climate change can be mitigated by reducing the rate at which greenhouse gases are emitted into the atmosphere, and by increasing the rate at which carbon dioxide is removed from the atmosphere.. To limit global warming to less than 2&nbsp;°C global greenhouse gas emissions need to be net-zero by 2070. This requires far-reaching, systemic changes on an unprecedented scale in energy, land, cities, transport, buildings, and industry.
+
+The United Nations Environment Programme estimates that countries need to triple their pledges under the Paris Agreement within the next decade to limit global warming to 2&nbsp;°C. With pledges made under the Paris Agreement as of 2024, there would be a 66% chance that global warming is kept under 2.8&nbsp;°C by the end of the century (range: 1.9–3.7&nbsp;°C, depending on exact implementation and technological progress). When only considering current policies, this raises to 3.1&nbsp;°C. Globally, limiting warming to 2&nbsp;°C may result in higher economic benefits than economic costs.: "The global benefits of pathways limiting warming to 2&nbsp;°C (>67%) outweigh global mitigation costs over the 21st century, if aggregated economic impacts of climate change are at the moderate to high end of the assessed range, and a weight consistent with economic theory is given to economic impacts over the long term. This holds true even without accounting for benefits in other sustainable development dimensions or nonmarket damages from climate change (medium confidence)."
+
+Although there is no single pathway to limit global warming to 2&nbsp;°C,. most scenarios and strategies see a major increase in the use of renewable energy in combination with increased energy efficiency measures to generate the needed greenhouse gas reductions.. To reduce pressures on ecosystems and enhance their carbon sequestration capabilities, changes would also be necessary in agriculture and forestry, such as preventing deforestation and restoring natural ecosystems by reforestation.: "Where reforestation is the restoration of natural ecosystems, it benefits both carbon sequestration and conservation of biodiversity and ecosystem services."
+
+Other approaches to mitigating climate change have a higher level of risk. Scenarios that limit global warming to 1.5&nbsp;°C typically project the large-scale use of carbon dioxide removal methods over the 21st century.;  There are concerns, though, about over-reliance on these technologies, and environmental impacts.;  
+
+Solar radiation modification (SRM) is a proposal for reducing global warming by reflecting some sunlight away from Earth and back into space. Because it does not reduce greenhouse gas concentrations, it would not address ocean acidification and is not considered mitigation. SRM should be considered only as a supplement to mitigation, not a replacement for it, due to risks such as rapid warming if it were abruptly stopped and not restarted. The most-studied approach is stratospheric aerosol injection. SRM could reduce global warming and some of its impacts, though imperfectly. It poses environmental risks, such as changes to rainfall patterns, as well as political challenges, such as who would decide whether to use it.
+
+##  Clean energy 
+
+ sources even as renewables have begun rapidly increasing. GCB links to downloadable data at ]]
+
+Renewable energy is key to limiting climate change. For decades, fossil fuels have accounted for roughly 80% of the world's energy use. The remaining share has been split between nuclear power and renewables (including hydropower, bioenergy, wind and solar power and geothermal energy).. Fossil fuel use is expected to peak in absolute terms prior to 2030 and then to decline, with coal use experiencing the sharpest reductions. Renewables represented 86% of all new electricity generation installed in 2023. Other forms of clean energy, such as nuclear and hydropower, currently have a larger share of the energy supply. However, their future growth forecasts appear limited in comparison.; 
+
+While solar panels and onshore wind are now among the cheapest forms of adding new power generation capacity in many locations,;  green energy policies are needed to achieve a rapid transition from fossil fuels to renewables. To achieve carbon neutrality by 2050, renewable energy would become the dominant form of electricity generation, rising to 85% or more by 2050 in some scenarios. Investment in coal would be eliminated and coal use nearly phased out by 2050..
+
+Electricity generated from renewable sources would also need to become the main energy source for heating and transport.; . Transport can switch away from internal combustion engine vehicles and towards electric vehicles, public transit, and active transport (cycling and walking).;  For shipping and flying, low-carbon fuels would reduce emissions. Heating could be increasingly decarbonized with technologies like heat pumps.; 
+
+There are obstacles to the continued rapid growth of clean energy, including renewables.. Wind and solar produce energy intermittently and with seasonal variability. Traditionally, hydro dams with reservoirs and fossil fuel power plants have been used when variable energy production is low. Going forward, battery storage can be expanded, energy demand and supply can be matched, and long-distance transmission can smooth variability of renewable outputs.; ;  Bioenergy is often not carbon-neutral and may have negative consequences for food security.. The growth of nuclear power is constrained by controversy around radioactive waste, nuclear weapon proliferation, and accidents. Hydropower growth is limited by the fact that the best sites have been developed, and new projects are confronting increased social and environmental concerns.
+
+Low-carbon energy improves human health by minimizing climate change as well as reducing air pollution deaths,;  which were estimated at 7 million annually in 2016.;  Meeting the Paris Agreement goals that limit warming to a 2&nbsp;°C increase could save about a million of those lives per year by 2050, whereas limiting global warming to 1.5&nbsp;°C could save millions and simultaneously increase energy security and reduce poverty.; ; : "Limiting warming to 1.5&nbsp;°C can be achieved synergistically with poverty alleviation and improved energy security and can provide large public health benefits through improved air quality, preventing millions of premature deaths. However, specific mitigation measures, such as bioenergy, may result in trade-offs that require consideration." Improving air quality also has economic benefits which may be larger than mitigation costs.
+
+##  Energy conservation 
+
+Reducing energy demand is another major aspect of reducing emissions. If less energy is needed, there is more flexibility for clean energy development. It also makes it easier to manage the electricity grid, and minimizes carbon-intensive infrastructure development.;  Major increases in energy efficiency investment will be required to achieve climate goals, comparable to the level of investment in renewable energy. Several COVID-19 related changes in energy use patterns, energy efficiency investments, and funding have made forecasts for this decade more difficult and uncertain.
+
+Strategies to reduce energy demand vary by sector. In the transport sector, passengers and freight can switch to more efficient travel modes, such as buses and trains, or use electric vehicles. Industrial strategies to reduce energy demand include improving heating systems and motors, designing less energy-intensive products, and increasing product lifetimes. In the building sector the focus is on better design of new buildings, and higher levels of energy efficiency in retrofitting. The use of technologies like heat pumps can also increase building energy efficiency..
+
+##  Agriculture and industry 
+
+ Agriculture and forestry face a triple challenge of limiting greenhouse gas emissions, preventing the further conversion of forests to agricultural land, and meeting increases in world food demand. A set of actions could reduce agriculture and forestry-based emissions by two-thirds from 2010 levels. These include reducing growth in demand for food and other agricultural products, increasing land productivity, protecting and restoring forests, and reducing greenhouse gas emissions from agricultural production.
+
+On the demand side, a key component of reducing emissions is shifting people towards plant-based diets. Eliminating the production of livestock for meat and dairy would eliminate about three-quarters of all emissions from agriculture and other land use. Humans on a vegan exclusive diet would save about 7.9 Gt equivalent per year by 2050  Agriculture, Forestry and Other Land Use used an average of 12 Gt per year between 2007 and 2016 (23% of total anthropogenic emissions). Livestock also occupy 37% of ice-free land area on Earth and consume feed from the 12% of land area used for crops, driving deforestation and land degradation.
+
+Steel and cement production are responsible for about 13% of industrial  emissions. In these industries, carbon-intensive materials such as coke and lime play an integral role in the production, so that reducing  emissions requires research into alternative chemistries. Where energy production or -intensive heavy industries continue to produce waste , technology can sometimes be used to capture and store most of the gas instead of releasing it to the atmosphere. Text was copied from this source, which is available under a Creative Commons Attribution 4.0 International License This technology, carbon capture and storage (CCS), could have a critical but limited role in reducing emissions. It is relatively expensive and has been deployed only to an extent that removes around 0.1% of annual greenhouse gas emissions.
+
+##  Carbon dioxide removal 
+
+s, including plant growth, soil uptake, and ocean uptake (2020 Global Carbon Budget).]]
+Natural carbon sinks can be enhanced to sequester significantly larger amounts of  beyond naturally occurring levels.: . Reforestation and afforestation (planting forests where there were none before) are among the most mature sequestration techniques, although the latter raises food security concerns. Farmers can promote sequestration of carbon in soils through practices such as use of winter cover crops, reducing the intensity and frequency of tillage, and using compost and manure as soil amendments. Forest and landscape restoration yields many benefits for the climate, including greenhouse gas emissions sequestration and reduction. Restoration/recreation of coastal wetlands, prairie plots and seagrass meadows increases the uptake of carbon into organic matter. When carbon is sequestered in soils and in organic matter such as trees, there is a risk of the carbon being re-released into the atmosphere later through changes in land use, fire, or other changes in ecosystems. 
+
+The use of bioenergy in conjunction with carbon capture and storage (BECCS) can result in net negative emissions as  is drawn from the atmosphere.; . It remains highly uncertain whether carbon dioxide removal techniques will be able to play a large role in limiting warming to 1.5&nbsp;°C. Policy decisions that rely on carbon dioxide removal increase the risk of global warming rising beyond international goals.
+
+##  Adaptation 
+
+Adaptation is "the process of adjustment to current or expected changes in climate and its effects".IPCC, 2022: [https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf Summary for Policymakers] [H.-O. Pörtner, D. C. Roberts, E. S. Poloczanska, K. Mintenbeck, M. Tignor, A. Alegría, M. Craig, S. Langsdorf, S. Löschke, V. Möller, A. Okem (eds.)]. In: [https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/ Climate Change 2022: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change] [H.-O. Pörtner, D. C. Roberts, M. Tignor, E. S. Poloczanska, K. Mintenbeck, A. Alegría, M. Craig, S. Langsdorf, S. Löschke, V. Möller, A. Okem, B. Rama (eds.)]. Cambridge University Press, Cambridge and New York, pp. 3–33, . Without additional mitigation, adaptation cannot avert the risk of "severe, widespread and irreversible" impacts. More severe climate change requires more transformative adaptation, which can be prohibitively expensive. The capacity and potential for humans to adapt is unevenly distributed across different regions and populations, and developing countries generally have less.. The first two decades of the 21st century saw an increase in adaptive capacity in most low- and middle-income countries with improved access to basic sanitation and electricity, but progress is slow. Many countries have implemented adaptation policies. However, there is a considerable gap between necessary and available finance.
+
+Adaptation to sea level rise consists of avoiding at-risk areas, learning to live with increased flooding, and building flood controls. If that fails, managed retreat may be needed. There are economic barriers for tackling dangerous heat impact. Avoiding strenuous work or having air conditioning is not possible for everybody. In agriculture, adaptation options include a switch to more sustainable diets, diversification, erosion control, and genetic improvements for increased tolerance to a changing climate. Insurance allows for risk-sharing, but is often difficult to get for people on lower incomes. Education, migration and early warning systems can reduce climate vulnerability. Planting mangroves or encouraging other coastal vegetation can buffer storms.
+
+Ecosystems adapt to climate change, a process that can be supported by human intervention. By increasing connectivity between ecosystems, species can migrate to more favourable climate conditions. Species can also be introduced to areas acquiring a favourable climate. Protection and restoration of natural and semi-natural areas helps build resilience, making it easier for ecosystems to adapt. Many of the actions that promote adaptation in ecosystems, also help humans adapt via ecosystem-based adaptation. For instance, restoration of natural fire regimes makes catastrophic fires less likely, and reduces human exposure. Giving rivers more space allows for more water storage in the natural system, reducing flood risk. Restored forest acts as a carbon sink, but planting trees in unsuitable regions can exacerbate climate impacts.
+
+There are synergies but also trade-offs between adaptation and mitigation. An example for synergy is increased food productivity, which has large benefits for both adaptation and mitigation.. An example of a trade-off is that increased use of air conditioning allows people to better cope with heat, but increases energy demand. Another trade-off example is that more compact urban development may reduce emissions from transport and construction, but may also increase the urban heat island effect, exposing people to heat-related health risks.
+
+{| class="center toccolours"
+|+ '''Examples of adaptation methods'''
+|
+File:FrontLines-EGAT 2011 Environment Photo Contest Top Entry (5842818280).jpg|Mangrove planting and other habitat conservation can reduce coastal flooding.
+File:Seawallventnor.jpg|Seawalls to protect against storm surge worsened by sea level rise
+File:20080708 Chicago City Hall Green Roof Edit1.jpg|Green roofs to provide cooling in cities
+File:2013.02-402-294a_Pearl_millet,breeding,selfing_ICRISAT,Patancheru(Hyderabad,Andhra_Pradesh),IN_wed20feb2013.jpg|Selective breeding for drought-resistant crops
+
+|}
+
+##  Policies and politics 
+
+    
+}}
+Countries that are most vulnerable to climate change have typically been responsible for a small share of global emissions. This raises questions about justice and fairness. Limiting global warming makes it much easier to achieve the UN's Sustainable Development Goals, such as eradicating poverty and reducing inequalities. The connection is recognized in Sustainable Development Goal 13 which is to "take urgent action to combat climate change and its impacts".; United Nations (2017) Resolution adopted by the General Assembly on 6 July 2017, Work of the Statistical Commission pertaining to the 2030 Agenda for Sustainable Development ([https://undocs.org/A/RES/71/313 A/RES/71/313]) The goals on food, clean water and ecosystem protection have synergies with climate mitigation.
+
+The geopolitics of climate change is complex. It has often been framed as a free-rider problem, in which all countries benefit from mitigation done by other countries, but individual countries would lose from switching to a low-carbon economy themselves. Sometimes mitigation also has localized benefits though. For instance, the benefits of a coal phase-out to public health and local environments exceed the costs in almost all regions. Furthermore, net importers of fossil fuels win economically from switching to clean energy, causing net exporters to face stranded assets: fossil fuels they cannot sell.
+
+##  Policy options 
+
+A wide range of policies, regulations, and laws are being used to reduce emissions. As of 2019, carbon pricing covers about 20% of global greenhouse gas emissions. Carbon can be priced with carbon taxes and emissions trading systems.; . Direct global fossil fuel subsidies reached $319&nbsp;billion in 2017, and $5.2&nbsp;trillion when indirect costs such as air pollution are priced in. Ending these can cause a 28% reduction in global carbon emissions and a 46% reduction in air pollution deaths. Money saved on fossil subsidies could be used to support the transition to clean energy instead. More direct methods to reduce greenhouse gases include vehicle efficiency standards, renewable fuel standards, and air pollution regulations on heavy industry.;  Several countries require utilities to increase the share of renewables in power production.;  An Open Coalition on Compliance Carbon Markets with the aim of creating a global cap and trade system was established at COP30 (2025). According to some calculations it can increase emissions reduction seven-fold over current policies, deliver $200 billion per year for clean-energy and social programs and even close the gap between current emissions trajectory and the goals of the Paris agreement.
+
+##  Climate justice 
+
+Policy designed through the lens of climate justice tries to address human rights issues and social inequality. According to proponents of climate justice, the costs of climate adaptation should be paid by those most responsible for climate change, while the beneficiaries of payments should be those suffering impacts. One way this can be addressed in practice is to have wealthy nations pay poorer countries to adapt.
+
+Oxfam found that in 2023 the wealthiest 10% of people were responsible for 50% of global emissions, while the bottom 50% were responsible for just 8%. Production of emissions is another way to look at responsibility: under that approach, the top 21 fossil fuel companies would owe cumulative climate reparations of $5.4&nbsp;trillion over the period 2025–2050. To achieve a just transition, people working in the fossil fuel sector would also need other jobs, and their communities would need investments..
+
+##  International climate agreements 
+
+Nearly all countries in the world are parties to the 1994 United Nations Framework Convention on Climate Change (UNFCCC). The goal of the UNFCCC is to prevent dangerous human interference with the climate system.. As stated in the convention, this requires that greenhouse gas concentrations are stabilized in the atmosphere at a level where ecosystems can adapt naturally to climate change, food production is not threatened, and economic development can be sustained.. The UNFCCC does not itself restrict emissions but rather provides a framework for protocols that do. Global emissions have risen since the UNFCCC was signed.. Its yearly conferences are the stage of global negotiations.
+
+The 1997 Kyoto Protocol extended the UNFCCC and included legally binding commitments for most developed countries to limit their emissions.; . During the negotiations, the G77 (representing developing countries) pushed for a mandate requiring developed countries to "[take] the lead" in reducing their emissions,; . since developed countries contributed most to the accumulation of greenhouse gases in the atmosphere. Per-capita emissions were also still relatively low in developing countries and developing countries would need to emit more to meet their development needs..
+
+The 2009 Copenhagen Accord has been widely portrayed as disappointing because of its low goals, and was rejected by poorer nations including the G77.; ; ; . Associated parties aimed to limit the global temperature rise to below 2&nbsp;°C.. The accord set the goal of sending $100&nbsp;billion per year to developing countries for mitigation and adaptation by 2020, and proposed the founding of the Green Climate Fund. , only $83.3&nbsp;billion were delivered. Only in 2023 the target is expected to be achieved.
+
+In 2015 all UN countries negotiated the Paris Agreement, which aims to keep global warming well below 2.0&nbsp;°C and contains an aspirational goal of keeping warming under . The agreement replaced the Kyoto Protocol. Unlike Kyoto, no binding emission targets were set in the Paris Agreement. Instead, a set of procedures was made binding. Countries have to regularly set ever more ambitious goals and reevaluate these goals every five years.; . The Paris Agreement restated that developing countries must be financially supported.. , 194 states and the European Union have acceded to or ratified the agreement.; .
+
+The 1987 Montreal Protocol, an international agreement to phase out production of ozone-depleting gases, has had benefits for climate change mitigation.;  Several ozone-depleting gases like chlorofluorocarbons are powerful greenhouse gases, so banning their production and usage may have avoided a temperature rise of 0.5&nbsp;°C–1.0&nbsp;°C, as well as additional warming by preventing damage to vegetation from ultraviolet radiation.;  It is estimated that the agreement has been more effective at curbing greenhouse gas emissions than the Kyoto Protocol specifically designed to do so.;  The most recent amendment to the Montreal Protocol, the 2016 Kigali Amendment, committed to reducing the emissions of hydrofluorocarbons, which served as a replacement for banned ozone-depleting gases and are also potent greenhouse gases. Should countries comply with the amendment, a warming of 0.3&nbsp;°C–0.5&nbsp;°C is estimated to be avoided.; 
+
+##  National responses 
+
+. This measures fossil fuel and industry emissions. Land use change is not included. emissions by world region |website=ourworldindata.org |publisher=Our World in Data |format=chart|access-date=18 September 2024}}]]
+In 2019, the United Kingdom parliament became the first national government to declare a climate emergency.; . Other countries and jurisdictions followed suit.. That same year, the European Parliament declared a "climate and environmental emergency". The European Commission presented its European Green Deal with the goal of making the EU carbon-neutral by 2050.. In 2021, the European Commission released its "Fit for 55" legislation package, which contains guidelines for the car industry; all new cars on the European market must be zero-emission vehicles from 2035.
+
+Major countries in Asia have made similar pledges: South Korea and Japan have committed to become carbon-neutral by 2050, and China by 2060. While India has strong incentives for renewables, it also plans a significant expansion of coal in the country. Vietnam is among very few coal-dependent, fast-developing countries that pledged to phase out unabated coal power by the 2040s or as soon as possible thereafter.
+
+As of 2021, based on information from 48 national climate plans, which represent 40% of the parties to the Paris Agreement, estimated total greenhouse gas emissions will be 0.5% lower compared to 2010 levels, below the 45% or 25% reduction goals to limit global warming to 1.5&nbsp;°C or 2&nbsp;°C, respectively.; 
+
+##  Society and culture 
+
+##  Denial and misinformation 
+
+ from short periods to falsely assert that global temperatures are not rising. Blue trendlines show short periods that mask longer-term warming trends (red trendlines). Blue rectangle with blue dots shows the so-called global warming hiatus.]]
+
+Public debate about climate change has been strongly affected by climate change denial and misinformation, which first emerged in the United States and has since spread to other countries, particularly Canada and Australia. It originated from fossil fuel companies, industry groups, conservative think tanks, and contrarian scientists.;  Like the tobacco industry, the main strategy of these groups has been to manufacture doubt about climate-change related scientific data and results.;  People who hold unwarranted doubt about climate change are sometimes called climate change "skeptics", although "contrarians" or "deniers" are more appropriate terms.; 
+
+There are different variants of climate denial: some deny that warming takes place at all, some acknowledge warming but attribute it to natural influences, and some minimize the negative impacts of climate change. Manufacturing uncertainty about the science later developed into a manufactured controversy: creating the belief that there is significant uncertainty about climate change within the scientific community to delay policy changes.. Strategies to promote these ideas include criticism of scientific institutions,. and questioning the motives of individual scientists. An echo chamber of climate-denying blogs and media has further fomented misunderstanding of climate change.
+
+##  Public awareness and opinion 
+
+Climate change came to international public attention in the late 1980s. Due to media coverage in the early 1990s, people often confused climate change with other environmental issues like ozone depletion.;  In popular culture, the climate fiction movie ''The Day After Tomorrow'' (2004) and the Al Gore documentary ''An Inconvenient Truth'' (2006) focused on climate change.
+
+Significant regional, gender, age and political differences exist in both public concern for, and understanding of, climate change. More highly educated people, and in some countries, women and younger people, were more likely to see climate change as a serious threat.. College biology textbooks from the 2010s featured less content on climate change compared to those from the preceding decade, with decreasing emphasis on solutions. Partisan gaps also exist in many countries,. and countries with high CO2 emissions tend to be less concerned.. Views on causes of climate change vary widely between countries.. Media coverage linked to protests has had impacts on public sentiment as well as on which aspects of climate change are focused upon. Higher levels of worry are associated with stronger public support for policies that address climate change.. Concern has increased over time,;  and in 2021 a majority of citizens in 30 countries expressed a high level of worry about climate change, or view it as a global emergency.; . A 2024 survey across 125 countries found that 89% of the global population demanded intensified political action, but systematically underestimated other peoples' willingness to act.
+
+##  Climate movement 
+
+Climate protests demand that political leaders take action to prevent climate change. They can take the form of public demonstrations, fossil fuel divestment, lawsuits and other activities.. Prominent demonstrations include the School Strike for Climate. In this initiative, young people across the globe have been protesting since 2018 by skipping school on Fridays, inspired by Swedish activist and then-teenager Greta Thunberg.; . Mass civil disobedience actions by groups like Extinction Rebellion have protested by disrupting roads and public transport..
+
+Litigation is increasingly used as a tool to strengthen climate action from public institutions and companies. Activists also initiate lawsuits which target governments and demand that they take ambitious action or enforce existing laws on climate change. Lawsuits against fossil-fuel companies generally seek compensation for loss and damage.. On 23 July 2025, the UN's International Court of Justice issued its advisory opinion, saying explicitly that states must act to stop climate change, and if they fail to accomplish that duty, other states can sue them. This obligation includes implementing their commitments in international agreements they are parties to, such as the 2015 Paris Climate Accord.
+
+##  History 
+
+##  Early discoveries 
+
+ showed carbon dioxide's heat-capturing effect in 1856, foreseeing its implications for the planet. (Carbon dioxide was called "carbonic acid gas".)]]
+Scientists in the 19th century such as Alexander von Humboldt began to foresee the effects of climate change. In the 1820s, Joseph Fourier proposed the greenhouse effect to explain why Earth's temperature was higher than the Sun's energy alone could explain. Earth's atmosphere is transparent to sunlight, so sunlight reaches the surface where it is converted to heat. However, the atmosphere is not transparent to heat radiating from the surface, and captures some of that heat, which in turn warms the planet.
+In 1856 Eunice Newton Foote demonstrated that the warming effect of the Sun is greater for air with water vapour than for dry air, and that the effect is even greater with carbon dioxide (). In "Circumstances Affecting the Heat of the Sun's Rays" she concluded that "[a]n atmosphere of that gas would give to our earth a high temperature".
+
+, March 1912, p. 341.]]
+Starting in 1859,. John Tyndall established that nitrogen and oxygen—together totalling 99% of dry air—are transparent to radiated heat. However, water vapour and gases such as methane and carbon dioxide absorb radiated heat and re-radiate that heat into the atmosphere. Tyndall proposed that changes in the concentrations of these gases may have caused climatic changes in the past, including ice ages.; 
+
+Svante Arrhenius noted that water vapour in air continuously varied, but the  concentration in air was influenced by long-term geological processes. Warming from increased  levels would increase the amount of water vapour, amplifying warming in a positive feedback loop. In 1896, he published the first climate model of its kind, projecting that halving  levels could have produced a drop in temperature initiating an ice age. Arrhenius calculated the temperature increase expected from doubling  to be around 5–6&nbsp;°C. Other scientists were initially sceptical and believed that the greenhouse effect was saturated so that adding more  would make no difference, and that the climate would be self-regulating.;  Beginning in 1938, Guy Stewart Callendar published evidence that climate was warming and  levels were rising,; . but his calculations met the same objections.
+
+##  Development of a scientific consensus 
+
+In the 1950s, Gilbert Plass created a detailed computer model that included different atmospheric layers and the infrared spectrum. This model predicted that increasing  levels would cause warming. Around the same time, Hans Suess found evidence that  levels had been rising, and Roger Revelle showed that the oceans would not absorb the increase. The two scientists subsequently helped Charles Keeling to begin a record of continued increase—the "Keeling Curve"—which was part of continued scientific investigation through the 1960s into possible human causation of global warming. Studies such as the National Research Council's 1979 Charney Report supported the accuracy of climate models that forecast significant warming. Human causation of observed global warming and dangers of unmitigated warming were publicly presented in James Hansen's 1988 testimony before a US Senate committee. The Intergovernmental Panel on Climate Change (IPCC), set up in 1988 to provide formal advice to the world's governments, spurred interdisciplinary research.. As part of the IPCC reports, scientists assess the scientific discussion that takes place in peer-reviewed journal articles..
+
+There is a nearly unanimous scientific consensus that the climate is warming and that this is caused by human activities. No scientific body of national or international standing disagrees with this view.; ;  As of 2019, agreement in recent literature reached over 99%. The 2021 IPCC Assessment Report stated that it is "unequivocal" that climate change is caused by humans. Consensus has further developed that action should be taken to protect people against the impacts of climate change. National science academies have called on world leaders to cut global emissions.Joint statement of the ; .
+
+## Recent developments
+
+Extreme event attribution (EEA), also known as attribution science, was developed in the early decades of the 21st century. EEA uses climate models to identify and quantify the role that human-caused climate change plays in the frequency, intensity, duration, and impacts of specific individual extreme weather events. Results of attribution studies allow scientists and journalists to make statements such as, "this weather event was made at least ''n'' times more likely by human-caused climate change" or "this heatwave was made ''m'' degrees hotter than it would have been in a world without global warming" or "this event was effectively impossible without climate change". 
+
+Greater computing power in the 2000s and conceptual breakthroughs in the early to mid 2010s enabled attribution science to detect the effects of climate change on some events with high confidence. Scientists use attribution methods and climate simulations that have already been peer reviewed, allowing "rapid attribution studies" to be published within a "news cycle" time frame after weather events.
+
+##  References 
+
+##  Sources 
+
+##  IPCC reports 
+
+'''Fourth Assessment Report'''
+
+* 
+ |author=IPCC |author-link=IPCC
+ |year =2007
+ |title=Climate Change 2007: The Physical Science Basis
+ |series=Contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change
+ |display-editors=4
+ |editor-first1=S. |editor-last1=Solomon
+ |editor-first2=D. |editor-last2=Qin
+ |editor-first3=M. |editor-last3=Manning
+ |editor-first4=Z. |editor-last4=Chen
+ |editor-first5=M. |editor-last5=Marquis
+ |editor-first6=K. B. |editor-last6=Averyt
+ |editor-first7=M. |editor-last7=Tignor
+ |editor-first8=H. L. |editor-last8=Miller
+ |publisher=Cambridge University Press
+ |url=http://www.ipcc.ch/publications_and_data/ar4/wg1/en/contents.html
+ |isbn=978-0-521-88009-1
+}}
+
+** 
+ |chapter=Chapter 1: Historical Overview of Climate Change Science
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar4/wg1/ar4-wg1-chapter1.pdf
+ |year=2007
+ |display-authors=4
+ |first1=H. |last1=Le Treut
+ |first2=R. |last2=Somerville
+ |first3=U. |last3=Cubasch
+ |first4=Y. |last4=Ding
+ |first5=C. |last5=Mauritzen
+ |first6=A. |last6=Mokssit
+ |first7=T. |last7=Peterson
+ |first8=M. |last8=Prather
+ |title=
+ |pages=93–127
+}}
+** 
+ |chapter=Chapter 8: Climate Models and their Evaluation
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar4/wg1/ar4-wg1-chapter8.pdf
+ |year=2007
+ |display-authors=4
+ |first1=D. A. |last1=Randall
+ |first2=R. A. |last2=Wood
+ |first3=S. |last3=Bony
+ |first4=R. |last4=Colman
+ |first5=T. |last5=Fichefet
+ |first6=J. |last6=Fyfe
+ |first7=V. |last7=Kattsov
+ |first8=A. |last8=Pitman
+ |first9=J. |last9=Shukla
+ |first10=J. |last10=Srinivasan
+ |first11=R. J. |last11=Stouffer
+ |first12=A. |last12=Sumi
+ |first13=K. E. |last13=Taylor
+ |title=
+ |pages=589–662
+}}
+** 
+ |chapter=Chapter 9: Understanding and Attributing Climate Change
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar4/wg1/ar4-wg1-chapter9.pdf
+ |year=2007
+ |display-authors=4
+ |first1=G. C. |last1=Hegerl
+ |first2=F. W. |last2=Zwiers
+ |first3=P. |last3=Braconnot |author-link3=Pascale Braconnot
+ |first4=N. P. |last4=Gillett
+ |first5=Y. |last5=Luo
+ |first6=J. A. |last6=Marengo Orsini
+ |first7=N. |last7=Nicholls
+ |first8=J. E. |last8=Penner
+ |first9=P. A. |last9=Stott
+ |title=
+ |pages=663–745
+}}
+
+* 
+ |author=IPCC |author-link=IPCC
+ |year =2007
+ |title=Climate Change 2007: Impacts, Adaptation and Vulnerability
+ |series=Contribution of Working Group II to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change
+ |display-editors=4
+ |editor-first1=M. L. |editor-last1=Parry
+ |editor-first2=O. F. |editor-last2=Canziani
+ |editor-first3=J. P. |editor-last3=Palutikof
+ |editor-first4=P. J. |editor-last4=van der Linden
+ |editor-first5=C. E. |editor-last5=Hanson
+ |publisher=Cambridge University Press
+ |url=http://www.ipcc.ch/publications_and_data/ar4/wg2/en/contents.html
+ |isbn=978-0-521-88010-7
+}}
+
+** 
+ |chapter=Chapter 19: Assessing key vulnerabilities and the risk from climate change
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar4/wg2/ar4-wg2-chapter19.pdf
+ |year=2007
+ |display-authors=4
+ |first1=S. H. |last1=Schneider
+ |first2=S. |last2=Semenov
+ |first3=A. |last3=Patwardhan
+ |first4=I. |last4=Burton
+ |first5=C. H. D. |last5=Magadza
+ |first6=M. |last6=Oppenheimer
+ |first7=A. B. |last7=Pittock
+ |first8=A. |last8=Rahman
+ |first9=J. B. |last9=Smith
+ |first10=A. |last10=Suarez
+ |first11=F. |last11=Yamin
+ |title=
+ |pages=779–810
+}}
+
+* 
+ |author=IPCC |author-link=IPCC
+ |year =2007
+ |title=Climate Change 2007: Mitigation of Climate Change
+ |series=Contribution of Working Group III to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change
+ |display-editors=4
+ |editor-first1=B. |editor-last1=Metz
+ |editor-first2=O. R. |editor-last2=Davidson
+ |editor-first3=P. R. |editor-last3=Bosch
+ |editor-first4=R. |editor-last4=Dave
+ |editor-first5=L. A. |editor-last5=Meyer
+ |publisher=Cambridge University Press
+ |url=http://www.ipcc.ch/publications_and_data/ar4/wg3/en/contents.html
+ |isbn=978-0-521-88011-4
+}}
+** 
+ |chapter=Chapter 1: Introduction
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar4/wg3/ar4-wg3-chapter1.pdf
+ |year=2007
+ |display-authors=4
+ |first1=H.-H.|last1=Rogner
+ |first2=D. |last2=Zhou
+ |first3=R. |last3=Bradley
+ |first4=P. |last4=Crabbé
+ |first5=O. |last5=Edenhofer
+ |first6=B. |last6=Hare
+ |first7=L. |last7=Kuijpers
+ |first8=M. |last8=Yamaguchi
+ |title=
+ |pages=95–116
+}}
+
+'''Fifth Assessment report'''
+* 
+ |author=IPCC |author-link=IPCC
+ |year=2013
+ |title=Climate Change 2013: The Physical Science Basis
+ |series=Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change
+ |display-editors=4
+ |editor1-first=T. F. |editor1-last=Stocker
+ |editor2-first=D. |editor2-last=Qin
+ |editor3-first=G.-K. |editor3-last=Plattner
+ |editor4-first=M. |editor4-last=Tignor
+ |editor5-first=S. K. |editor5-last=Allen
+ |editor6-first=J. |editor6-last=Boschung
+ |editor7-first=A. |editor7-last=Nauels
+ |editor8-first=Y. |editor8-last=Xia
+ |editor9-first=V. |editor9-last=Bex
+ |editor10-first=P. M. |editor10-last=Midgley
+ |publisher=Cambridge University Press
+ |place=Cambridge, UK & New York
+ |isbn=978-1-107-05799-9 
+ |url=http://www.climatechange2013.org/images/report/WG1AR5_ALL_FINAL.pdf 
+}}. [https://www.ipcc.ch/report/ar5/wg1/ AR5 Climate Change 2013: The Physical Science Basis – IPCC]
+** 
+ |chapter=Summary for Policymakers
+ |chapter-url=https://ipcc.ch/pdf/assessment-report/ar5/wg1/WG1AR5_SPM_FINAL.pdf
+ |year=2013
+ |author=IPCC |author-link=IPCC
+ |title=
+}}
+** 
+ |chapter=Chapter 2: Observations: Atmosphere and Surface
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/2017/09/WG1AR5_Chapter02_FINAL.pdf
+ |year=2013
+ |display-authors=4
+ |first1=D. L. |last1=Hartmann
+ |first2=A. M. G. |last2=Klein Tank
+ |first3=M. |last3=Rusticucci
+ |first4=L. V. |last4=Alexander
+ |first5=S. |last5=Brönnimann
+ |first6=Y. |last6=Charabi
+ |first7=F. J. |last7=Dentener
+ |first8=E. J. |last8=Dlugokencky
+ |first9=D. R. |last9=Easterling
+ |first10=A. |last10=Kaplan
+ |first11=B. J. |last11=Soden
+ |first12=P. W. |last12=Thorne
+ |first13=M. |last13=Wild
+ |first14=P. M. |last14=Zhai
+ |title=
+ |pages=159–254
+}}
+** 
+ |chapter=Chapter 3: Observations: Ocean
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter03_FINAL.pdf
+ |year=2013
+ |display-authors=4
+ |first1=M. |last1=Rhein
+ |first2=S. R. |last2=Rintoul
+ |first3=S. |last3=Aoki
+ |first4=E. |last4=Campos
+ |first5=D. |last5=Chambers
+ |first6=R. A. |last6=Feely
+ |first7=S. |last7=Gulev
+ |first8=G. C. |last8=Johnson
+ |first9=S. A. |last9=Josey
+ |first10=A. |last10=Kostianoy
+ |first11=C. |last11=Mauritzen
+ |first12=D. |last12=Roemmich
+ |first13=L. D. |last13=Talley
+ |first14=F. |last14=Wang
+ |title=
+ |pages=255–315
+}}
+** 
+ |chapter=Chapter 5: Information from Paleoclimate Archives
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter05_FINAL.pdf
+ |year=2013
+ |display-authors=4
+ |first1=V. |last1=Masson-Delmotte
+ |first2=M. |last2=Schulz
+ |first3=A. |last3=Abe-Ouchi
+ |first4=J. |last4=Beer
+ |first5=A. |last5=Ganopolski
+ |first6=J. F. |last6=González Rouco
+ |first7=E. |last7=Jansen
+ |first8=K. |last8=Lambeck
+ |first9=J. |last9=Luterbacher
+ |first10=T. |last10=Naish
+ |first11=T. |last11=Osborn
+ |first12=B. |last12=Otto-Bliesner
+ |first13=T. |last13=Quinn
+ |first14=R. |last14=Ramesh
+ |first15=M. |last15=Rojas
+ |first16=X. |last16=Shao
+ |first17=A. |last17=Timmermann
+ |title=
+ |pages=383–464
+}}
+** 
+ |chapter=Chapter 10: Detection and Attribution of Climate Change: from Global to Regional
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter10_FINAL.pdf
+ |year=2013
+ |display-authors=4
+ |first1=N. L. |last1=Bindoff
+ |first2=P. A. |last2=Stott
+ |first3=K. M. |last3=AchutaRao
+ |first4=M. R. |last4=Allen
+ |first5=N. |last5=Gillett
+ |first6=D. |last6=Gutzler
+ |first7=K. |last7=Hansingo
+ |first8=G. |last8=Hegerl
+ |first9=Y. |last9=Hu
+ |first10=S. |last10=Jain
+ |first11=I. I. |last11=Mokhov
+ |first12=J. |last12=Overland
+ |first13=J. |last13=Perlwitz
+ |first14=R. |last14=Sebbari
+ |first15=X. |last15=Zhang
+ |title=
+ |pages=867–952
+}}
+** 
+ |chapter=Chapter 12: Long-term Climate Change: Projections, Commitments and Irreversibility
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar5/wg1/WG1AR5_Chapter12_FINAL.pdf
+ |year=2013
+ |display-authors=4
+ |first1=M. |last1=Collins
+ |first2=R. |last2=Knutti
+ |first3=J. M. |last3=Arblaster
+ |first4=J.-L. |last4=Dufresne
+ |first5=T. |last5=Fichefet
+ |first6=P. |last6=Friedlingstein
+ |first7=X. |last7=Gao
+ |first8=W. J. |last8=Gutowski
+ |first9=T. |last9=Johns
+ |first10=G. |last10=Krinner
+ |first11=M. |last11=Shongwe
+ |first12=C. |last12=Tebaldi
+ |first13=A. J. |last13=Weaver
+ |first14=M. |last14=Wehner
+ |pages=1029–1136
+ |title=
+}}
+
+}} 
+* 
+ |author=IPCC |author-link=IPCC
+ |year=2014
+ |title=Climate Change 2014: Impacts, Adaptation, and Vulnerability. Part A: Global and Sectoral Aspects
+ |series=Contribution of Working Group II to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change
+ |display-editors=4
+ |editor-first1=C. B. |editor-last1=Field
+ |editor-first2=V. R. |editor-last2=Barros
+ |editor-first3=D. J. |editor-last3=Dokken
+ |editor-first4=K. J. |editor-last4=Mach
+ |editor-first5=M. D. |editor-last5=Mastrandrea
+ |editor-first6=T. E. |editor-last6=Bilir
+ |editor-first7=M. |editor-last7=Chatterjee
+ |editor-first8=K. L. |editor-last8=Ebi
+ |editor-first9=Y. O. |editor-last9=Estrada
+ |editor-first10=R. C. |editor-last10=Genova
+ |editor-first11=B. |editor-last11=Girma
+ |editor-first12=E. S. |editor-last12=Kissel
+ |editor-first13=A. N. |editor-last13=Levy
+ |editor-first14=S. |editor-last14=MacCracken
+ |editor-first15=P. R. |editor-last15=Mastrandrea
+ |editor-first16=L. L. |editor-last16=White
+ |publisher=Cambridge University Press
+ |isbn=978-1-107-05807-1
+ |url=
+}}. Chapters 1–20, SPM, and Technical Summary.
+** 
+ |chapter=Chapter 13: Livelihoods and Poverty
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar5/wg2/WGIIAR5-Chap13_FINAL.pdf
+ |display-authors=4
+ |first1=L. |last1=Olsson
+ |first2=M. |last2=Opondo
+ |first3=P. |last3=Tschakert
+ |first4=A. |last4=Agrawal
+ |first5=S. H. |last5=Eriksen
+ |first6=S. |last6=Ma
+ |first7=L. N. |last7=Perch
+ |first8=S. A. |last8=Zakieldeen
+ |year=2014
+ |title=
+ |pages=793–832
+}}
+** 
+ |chapter=Chapter 18: Detection and Attribution of Observed Impacts
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar5/wg2/WGIIAR5-Chap18_FINAL.pdf
+ |year=2014
+ |display-authors=4
+ |first1=W. |last1=Cramer
+ |first2=G. W. |last2=Yohe
+ |first3=M. |last3=Auffhammer
+ |first4=C. |last4=Huggel
+ |first5=U. |last5=Molau
+ |first6=M. A. F. |last6=da Silva Dias
+ |first7=A. |last7=Solow
+ |first8=D. A. |last8=Stone
+ |first9=L. |last9=Tibig
+ |title=
+ |pages=979–1037
+}}
+** 
+ |chapter=Chapter 19: Emergent Risks and Key Vulnerabilities
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar5/wg2/WGIIAR5-Chap19_FINAL.pdf
+ |year=2014
+ |display-authors=4
+ |first1=M. |last1=Oppenheimer
+ |first2=M. |last2=Campos
+ |first3=R. |last3=Warren
+ |first4=J. |last4=Birkmann
+ |first5=G. |last5=Luber
+ |first6=B. |last6=O'Neill
+ |first7=K. |last7=Takahashi
+ |title=
+ |pages=1039–1099
+}}
+* 
+ |author=IPCC |author-link=IPCC
+ |year=2014
+ |title=Climate Change 2014: Impacts, Adaptation, and Vulnerability. Part B: Regional Aspects
+ |series=Contribution of Working Group II to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change
+ |display-editors=4
+ |editor-first1=V. R. |editor-last1=Barros
+ |editor-first2=C. B. |editor-last2=Field
+ |editor-first3=D. J. |editor-last3=Dokken
+ |editor-first4=K. J. |editor-last4=Mach
+ |editor-first5=M. D. |editor-last5=Mastrandrea
+ |editor-first6=T. E. |editor-last6=Bilir
+ |editor-first7=M. |editor-last7=Chatterjee
+ |editor-first8=K. L. |editor-last8=Ebi
+ |editor-first9=Y. O. |editor-last9=Estrada
+ |editor-first10=R. C. |editor-last10=Genova
+ |editor-first11=B. |editor-last11=Girma
+ |editor-first12=E. S. |editor-last12=Kissel
+ |editor-first13=A. N. |editor-last13=Levy
+ |editor-first14=S. |editor-last14=MacCracken
+ |editor-first15=P. R. |editor-last15=Mastrandrea
+ |editor-first16=L.L |editor-last16=White
+ |publisher=Cambridge University Press
+ |place=Cambridge, UK & New York
+ |isbn=978-1-107-05816-3
+ |url=https://www.ipcc.ch/site/assets/uploads/2018/02/WGIIAR5-PartB_FINAL.pdf
+}}. Chapters 21–30, Annexes, and Index.
+** 
+ |chapter=Chapter 28: Polar Regions
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar5/wg2/WGIIAR5-Chap28_FINAL.pdf
+ |display-authors=4
+ |first1=J. N. |last1=Larsen
+ |first2=O. A. |last2=Anisimov
+ |first3=A. |last3=Constable
+ |first4=A. B. |last4=Hollowed
+ |first5=N. |last5=Maynard
+ |first6=P. |last6=Prestrud
+ |first7=T. D. |last7=Prowse
+ |first8=J. M. R.|last8=Stone
+ |year=2014
+ |title=
+ |pages=1567–1612
+}}
+
+* 
+ |author=IPCC |author-link=IPCC
+ |year=2014
+ |title=Climate Change 2014: Mitigation of Climate Change
+ |series=Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change
+ |display-editors=4
+ |editor-first1=O. |editor-last1=Edenhofer
+ |editor-first2=R. |editor-last2=Pichs-Madruga
+ |editor-first3=Y. |editor-last3=Sokona
+ |editor-first4=E. |editor-last4=Farahani
+ |editor-first5=S. |editor-last5=Kadner
+ |editor-first6=K. |editor-last6=Seyboth
+ |editor-first7=A. |editor-last7=Adler
+ |editor-first8=I. |editor-last8=Baum
+ |editor-first9=S. |editor-last9=Brunner
+ |editor-first10=P. |editor-last10=Eickemeier
+ |editor-first11=B. |editor-last11=Kriemann
+ |editor-first12=J. |editor-last12=Savolainen
+ |editor-first13=S. |editor-last13=Schlömer
+ |editor-first14=C. |editor-last14=von Stechow
+ |editor-first15=T. |editor-last15=Zwickel
+ |editor-first16=J. C. |editor-last16=Minx
+ |publisher=Cambridge University Press
+ |place=Cambridge, UK & New York, NY
+ |isbn= 978-1-107-05821-7
+ }}
+
+** 
+ |chapter=Chapter 9: Buildings
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar5/wg3/ipcc_wg3_ar5_chapter9.pdf
+ |year=2014
+ |display-authors=4
+ |first1=O. |last1=Lucon
+ |first2=D. |last2=Ürge-Vorsatz
+ |first3=A. |last3=Ahmed
+ |first4=H. |last4=Akbari
+ |first5=P. |last5=Bertoldi
+ |first6=L. |last6=Cabeza
+ |first7=N. |last7=Eyre
+ |first8=A. |last8=Gadgil
+ |first9=L. D. |last9=Harvey
+ |first10=Y. |last10=Jiang
+ |first11=E. |last11=Liphoto
+ |first12=S. |last12=Mirasgedis
+ |first13=S. |last13=Murakami
+ |first14=J. |last14=Parikh
+ |first15=C. |last15=Pyke
+ |first16=M. |last16=Vilariño
+ |title=
+}}
+** 
+ |chapter=Annex III: Technology-specific Cost and Performance Parameters
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf
+ |year=2014
+ |display-authors=4
+ |first1=O. |last1=Edenhofer
+ |first2=R. |last2=Pichs-Madruga
+ |first3=Y. |last3=Sokona
+ |first4=E. |last4=Farahani
+ |first5=S. |last5=Kadner
+ |first6=K. |last6=Seyboth
+ |first7=A. |last7=Adler
+ |first8=I. |last8=Baum
+ |first9=S. |last9=Brunner
+ |first10=P. |last10=Eickemeier
+ |first11=B. |last11=Kriemann
+ |first12=J. |last12=Savolainen
+ |first13=S. |last13=Schlömer
+ |first14=C. |last14=von Stechow
+ |first15=T. |last15=Zwickel
+ |first16=J.C. |last16=Minx
+ |publisher=Cambridge University Press
+ |location=Cambridge, United Kingdom and New York, NY, USA
+ |title=
+}}
+* 
+** 
+ |chapter=Summary for Policymakers
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar5/syr/AR5_SYR_FINAL_SPM.pdf
+ |year=2014
+ |author=IPCC |author-link=IPCC
+ |title=
+}}
+** 
+ |chapter=Annex II: Glossary
+ |chapter-url=https://archive.ipcc.ch/pdf/assessment-report/ar5/syr/AR5_SYR_FINAL_Annexes.pdf
+ |year=2014
+ |author=IPCC |author-link=IPCC
+ |title=
+}}
+
+'''Special Report: Global Warming of 1.5&nbsp;°C'''
+*  
+ |author=IPCC |author-link=IPCC
+ |year=2018
+ |title=Global Warming of 1.5&nbsp;°C. An IPCC Special Report on the impacts of global warming of 1.5&nbsp;°C above pre-industrial levels and related global greenhouse gas emission pathways, in the context of strengthening the global response to the threat of climate change, sustainable development, and efforts to eradicate poverty
+ |display-editors=4
+ |editor-first1=V. |editor-last1=Masson-Delmotte
+ |editor-first2=P. |editor-last2=Zhai
+ |editor-first3=H.-O. |editor-last3=Pörtner
+ |editor-first4=D. |editor-last4=Roberts
+ |editor-first5=J. |editor-last5=Skea
+ |editor-first6=P. R. |editor-last6=Shukla
+ |editor-first7=A. |editor-last7=Pirani
+ |editor-first8=W. |editor-last8=Moufouma-Okia
+ |editor-first9=C. |editor-last9=Péan
+ |editor-first10=R. |editor-last10=Pidcock
+ |editor-first11=S. |editor-last11=Connors
+ |editor-first12=J. B. R. |editor-last12=Matthews
+ |editor-first13=Y. |editor-last13=Chen
+ |editor-first14=X. |editor-last14=Zhou
+ |editor-first15=M. I. |editor-last15=Gomis
+ |editor-first16=E. |editor-last16=Lonnoy
+ |editor-first17=T. |editor-last17=Maycock
+ |editor-first18=M. |editor-last18=Tignor
+ |editor-first19=T. |editor-last19=Waterfeld
+ |publisher=Intergovernmental Panel on Climate Change
+ |isbn=
+ |url=https://www.ipcc.ch/site/assets/uploads/sites/2/2019/06/SR15_Full_Report_High_Res.pdf
+}} Global Warming of 1.5&nbsp;°C –.
+
+**  
+ |author=IPCC |author-link=IPCC
+ |year=2018
+ |chapter=Summary for Policymakers
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/sites/2/2019/05/SR15_SPM_version_report_HR.pdf
+ |title=
+ |pages=3–24
+}}
+
+**  
+ |year=2018
+ |chapter=Chapter 1: Framing and Context
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/sites/2/2019/05/SR15_Chapter1_High_Res.pdf
+ |display-authors=4
+ |first1=M. R. |last1=Allen
+ |first2=O. P. |last2=Dube
+ |first3=W. |last3=Solecki
+ |first4=F. |last4=Aragón-Durand
+ |first5=W. |last5=Cramer
+ |first6=S. |last6=Humphreys
+ |first7=M. |last7=Kainuma
+ |first8=J. |last8=Kala
+ |first9=N. |last9=Mahowald
+ |first10=Y. |last10=Mulugetta
+ |first11=R. |last11=Perez
+ |first12=M. |last12=Wairiu
+ |first13=K. |last13=Zickfeld
+ |title=
+ |pages=49–91
+}}
+
+**  
+ |year=2018
+ |chapter=Chapter 2: Mitigation Pathways Compatible with 1.5&nbsp;°C in the Context of Sustainable Development
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/sites/2/2019/05/SR15_Chapter2_High_Res.pdf
+ |display-authors=4
+ |first1=J. |last1=Rogelj |author1-link=Joeri Rogelj
+ |first2=D. |last2=Shindell
+ |first3=K. |last3=Jiang
+ |first4=S. |last4=Fifta
+ |first5=P. |last5=Forster
+ |first6=V. |last6=Ginzburg
+ |first7=C. |last7=Handa
+ |first8=H. |last8=Kheshgi
+ |first9=S. |last9=Kobayashi
+ |first10=E. |last10=Kriegler
+ |first11=L. |last11=Mundaca
+ |first12=R. |last12=Séférian
+ |first13=M. V. |last13=Vilariño
+ |title=
+ |pages=93–174
+}}
+
+**  
+ |year=2018
+ |chapter=Chapter 3: Impacts of 1.5&nbsp;°C Global Warming on Natural and Human Systems
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/sites/2/2019/05/SR15_Chapter3_High_Res.pdf
+ |display-authors=4
+ |first1=O. |last1=Hoegh-Guldberg
+ |first2=D. |last2=Jacob
+ |first3=M. |last3=Taylor
+ |first4=M. |last4=Bindi
+ |first5=S. |last5=Brown
+ |first6=I. |last6=Camilloni
+ |first7=A. |last7=Diedhiou
+ |first8=R. |last8=Djalante
+ |first9=K. L. |last9=Ebi
+ |first10=F. |last10=Engelbrecht
+ |first11=J. |last11=Guiot
+ |first12=Y. |last12=Hijioka
+ |first13=S. |last13=Mehrotra
+ |first14=A. |last14=Payne
+ |first15=S. I.|last15=Seneviratne
+ |first16=A. |last16=Thomas
+ |first17=R. |last17=Warren
+ |first18=G. |last18=Zhou
+ |title=
+ |pages=175–311
+}}
+
+**  
+ |year=2018
+ |chapter=Chapter 4: Strengthening and Implementing the Global Response
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/sites/2/2019/05/SR15_Chapter4_High_Res.pdf
+ |display-authors=4
+ |first1=H. |last1=de Coninck
+ |first2=A. |last2=Revi
+ |first3=M. |last3=Babiker
+ |first4=P. |last4=Bertoldi
+ |first5=M. |last5=Buckeridge
+ |first6=A. |last6=Cartwright
+ |first7=W. |last7=Dong
+ |first8=J. |last8=Ford
+ |first9=S. |last9=Fuss
+ |first10=J.-C. |last10=Hourcade
+ |first11=D. |last11=Ley
+ |first12=R. |last12=Mechler
+ |first13=P. |last13=Newman
+ |first14=A. |last14=Revokatova
+ |first15=S. |last15=Schultz
+ |first16=L. |last16=Steg
+ |first17=T. |last17=Sugiyama
+ |title=
+ |pages=313–443
+}}
+
+**  
+ |year=2018
+ |chapter=Chapter 5: Sustainable Development, Poverty Eradication and Reducing Inequalities
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/sites/2/2019/05/SR15_Chapter5_High_Res.pdf
+ |display-authors=4
+ |first1=J. |last1=Roy
+ |first2=P. |last2=Tschakert
+ |first3=H. |last3=Waisman
+ |first4=S. |last4=Abdul Halim
+ |first5=P. |last5=Antwi-Agyei
+ |first6=P. |last6=Dasgupta
+ |first7=B. |last7=Hayward
+ |first8=M. |last8=Kanninen
+ |first9=D. |last9=Liverman
+ |first10=C. |last10=Okereke
+ |first11=P. F. |last11=Pinho
+ |first12=K. |last12=Riahi
+ |first13=A. G. |last13=Suarez Rodriguez
+ |title=
+ |pages=445–538
+}}
+
+'''Special Report: Climate change and Land'''
+*  
+ |author=IPCC |author-link=IPCC
+ |display-editors=4
+ |editor-first1=P. R. |editor-last1=Shukla
+ |editor-first2=J. |editor-last2=Skea
+ |editor-first3=E. |editor-last3=Calvo Buendia
+ |editor-first4=V. |editor-last4=Masson-Delmotte
+ |editor-first5=H.-O. |editor-last5=Pörtner
+ |editor-first6=D. |editor-last6=C. Roberts
+ |editor-first7=P. |editor-last7=Zhai
+ |editor-first8=R. |editor-last8=Slade
+ |editor-first9=S. |editor-last9=Connors
+ |editor-first10=R. |editor-last10=van Diemen
+ |editor-first11=M. |editor-last11=Ferrat
+ |editor-first12=E. |editor-last12=Haughey
+ |editor-first13=S. |editor-last13=Luz
+ |editor-first14=S. |editor-last14=Neogi
+ |editor-first15=M. |editor-last15=Pathak
+ |editor-first16=J. |editor-last16=Petzold
+ |editor-first17=J. |editor-last17=Portugal Pereira
+ |editor-first18=P. |editor-last18=Vyas
+ |editor-first19=E. |editor-last19=Huntley
+ |editor-first20=K. |editor-last20=Kissick
+ |editor-first21=M. |editor-last21=Belkacemi
+ |editor-first22=J. |editor-last22=Malley
+ |year=2019
+ |title=IPCC Special Report on Climate Change, Desertification, Land Degradation, Sustainable Land Management, Food Security, and Greenhouse gas fluxes in Terrestrial Ecosystems
+ |url=https://www.ipcc.ch/site/assets/uploads/2019/11/SRCCL-Full-Report-Compiled-191128.pdf
+ |publisher=In press
+}}
+
+**  
+ |chapter=Summary for Policymakers
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/sites/4/2019/12/02_Summary-for-Policymakers_SPM.pdf
+ |author=IPCC |author-link=IPCC
+ |year=2019
+ |title=
+ |pages=3–34
+}}
+
+**  
+ |chapter=Chapter 2: Land-Climate Interactions
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/2019/11/05_Chapter-2.pdf
+ |display-authors=4
+ |first1=G. |last1=Jia
+ |first2=E. |last2=Shevliakova
+ |first3=P. E. |last3=Artaxo
+ |first4=N. |last4=De Noblet-Ducoudré
+ |first5=R. |last5=Houghton
+ |first6=J. |last6=House
+ |first7=K. |last7=Kitajima
+ |first8=C. |last8=Lennard
+ |first9=A. |last9=Popp
+ |first10=A. |last10=Sirin
+ |first11=R. |last11=Sukumar
+ |first12=L. |last12=Verchot
+ |year=2019
+ |title=
+ |pages=131–247
+}}
+
+**  
+ |chapter=Chapter 5: Food Security
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/2019/11/08_Chapter-5.pdf
+ |display-authors=4
+ |first1=C. |last1=Mbow
+ |first2=C. |last2=Rosenzweig
+ |first3=L. G. |last3=Barioni
+ |first4=T. |last4=Benton
+ |first5=M. |last5=Herrero
+ |first6=M. V. |last6=Krishnapillai
+ |first7=E. |last7=Liwenga
+ |first8=P. |last8=Pradhan
+ |first9=M. G. |last9=Rivera-Ferre
+ |first10=T. |last10=Sapkota
+ |first11=F. N. |last11=Tubiello
+ |first12=Y. |last12=Xu
+ |year=2019
+ |title=
+ |pages=437–550
+}}
+
+'''Special Report: The Ocean and Cryosphere in a Changing Climate'''
+*  
+ |author=IPCC |author-link=IPCC
+ |year=2019
+ |display-editors=4
+ |editor-first1=H.-O. |editor-last1=Pörtner
+ |editor-first2=D. C. |editor-last2=Roberts
+ |editor-first3=V. |editor-last3=Masson-Delmotte
+ |editor-first4=P. |editor-last4=Zhai
+ |editor-first5=M. |editor-last5=Tignor
+ |editor-first6=E. |editor-last6=Poloczanska
+ |editor-first7=K. |editor-last7=Mintenbeck
+ |editor-first8=A. |editor-last8=Alegría
+ |editor-first9=M. |editor-last9=Nicolai
+ |editor-first10=A. |editor-last10=Okem
+ |editor-first11=J. |editor-last11=Petzold
+ |editor-first12=B. |editor-last12=Rama
+ |editor-first13=N. |editor-last13=Weyer
+ |title=IPCC Special Report on the Ocean and Cryosphere in a Changing Climate
+ |publisher=In press
+ |isbn=
+ |url=https://www.ipcc.ch/site/assets/uploads/sites/3/2019/12/SROCC_FullReport_FINAL.pdf
+}}
+
+**  
+ |chapter=Summary for Policymakers
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/sites/3/2019/11/03_SROCC_SPM_FINAL.pdf
+ |author=IPCC |author-link=IPCC
+ |year=2019
+ |title=
+ |pages=3–35
+}}
+
+**  
+ |chapter=Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/sites/3/2019/11/08_SROCC_Ch04_FINAL.pdf
+ |display-authors=4
+ |first1=M. |last1=Oppenheimer
+ |first2=B. |last2=Glavovic
+ |first3=J. |last3=Hinkel
+ |first4=R. |last4=van de Wal
+ |first5=A. K. |last5=Magnan
+ |first6=A. |last6=Abd-Elgawad
+ |first7=R. |last7=Cai
+ |first8=M. |last8=Cifuentes-Jara
+ |first9=R. M. |last9=Deconto
+ |first10=T. |last10=Ghosh
+ |first11=J. |last11=Hay
+ |first12=F. |last12=Isla
+ |first13=B. |last13=Marzeion
+ |first14=B. |last14=Meyssignac
+ |first15=Z. |last15=Sebesvari
+ |year=2019
+ |title=
+ |pages=321–445
+}}
+
+**  
+ |chapter=Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities
+ |chapter-url=https://www.ipcc.ch/site/assets/uploads/sites/3/2019/11/09_SROCC_Ch05_FINAL.pdf
+ |display-authors=4
+ |first1=N. L. |last1=Bindoff
+ |first2=W. W. L. |last2=Cheung
+ |first3=J. G. |last3=Kairo
+ |first4=J. |last4=Arístegui
+ |first5=V. A. |last5=Guinder
+ |first6=R. |last6=Hallberg
+ |first7=N. J. M. |last7=Hilmi
+ |first8=N. |last8=Jiao
+ |first9=Md S. |last9=Karim
+ |first10=L. |last10=Levin
+ |first11=S. |last11=O'Donoghue
+ |first12=S. R. |last12=Purca Cuicapusa
+ |first13=B. |last13=Rinkevich
+ |first14=T. |last14=Suga
+ |first15=A. |last15=Tagliabue
+ |first16=P. |last16=Williamson
+ |year=2019
+ |title=
+ |pages=447–587
+}}
+
+'''Sixth Assessment Report'''
+* 
+ |author= IPCC |author-link= IPCC
+ |year= 2021
+ |title= Climate Change 2021: The Physical Science Basis
+ |series= Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change
+ |display-editors= 4
+ |editor1-first=V. |editor1-last=Masson-Delmotte
+ |editor2-first=P. |editor2-last=Zhai
+ |editor3-first=A. |editor3-last=Pirani
+ |editor4-first=S. L. |editor4-last=Connors
+ |editor5-first=C. |editor5-last=Péan
+ |editor6-first=S. |editor6-last=Berger
+ |editor7-first=N. |editor7-last=Caud
+ |editor8-first=Y. |editor8-last=Chen
+ |editor9-first=L. |editor9-last=Goldfarb
+ |editor10-first=M. I. |editor10-last=Gomis
+ |publisher=Cambridge University Press (In Press)
+ |place=Cambridge, United Kingdom and New York, NY, US
+ |url=https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_FullReport_small.pdf
+}}
+** 
+ |chapter=Summary for Policymakers
+ |chapter-url=https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM_final.pdf
+ |author=IPCC |author-link= IPCC
+ |year=2021
+ |title=
+ }}
+** 
+ |chapter=Technical Summary
+ |last1=Arias |first1=Paola A.
+ |last2=Bellouin |first2=Nicolas
+ |last3=Coppola |first3=Erika
+ |last4=Jones |first4=Richard G.
+ |last5=Krinner |first5=Gerhard
+ |display-authors=4
+ |chapter-url=https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_TS.pdf
+ |year=2021
+ |title=
+ }}
+** 
+|chapter=Chapter 2: Changing state of the climate system
+|last1 = Gulev| first1 = Sergey K.| last2 = Thorne| first2 = Peter W.| last3 = Ahn| first3 = Jinho| last4 = Dentener| first4 = Frank J.| last5 = Domingues| first5 = Catia M.| last6 = Gerland| first6 = Sebastian| last7 = Gong| first7 = Daoyi| last8 = Kaufman| first8 = Darrell S.| last9 = Nnamchi| first9 = Hyacinth C.| last10 = Quaas| first10 = Johannes| last11 = Rivera| first11 = Juan Antonio| last12 = Sathyendranath| first12 = Shubha| last13 = Smith| first13 = Sharon L.| last14 = Trewin| first14 = Blair| last15 = von Shuckmann| first15 = Karina| last16 = Vose| first16 = Russell S. 
+|title = Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change
+|chapter-url= https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_02.pdf
+|display-authors=4
+|year=2021
+}}
+** 
+|chapter=Chapter 4: Future Global Climate: Scenario-Based Projections and Near-Term Information
+|last1 = Lee | first1 = June-Yi | last2 = Marotzke | first2 = Jochem | last3 = Bala | first3 = Govindasamy | last4 = Cao | first4 = Long | last5 = Corti | first5 = Susanna | last6 = Dunne | first6 = John P. | last7 = Engelbrecht | first7 = Francois | last8 = Fischer | first8 = Erich M. | last9 = Fyfe | first9 = John C. | last10 = Jones | first10 = Christopher D. | last11 = Maycock | first11 = Amanda C. | last12 = Mutemi | first12 = Joseph | last13 = Ndiaye | first13 = Ousmane | last14 = Panickal | first14 = Swapna | last15 = Zhou | first15 = Tianjun
+|title = Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change
+|chapter-url = https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/
+|display-authors=4
+|year=2021
+}}
+** 
+ |chapter=Chapter 5: Global Carbon and other Biogeochemical Cycles and Feedbacks
+ |last1 = Canadell | first1 = Josep G. | last2 = Monteiro | first2 = Pedro M.S. | last3 = Costa | first3 = Marcos H. | last4 = Cotrim da Cunha | first4 = Leticia | last5 = Cox | first5 = Peter | last6 = Eliseev | first6 = Alexey V. | last7 = Ghattas | first7 = Julia | last8 = Ishii | first8 = Masao | last9 = Joos | first9 = Fortunat | last10 = Lenton | first10 = Timothy M. | last11 = Patra | first11 = Prabir K. | last12 = Scholes | first12 = Mary | last13 = Shrestha | first13 = Rajan K. | last14 = Tjiputra | first14 = Jerry | last15 = Zaehle | first15 = Sönke
+ |title = Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change
+ |chapter-url= https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/
+ |display-authors=4
+ |year=2021
+}}
+** 
+|chapter=Chapter 11: Weather and climate extreme events in a changing climate
+|last1=Seneviratne |first1=Sonia I.
+|last2=Zhang |first2=Xuebin
+|last3=Adnan |first3=M.
+|last4=Badi |first4=W.
+|last5=Dereczynski |first5=Claudine
+|last6=Di Luca |first6=Alejandro
+|last7=Ghosh |first7=S.
+|chapter-url=https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_11.pdf
+|display-authors=4
+|title= 
+|year=2021
+}}
+* 
+|editor-last1=Pörtner |editor-first1=H.-O.
+|editor-last2=Roberts |editor-first2=D.C.
+|editor-last3=Tignor |editor-first3=M.
+|editor-last4=Poloczanska |editor-first4=E.S.
+|editor-last5=Mintenbeck |editor-first5=K.
+|editor-last6=Alegría |editor-first6=A.
+|editor-last7=Craig |editor-first7=M.
+|editor-last8=Langsdorf |editor-first8=S.
+|editor-last9=Löschke |editor-first9=S.
+|editor-last10=Möller |editor-first10=V.
+|editor-last11=Okem |editor-first11=A.
+|editor-last12=Rama  |editor-first12=B.
+|url=https://www.ipcc.ch/report/ar6/wg2/
+|title=Climate Change 2022: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change
+|publisher=Cambridge University Press
+|year=2022
+|doi=10.1017/9781009325844|isbn=978-1-009-32584-4
+}}
+** 
+|author=IPCC
+|chapter=Summary for Policymakers
+|chapter-url=https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf
+|title= 
+|year=2022
+|pages=3–33
+|doi=10.1017/9781009325844.001
+|isbn=978-1-009-32584-4
+}}
+** 
+|author=IPCC
+|chapter=Technical Summary
+|chapter-url=https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_TechnicalSummary.pdf
+|title= 
+|year=2022
+|pages=37–118
+|doi=10.1017/9781009325844.002
+|isbn=978-1-009-32584-4
+}}
+** 
+|chapter=Food, Fibre and Other Ecosystem Products
+|chapter-url=https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter05.pdf
+|last1=Bezner Kerr |first1=R.
+|last2=Hasegawa |first2=T.
+|last3=Lasco |first3=R.
+|last4=Bhatt |first4=I.
+|last5=Deryng |first5=D.
+|last6=Farrell |first6=A.
+|last7=Gurney-Smith |first7=H.
+|last8=Ju |first8=H.
+|last9=Lluch-Cota |first9=S.
+|last10=Meza |first10=F.
+|last11=Nelson |first11=G.
+|last12=Neufeldt |first12=H.
+|last13=Thornton |first13=P. 
+|title= 
+|year=2022
+|pages=713–906
+|doi=10.1017/9781009325844.007
+|isbn=978-1-009-32584-4
+}}
+** 
+|chapter=Cities, Settlements and Key Infrastructure
+|chapter-url=https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter06.pdf
+|last1=Dodman |first1=D.
+|last2=Hayward |first2=B.
+|last3=Pelling |first3=M.
+|last4=Castan Broto |first4=V. 
+|last5=Chow |first5=W.
+|last6=Chu |first6=E.
+|last7=Dawson |first7=R.
+|last8=Khirfan |first8=L.
+|last9=McPhearson |first9=T.
+|last10=Prakash |first10=A.
+|last11=Zheng |first11=Y.
+|last12=Ziervogel |first12=G.
+|title= 
+|year=2022
+|pages=907–1040
+|doi=10.1017/9781009325844.008
+|isbn=978-1-009-32584-4
+}}
+** 
+|chapter=Key Risks across Sectors and Regions
+|chapter-url=https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter16.pdf
+|last1=O'Neill |first1=B.
+|last2=van Aalst |first2=M. 
+|last3=Zaiton Ibrahim |first3=Z.
+|last4=Berrang Ford |first4=L. 
+|last5=Bhadwal |first5=S.
+|last6=Buhaug |first6=H.
+|last7=Diaz |first7=D.
+|last8=Frieler |first8=K.
+|last9=Garschagen |first9=M.
+|last10=Magnan |first10=A.
+|last11=Midgley |first11=G.
+|last12=Mirzabaev |first12=A.
+|last13=Thomas |first13=A.
+|last14=Warren |first14=R. 
+|title= 
+|year=2022
+|pages=2411–2538
+|doi=10.1017/9781009325844.025
+|isbn=978-1-009-32584-4
+}}
+* 
+|editor-last1=Shukla |editor-first1=P.R.
+|editor-last2=Skea |editor-first2=J.
+|display-editors=etal
+|url=https://www.ipcc.ch/report/ar6/wg3/
+|title=Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change
+|publisher=Cambridge University Press
+|year=2022
+|location=Cambridge, UK and New York, NY, USA
+|doi=10.1017/9781009157926|isbn=978-1-009-15792-6
+}}
+** 
+ |chapter=Summary for Policymakers
+ |chapter-url=https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SummaryForPolicymakers.pdf
+ |author=IPCC |author-link=IPCC
+ |year=2022
+ |title=
+ }}
+** 
+|chapter=Technical Summary
+|chapter-url=https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_TechnicalSummary.pdf
+|last1=Pathak |first1=M.
+|last2=Slade |first2=R.
+|last3=Shukla |first3=P.R.
+|last4=Skea |first4=J.
+|last5=Pichs-Madruga |first5=R.
+|last6=Ürge-Vorsatz |first6=D.
+|title= 
+|year=2022
+|pages=51–148
+|doi=10.1017/9781009157926.002
+|isbn=978-1-009-15792-6
+}}
+** 
+|chapter=Mitigation Pathways Compatible with Long-term Goals
+|chapter-url=https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter03.pdf
+|last1=Riahi |first1=K.
+|last2=Schaeffer |first2=R.
+|last3=Arango |first3=J.
+|last4=Calvin |first4=K.
+|last5=Guivarch |first5=C.
+|last6=Hasegawa |first6=T.
+|last7=Jiang |first7=K.
+|last8=Kriegler |first8=E.
+|last9=Matthews |first9=R.
+|last10=Peters |first10=G.P.
+|last11=Rao |first11=A.
+|last12=Robertson |first12=S.
+|last13=Sebbit |first13=A.M.
+|last14=Steinberger |first14=J.
+|last15=Tavoni |first15=M.
+|last16=van Vuuren |first16=D.P.
+|title= 
+|year=2022
+|pages=295–408
+|doi=10.1017/9781009157926.005
+|isbn=978-1-009-15792-6
+}}
+** 
+ |chapter=Chapter 14: International Cooperation
+ |last1 = Patt | first1 = Anthony | last2 = Rajamani | first2 = Lavanya | last3 = Bhandari | first3 = Preety | last4 = Caparrós | first4 = Alejandro | last5 = Djemouai | first5 = Kamal | last6 = Ivanova Boncheva | first6 = Antonina | last7 = Kubota | first7 = Izumi | last8 = Peel | first8 = Jacqueline | last9 = Sari | first9 = Agus Pratama | last10 = Sprinz | first10 = Detlef F. | last11 = Wettestad | first11 = Jørgen | last12 = Badiola | first12 = Esther | last13 = Carruthers | first13 = Pasha
+ |title = Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change
+ |chapter-url= https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-14/
+ |display-authors=4
+ |year=2022
+}}
+* 
+ |url=https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf
+ |editor-last1=Core Writing Team |editor-last2=Lee |editor-first2=H.
+ |editor-last3=Romero |editor-first3=J.
+ |display-editors=etal
+ |publisher=IPCC
+ |year=2023
+ |location=Geneva, Switzerland
+ |isbn=978-92-9169-164-7
+ |doi=10.59327/IPCC/AR6-9789291691647
+|hdl=1885/299630
+ }}
+** 
+ |chapter=Summary for Policymakers
+ |chapter-url=https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf
+ |author=IPCC |author-link=IPCC
+ |year=2023
+ |title=
+ }}
+
+##  Other peer-reviewed sources 
+
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+*  Problem |journal=Annual Review of Marine Science |volume=1 |issue=1 |pages=169–192 |doi=10.1146/annurev.marine.010908.163834 |pmid=21141034 |bibcode=2009ARMS....1..169D}}
+*  |year=2017 |chapter=Chapter 2: Physical Drivers of Climate Change |title=In  |chapter-url=https://science2017.globalchange.gov/downloads/CSSR_Ch2_Physical_Drivers.pdf |first1=D. W. |last1=Fahey |first2=S. J. |last2=Doherty |first3=K. A. |last3=Hibbard |first4=A. |last4=Romanou |first5=P. C. |last5=Taylor}}
+* Recent Progress and Future Challenges |journal=Geochemistry, Geophysics, Geosystems |volume=21 |issue=3 |article-number=e08690 |doi=10.1029/2019GC008690 |bibcode=2020GGG....2108690F |issn=1525-2027 |doi-access=free |hdl=10447/498846 |hdl-access=free}}
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+*  |chapter=Chapter 15: Potential Surprises: Compound Extremes and Tipping Elements |last1=Kopp |first1=R. E. |last2=Hayhoe |first2=K. |last3=Easterling |first3=D. R. |last4=Hall |first4=T. |last5=Horton |first5=R. |first6=K. E. |last6=Kunkel |first7=A. N. |last7=LeGrande |display-authors=4 |chapter-url=https://science2017.globalchange.gov/chapter/15/ |year=2017 |title=In  |pages=1–470 |archive-url=https://web.archive.org/web/20180820172529/https://science2017.globalchange.gov/chapter/15/ |archive-date=20 August 2018 |url-status=live}}
+*  |chapter=Chapter 9: Extreme Storms |title=In  |year=2017 |chapter-url=https://science2017.globalchange.gov/chapter/9/ |first1=J. P. |last1=Kossin |first2=T. |last2=Hall |first3=T. |last3=Knutson |first4=K. E. |last4=Kunkel |first5=R. J. |last5=Trapp |first6=D. E. |last6=Walizer |first7=M. F. |last7=Wehner |pages=1–470}}
+*  |chapter-url=https://science2017.globalchange.gov/chapter/appendix-c/ |last=Knutson |first=T. |year=2017 |pages=1–470}}
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+*  |last1=Loeb |first1=Norman G. |last2=Johnson |first2=Gregory C. |last3=Thorsen |first3=Tyler J. |last4=Lyman |first4=John M. |last5=Rose |first5=Fred G. |last6=Kato |first6=Seiji |title=Satellite and Ocean Data Reveal Marked Increase in Earth's Heating Rate |journal=Geophysical Research Letters |publisher=American Geophysical Union (AGU) |volume=48 |issue=13 |at=e2021GL093047 |year=2021 |doi=10.1029/2021gl093047 |doi-access=free |bibcode=2021GeoRL..4893047L}}
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* |doi=10.1038/nclimate3322 |title=Global risk of deadly heat |date=2017 |last1=Mora |first1=Camilo |last2=Dousset |first2=Bénédicte |last3=Caldwell |first3=Iain R. |last4=Powell |first4=Farrah E. |last5=Geronimo |first5=Rollan C. |last6=Bielecki |first6=Coral R. |last7=Counsell |first7=Chelsie W. W. |last8=Dietrich |first8=Bonnie S. |last9=Johnston |first9=Emily T. |last10=Louis |first10=Leo V. |last11=Lucas |first11=Matthew P. |last12=McKenzie |first12=Marie M. |last13=Shea |first13=Alessandra G. |last14=Tseng |first14=Han |last15=Giambelluca |first15=Thomas W. |last16=Leon |first16=Lisa R. |last17=Hawkins |first17=Ed |last18=Trauernicht |first18=Clay |journal=Nature Climate Change |volume=7 |issue=7 |pages=501–506 |bibcode=2017NatCC...7..501M |url=https://centaur.reading.ac.uk/71263/1/Mora_etal_heatwaves.pdf}}
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* }}
+* 
+* 
+*
+*
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+*  |last1=The Cenozoic CO2 Proxy Integration Project (CenCOPIP) Consortium |last2=Hönisch |first2=Bärbel |last3=Royer |first3=Dana L. |last4=Breecker |first4=Daniel O. |last5=Polissar |first5=Pratigya J. |last6=Bowen |first6=Gabriel J. |last7=Henehan |first7=Michael J. |last8=Cui |first8=Ying |last9=Steinthorsdottir |first9=Margret |last10=McElwain |first10=Jennifer C. |last11=Kohn |first11=Matthew J. |last12=Pearson |first12=Ann |last13=Phelps |first13=Samuel R. |last14=Uno |first14=Kevin T. |last15=Ridgwell |first15=Andy |date=2023 |title=Toward a Cenozoic history of atmospheric CO2 |url=https://www.science.org/doi/10.1126/science.adi5177 |journal=Science |volume=382 |issue=6675 |article-number=eadi5177 |doi=10.1126/science.adi5177 |pmid=38060645 |bibcode=2023Sci...382i5177T |issn=0036-8075 |hdl=10023/30475 |hdl-access=free}}
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+*  |year=2017 |chapter=Chapter 1: Our Globally Changing Climate |title=In  |chapter-url=https://science2017.globalchange.gov/downloads/CSSR_Ch1_Our_Globally_Changing_Climate.pdf |first1=D. J. |last1=Wuebbles |first2=D. R. |last2=Easterling |first3=K. |last3=Hayhoe |first4=T. |last4=Knutson |first5=R. E. |last5=Kopp |first6=J. P. |last6=Kossin |first7=K. E. |last7=Kunkel |last9=A. N. |last8=LeGran-de |first10=C. |last10=Mears |first11=W. V. |last11=Sweet |first12=P. C. |last12=Taylor |first13=R. S. |last13=Vose |first14=M. F. |last14=Wehne |display-authors=4}}
+*  |chapter=Appendix 3: Climate Science Supplement |last1=Walsh |first1=John |last2=Wuebbles |first2=Donald |last3=Hayhoe |first3=Katherine |last4=Kossin |first4=Kossin |last5=Kunkel |first5=Kenneth |last6=Stephens |first6=Graeme |display-authors=4 |chapter-url=http://s3.amazonaws.com/nca2014/low/NCA3_Full_Report_Appendix_3_Climate_Science_Supplement_LowRes.pdf?download=1 |year=2014 |series=US National Climate Assessment |title=Climate Change Impacts in the United States: The Third National Climate Assessment}}
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+*
+* 
+* 
+
+##  Books, reports and legal documents 
+
+*  |title=G8+5 Academies' joint statement: Climate change and the transformation of energy technologies for a low carbon future |date=May 2009 |publisher=The National Academies of Sciences, Engineering, and Medicine |author1=Academia Brasileira de Ciéncias (Brazil) |author2=Royal Society of Canada |author3=Chinese Academy of Sciences |author4=Académie des Sciences (France) |author5=Deutsche Akademie der Naturforscher Leopoldina (Germany) |author6=Indian National Science Academy |author7=Accademia Nazionale dei Lincei (Italy) |author8=Science Council of Japan, Academia Mexicana de Ciencias |author9=Academia Mexicana de Ciencias (Mexico) |author10=Russian Academy of Sciences |author11=Academy of Science of South Africa |author12=Royal Society (United Kingdom) |author13=National Academy of Sciences (United States of America) |url=http://www.nationalacademies.org/includes/G8+5energy-climate09.pdf |archive-url=https://web.archive.org/web/20100215171429/http://www.nationalacademies.org/includes/G8+5energy-climate09.pdf |archive-date=15 February 2010 |access-date=5 May 2010}}
+* 
+*  |url=https://www.iisd.org/sites/default/files/publications/fossil-fuel-clean-energy-subsidy-swap.pdf |title=Fossil Fuel to Clean Energy Subsidy Swaps |last1=Bridle |first1=Richard |last2=Sharma |first2=Shruti |last3=Mostafa |first3=Mostafa |last4=Geddes |first4=Anna |date=June 2019}}
+* 
+*  |author=Conceição |display-authors=etal |year=2020 |title=Human Development Report 2020 The Next Frontier: Human Development and the Anthropocene |url=http://hdr.undp.org/sites/default/files/hdr2020.pdf |publisher=United Nations Development Programme |access-date=9 January 2021}}
+* 
+* Dessler, Andrew E. and Edward A. Parson, eds. ''The science and politics of global climate change: A guide to the debate'' (Cambridge University Press, 2019).
+* 
+* 
+* 
+* |last1=Ebi |first1=Kristie L. |last2=Balbus |first2=John |last3=Luber |first3=George |last4=Bole |first4=Aparna |last5=Crimmins |first5=Allison R. |last6=Glass |first6=Gregory E. |last7=Saha |first7=Shubhayu |last8=Shimamoto |first8=Mark M. |last9=Trtanj |first9=Juli M. |last10=White-Newsome |first10=Jalonne L. |title=Chapter 14: Human Health. Impacts, Risks, and Adaptation in the United States: The Fourth National Climate Assessment, Volume II |date=2018 |doi=10.7930/nca4.2018.ch14 |doi-broken-date=4 January 2026}}
+* 
+* 
+*  |title=Peoples' Climate Vote |last1=Flynn |first1=C. |last2=Yamasumi |first2=E. |last3=Fisher |first3=S. |last4=Snow |first4=D. |last5=Grant |first5=Z. |last6=Kirby |first6=M. |last7=Browning |first7=P. |last8=Rommerskirchen |first8=M. |last9=Russell |first9=I. |display-authors=4 |publisher=UNDP and University of Oxford |date=January 2021 |url=https://www.undp.org/sites/g/files/zskgke326/files/publications/UNDP-Oxford-Peoples-Climate-Vote-Results.pdf |access-date=5 August 2021}}
+*  |title=Peoples' Climate Vote 2024 Results |last1=Flynn |first1=C. |last2=Jardon |first2=S. T. |last3=Fisher |first3=S. |last4=Blayney |first4=M. |last5=Ward |first5=A. |last6=Smith |first6=H. |last7=Struthoff |first7=P. |last8=Fillingham |first8=Z. |display-authors=2 |publisher=UNDP and University of Oxford |date=June 2024 |url=https://peoplesclimate.vote/document/Peoples_Climate_Vote_Report_2024.pdf |access-date=1 November 2024}}
+* 
+* 
+* 
+*  |author=IEA |date=December 2020 |title=Energy Efficiency 2020 |chapter=COVID-19 and energy efficiency |chapter-url=https://www.iea.org/reports/energy-efficiency-2020/covid-19-and-energy-efficiency#abstract |location=Paris, France |access-date=6 April 2021}}
+* 
+*  |author=IEA |date=October 2023 |title=World Energy Outlook 2023 |url=https://iea.blob.core.windows.net/assets/26ca51d0-4a42-4649-a7c0-552d75ddf9b2/WorldEnergyOutlook2023.pdf |location=Paris, France |access-date=25 October 2021}}
+* 
+*  |title=International Public Opinion on Climate Change |last1=Leiserowitz |first1=A. |last2=Carman |first2=J. |last3=Buttermore |first3=N. |last4=Wang |first4=X. |last5=Rosenthal |first5=S. |last6=Marlon |first6=J. |last7=Mulcahy |first7=K. |display-authors=4 |publisher=Yale Program on Climate Change Communication and Facebook Data for Good |year=2021 |location=New Haven, CT |url=https://climatecommunication.yale.edu/wp-content/uploads/2021/06/international-climate-opinion-february-2021d.pdf |access-date=5 August 2021}}
+* 
+* 
+*  |first1=J. |last1=Miller |first2=L. |last2=Du |first3=D. |last3=Kodjak |title=Impacts of World-Class Vehicle Efficiency and Emissions Regulations in Select G20 Countries |url=https://theicct.org/sites/default/files/publications/ICCT_G20-briefing-paper_Jan2017_vF.pdf |publisher=The International Council on Clean Transportation |location=Washington, D.C. |year=2017}}
+* 
+* 
+* 
+* 
+*  |author=NOAA |url=https://tidesandcurrents.noaa.gov/publications/techrpt83_Global_and_Regional_SLR_Scenarios_for_the_US_final.pdf |title=January 2017 analysis from NOAA: Global and Regional Sea Level Rise Scenarios for the United States |access-date=7 February 2019 |archive-url=https://web.archive.org/web/20171218140625/https://tidesandcurrents.noaa.gov/publications/techrpt83_Global_and_Regional_SLR_Scenarios_for_the_US_final.pdf |archive-date=18 December 2017 |url-status=live}}
+* 
+* 
+* 
+*  |author=Pew Research Center |date=November 2015 |title=Global Concern about Climate Change, Broad Support for Limiting Emissions |url=https://www.pewresearch.org/global/wp-content/uploads/sites/2/2015/11/Pew-Research-Center-Climate-Change-Report-FINAL-November-5-2015.pdf |access-date=5 August 2021}}
+* 
+* 
+* 
+*  |last1=Steinberg |first1=D. |last2=Bielen |first2=D. |last3=Eichman |first3=J. |last4=Eurek |first4=K. |last5=Logan |first5=J. |last6=Mai |first6=T. |last7=McMillan |first7=C. |last8=Parker |first8=A. |display-authors=2 |title=Electrification & Decarbonization: Exploring U.S. Energy Use and Greenhouse Gas Emissions in Scenarios with Widespread Electrification and Power Sector Decarbonization |publisher=National Renewable Energy Laboratory |date=July 2017 |location=Golden, Colorado |url=https://www.nrel.gov/docs/fy17osti/68214.pdf}}
+*  |doi=10.1007/978-3-030-05843-2 |isbn=978-3-030-05842-5 |url=https://www.doabooks.org/doab?func=search&query=rid:43952}}
+* 
+* 
+* 
+*  |publisher=United Nations Environment Programme |year=2019 |title=Emissions Gap Report 2019 |url=https://wedocs.unep.org/bitstream/handle/20.500.11822/30797/EGR2019.pdf?sequence=1&isAllowed=y |location=Nairobi |isbn=978-92-807-3766-0}}
+*  |publisher=United Nations Environment Programme |year=2024 |title=Emissions Gap Report 2024 |url=https://www.unep.org/resources/emissions-gap-report-2024 |location=Nairobi |isbn=978-92-807-4185-8}}
+* 
+* 
+
+*  |date=1997 |author=UNFCCC |title=Kyoto Protocol to the United Nations Framework Convention on Climate Change |publisher=United Nations |url=https://unfccc.int/resource/docs/convkp/kpeng.html}}
+
+*  |date=30 March 2010 |author=UNFCCC |chapter=Decision 2/CP.15: Copenhagen Accord |title=Report of the Conference of the Parties on its fifteenth session, held in Copenhagen from 7 to 19&nbsp;December&nbsp;2009 |id=FCCC/CP/2009/11/Add.1 |publisher=United Nations Framework Convention on Climate Change |chapter-url=http://unfccc.int/documentation/documents/advanced_search/items/3594.php?rec=j&priref=600005735#beg |access-date=17 May 2010 |archive-url=https://web.archive.org/web/20100430005322/https://unfccc.int/documentation/documents/advanced_search/items/3594.php?rec=j&priref=600005735#beg |archive-date=30 April 2010 |url-status=live}}
+
+*  |date=2015 |author=UNFCCC |title=Paris Agreement |publisher=United Nations Framework Convention on Climate Change |url=https://unfccc.int/files/essential_background/convention/application/pdf/english_paris_agreement.pdf}}
+
+*  |author=UNFCCC |date=26 February 2021 |title=Nationally determined contributions under the Paris Agreement Synthesis report by the secretariat |url=https://unfccc.int/sites/default/files/resource/cma2021_02E.pdf |publisher=United Nations Framework Convention on Climate Change}}
+
+*  |title=Climate Change and the Risk of Statelessness: The Situation of Low-lying Island States |last=Park |first=Susin |date=May 2011 |publisher=United Nations High Commissioner for Refugees |url=http://www.unhcr.org/4df9cb0c9.pdf |archive-url=https://web.archive.org/web/20130502223251/http://www.unhcr.org/4df9cb0c9.pdf |archive-date=2 May 2013 |url-status=live |access-date=13 April 2012}}
+* 
+* 
+* 
+* 
+**  |mode=cs1  |last=Weart |first=Spencer |date=January 2020 |title=The Discovery of Global Warming |chapter=The Carbon Dioxide Greenhouse Effect |chapter-url=http://history.aip.org/climate/co2.htm |access-date=19 June 2020 |publisher=American Institute of Physics |archive-url=https://web.archive.org/web/20161111191800/http://history.aip.org/climate/co2.htm |archive-date=11 November 2016 |url-status=live}}
+** {{citation |ref=none |mode=cs1  |last=Weart |first=Spencer |date=January 2020 |title=The Discovery of Global Warming |chapter=The Public and Climate Change |chapter-url=http://history.aip.org/climate/public.htm |access-date=19 June 2020 |publisher=American Institute of Physics |archive-url=https://web.archive.org/web/20161111191711/http://history.aip.org/climate/public.htm |archive-date=11 November 2016 |url-status=live}}
+***  |mode=cs1  |last=Weart |first=Spencer |date=January 2020 |title=The Discovery of Global Warming |chapter=The Public and Climate Change: Suspicions of a Human-Caused Greenhouse (1956–1969) |chapter-url=http://history.aip.org/climate/public.htm#S2 |access-date=19 June 2020 |publisher=American Institute of Physics |archive-url=https://web.archive.org/web/20161111191711/http://history.aip.org/climate/public.htm#S2 |archive-date=11 November 2016 |url-status=live}}
+**  |mode=cs1  |last1=Weart |first1=Spencer |date=January 2020 |title=The Discovery of Global warming |chapter=The Public and Climate Change (cont.&nbsp;– since 1980) |chapter-url=https://history.aip.org/climate/public2.htm |access-date=19 June 2020 |publisher=American Institute of Physics |archive-url=https://web.archive.org/web/20161111191659/http://history.aip.org/climate/public2.htm |archive-date=11 November 2016 |url-status=live}}
+***  |mode=cs1  |first=Spencer |last=Weart |date=January 2020 |title=The Discovery of Global Warming |chapter=The Public and Climate Change: The Summer of 1988 |chapter-url=http://history.aip.org/climate/public2.htm#S1988 |access-date=19 June 2020 |publisher=American Institute of Physics |archive-url=https://web.archive.org/web/20161111191659/http://history.aip.org/climate/public2.htm#S1988 |archive-date=11 November 2016 |url-status=live}}
+*  |title=State and Trends of Carbon Pricing 2019 |url=http://documents.worldbank.org/curated/en/191801559846379845/pdf/State-and-Trends-of-Carbon-Pricing-2019.pdf |date=June 2019 |publisher=World Bank |location=Washington, D.C. |doi=10.1596/978-1-4648-1435-8 |hdl=10986/29687 |isbn=978-1-4648-1435-8 |hdl-access=free}}
+* |author=World Economic Forum |title=Quantifying the Impact of Climate Change on Human Health |year=2024 |url=https://www3.weforum.org/docs/WEF_Quantifying_the_Impact_of_Climate_Change_on_Human_Health_2024.pdf}}
+*  |author=World Health Organization |year=2016 |title=Ambient air pollution: a global assessment of exposure and burden of disease |location=Geneva, Switzerland |isbn=978-92-4-151135-3 |url=https://apps.who.int/iris/rest/bitstreams/1061179/retrieve}}
+*  |publisher=World Health Organization |title=COP24 Special Report Health and Climate Change |url=https://apps.who.int/iris/bitstream/handle/10665/276405/9789241514972-eng.pdf?ua=1 |year=2018 |location=Geneva |isbn=978-92-4-151497-2}}
+*   |author=World Meteorological Organization |publisher=World Meteorological Organization |title=Scientific Assessment of Ozone Depletion |url=https://csl.noaa.gov/assessments/ozone/2022/downloads/2022OzoneAssessment.pdf |series=GAW Report No. 278 |isbn=978-9914-733-99-0 |year=2022 |location=Geneva}}
+**  |author=World Meteorological Organization |title= |chapter-url=https://csl.noaa.gov/assessments/ozone/2022/downloads/executivesummary.pdf |year=2022 |chapter=Executive Summary}}
+*  |publisher=World Meteorological Organization |title=WMO Statement on the State of the Global Climate in 2023 |url=https://library.wmo.int/viewer/68835/download?file=1347_Global-statement-2023_en.pdf&type=pdf&navigator=1 |year=2024 |location=Geneva |series=WMO-No. 1347 |isbn=978-92-63-11347-4}}
+*  |publisher=World Meteorological Organization |title=WMO Global Annual to Decadal Climate Update: 2024-2028 |url=https://library.wmo.int/viewer/68910/download?file=WMO_GADCU_2024-2028_en.pdf&type=pdf&navigator=1 |year=2024 |location=Geneva}}
+*  |publisher=World Resources Institute |date=December 2019 |title=Creating a Sustainable Food Future: A Menu of Solutions to Feed Nearly 10 Billion People by 2050 |location=Washington, D.C. |url=https://files.wri.org/d8/s3fs-public/wrr-food-full-report.pdf |isbn=978-1-56973-953-2}}
+
+##  Non-technical sources 
+
+* ''Associated Press''
+**  |url=https://www.apstylebook.com/blog_posts/4 |title=An addition to AP Stylebook entry on global warming |last=Colford |first=Paul |date=22 September 2015 |website=AP Style Blog |access-date=6 November 2019}}
+* ''BBC''
+**  |date=1 May 2019 |title=UK Parliament declares climate change emergency |publisher=BBC |url=https://www.bbc.com/news/uk-politics-48126677 |access-date=30 June 2019}}
+**  |last=Rigby |first=Sara |date=3 February 2020 |title=Climate change: should we change the terminology? |website=BBC Science Focus Magazine |url=https://www.sciencefocus.com/news/climate-change-should-we-change-the-terminology/ |access-date=24 March 2020}}
+* ''Bulletin of the Atomic Scientists''
+** 
+* ''Carbon Brief''
+**  |date=4 January 2017 |last=Yeo |first=Sophie |title=Clean energy: The challenge of achieving a 'just transition' for workers |website=Carbon Brief |url=https://www.carbonbrief.org/clean-energy-the-challenge-of-achieving-a-just-transition-for-workers |access-date=18 May 2020}}
+**  |url=https://www.carbonbrief.org/billions-face-deadly-threshold-heat-extremes-2100-study/ |title=Billions to face 'deadly threshold' of heat extremes by 2100, finds study |last=McSweeney |first=Robert M. |date=19 June 2017 |website=Carbon Brief}}
+**  |last=Yeo |first=Sophie |date=21 November 2017 |title=Explainer: Why a UN climate deal on HFCs matters |url=https://www.carbonbrief.org/explainer-why-a-un-climate-deal-on-hfcs-matters |access-date=10 January 2021 |url-status=live |website=Carbon Brief |archive-date=1 May 2024 |archive-url=https://web.archive.org/web/20240501225407/https://www.carbonbrief.org/explainer-why-a-un-climate-deal-on-hfcs-matters/}}
+**  |date=15 January 2018 |last1=McSweeney |first1=Robert M. |last2=Hausfather |first2=Zeke |title=Q&A: How do climate models work? |website=Carbon Brief |url=https://www.carbonbrief.org/qa-how-do-climate-models-work |access-date=2 March 2019 |archive-url=https://web.archive.org/web/20190305004530/https://www.carbonbrief.org/qa-how-do-climate-models-work |archive-date=5 March 2019 |url-status=live}}
+**  |date=19 April 2018 |last1=Hausfather |first1=Zeke |title=Explainer: How 'Shared Socioeconomic Pathways' explore future climate change |website=Carbon Brief |url=https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change |access-date=20 July 2019}}
+**  |date=8 October 2018 |last1=Hausfather |first1=Zeke |title=Analysis: Why the IPCC 1.5C report expanded the carbon budget |url=https://www.carbonbrief.org/analysis-why-the-ipcc-1-5c-report-expanded-the-carbon-budget |access-date=28 July 2020 |website=Carbon Brief}}
+**  |url=https://www.carbonbrief.org/media-reaction-australias-bushfires-and-climate-change |title=Media reaction: Australia's bushfires and climate change |last1=Dunne |first1=Daisy |last2=Gabbatiss |first2=Josh |last3=McSweeney |first3=Robert |date=7 January 2020 |website=Carbon Brief |access-date=11 January 2020}}
+**  |last=McSweeney |first=Robert |title=Nine Tipping Points That Could Be Triggered by Climate Change |url=https://www.carbonbrief.org/explainer-nine-tipping-points-that-could-be-triggered-by-climate-change/ |website=Carbon Brief |date=10 February 2020 |access-date=27 May 2022 |archive-date=7 October 2024 |archive-url=https://web.archive.org/web/20241007002119/https://www.carbonbrief.org/explainer-nine-tipping-points-that-could-be-triggered-by-climate-change/ |url-status=live}}
+**  |last1=Gabbatiss |first1=Josh |last2=Tandon |first2=Ayesha |date=4 October 2021 |title=In-depth Q&A: What is 'climate justice'? |url=https://www.carbonbrief.org/in-depth-qa-what-is-climate-justice |access-date=16 October 2021 |website=Carbon Brief |language=en}}
+**  |url=https://www.carbonbrief.org/analysis-how-low-sulphur-shipping-rules-are-affecting-global-warming/ |title=Analysis: How low-sulphur shipping rules are affecting global warming |last1=Hausfather |first1=Zeke |last2=Forster |first2=Piers |author-link2=Piers Forster |date=3 July 2023 |website=Carbon Brief |access-date=2 November 2024}}
+* ''Climate.gov''
+**  |last=Lindsey |first=Rebecca |title=Climate Change: Atmospheric Carbon Dioxide |website=Climate.gov |url=https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide |archive-url=https://web.archive.org/web/20130624204311/http://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide |archive-date=24 June 2013 |date=23 June 2022 |access-date=7 May 2023}}
+* ''Deutsche Welle''
+**  |last1=Ruiz |first1=Irene Banos |title=Climate Action: Can We Change the Climate From the Grassroots Up? |url=https://www.ecowatch.com/climate-action-grassroots-2638915946.html |access-date=23 June 2019 |publisher=Deutsche Welle |date=22 June 2019 |archive-url=https://web.archive.org/web/20190623124154/https://www.ecowatch.com/climate-action-grassroots-2638915946.html |archive-date=23 June 2019 |url-status=live}}
+* ''EPA''
+**  |title=Myths vs. Facts: Denial of Petitions for Reconsideration of the Endangerment and Cause or Contribute Findings for Greenhouse Gases under Section 202(a) of the Clean Air Act |publisher=U.S. Environmental Protection Agency |date=10 September 2020 |url=https://www.epa.gov/ghgemissions/myths-vs-facts-denial-petitions-reconsideration-endangerment-and-cause-or-contribute |access-date=7 August 2017 |archive-url=https://web.archive.org/web/20210523211147/https://www.epa.gov/ghgemissions/myths-vs-facts-denial-petitions-reconsideration-endangerment-and-cause-or-contribute |archive-date=23 May 2021}}
+**  |url=https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data |title=Global Greenhouse Gas Emissions Data |publisher=U.S. Environmental Protection Agency |date=10 September 2024 |access-date=8 August 2020 |archive-url=https://web.archive.org/web/20200218125157/https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data |archive-date=18 February 2020}}
+**  |url=https://www.epa.gov/ghgemissions/overview-greenhouse-gases |title=Overview of Greenhouse Gases |publisher=U.S. Environmental Protection Agency |date=11 April 2024 |access-date=15 September 2020 |archive-date=9 October 2024 |archive-url=https://web.archive.org/web/20241009203854/https://www.epa.gov/ghgemissions/overview-greenhouse-gases}}
+* ''EUobserver''
+**  |date=20 December 2009 |title=Copenhagen failure 'disappointing', 'shameful' |website=EUobserver |access-date=12 April 2019 |url=https://euobserver.com/environment/29181 |archive-url=https://web.archive.org/web/20190412092312/https://euobserver.com/environment/29181 |archive-date=12 April 2019 |url-status=live}}
+* ''European Parliament''
+**  |date=February 2020 |first=M. |last=Ciucci |title=Renewable Energy |website=European Parliament |url=https://www.europarl.europa.eu/factsheets/en/sheet/70/renewable-energy |access-date=3 June 2020}}
+* ''The Guardian''
+**  |last=Carrington |first=Damian |date=19 March 2019 |title=School climate strikes: 1.4 million people took part, say campaigners |newspaper=The Guardian |url=https://www.theguardian.com/environment/2019/mar/19/school-climate-strikes-more-than-1-million-took-part-say-campaigners-greta-thunberg |access-date=12 April 2019 |archive-url=https://web.archive.org/web/20190320122303/https://www.theguardian.com/environment/2019/mar/19/school-climate-strikes-more-than-1-million-took-part-say-campaigners-greta-thunberg |archive-date=20 March 2019 |url-status=live}}
+**  |url=https://www.theguardian.com/world/2019/nov/28/eu-parliament-declares-climate-emergency |title='Our house is on fire': EU parliament declares climate emergency |last=Rankin |first=Jennifer |date=28 November 2019 |work=The Guardian |access-date=28 November 2019}}
+**  |last=Watts |first=Jonathan |date=19 February 2020 |title=Oil and gas firms 'have had far worse climate impact than thought' |url=https://www.theguardian.com/environment/2020/feb/19/oil-gas-industry-far-worse-climate-impact-than-thought-fossil-fuels-methane |newspaper=The Guardian}}
+**  |date=28 October 2020 |last=McCurry |first=Justin |title=South Korea vows to go carbon neutral by 2050 to fight climate emergency |url=http://www.theguardian.com/world/2020/oct/28/south-korea-vows-to-go-carbon-neutral-by-2050-to-fight-climate-emergency |access-date=6 December 2020 |work=The Guardian}}
+* ''International Energy Agency''
+**  |title=Projected Costs of Generating Electricity 2020 |website=IEA |date=9 December 2020 |url=https://www.iea.org/reports/projected-costs-of-generating-electricity-2020 |access-date=4 April 2022}}
+* ''NASA''
+**  |year=2013 |title=Arctic amplification |publisher=NASA |url=https://climate.nasa.gov/news/927/arctic-amplification |archive-url=https://web.archive.org/web/20180731054007/https://climate.nasa.gov/news/927/arctic-amplification/ |archive-date=31 July 2018 |url-status=live}}
+**  |date=5 December 2008 |last=Conway |first=Erik M. |author-link=Erik M. Conway |title=What's in a Name? Global Warming vs. Climate Change |publisher=NASA |url=http://www.nasa.gov/topics/earth/features/climate_by_any_other_name.html |archive-url=https://web.archive.org/web/20100809221926/http://www.nasa.gov/topics/earth/features/climate_by_any_other_name.html |archive-date=9 August 2010}}
+** 
+**  |date=7 July 2020 |editor-last=Shaftel |editor-first=Holly |editor2-last=Jackson |editor2-first=Randal |editor3-last=Callery |editor3-first=Susan |editor4-last=Bailey |editor4-first=Daniel |title=Overview: Weather, Global Warming and Climate Change |url=https://climate.nasa.gov/resources/global-warming-vs-climate-change |access-date=14 July 2020 |website=Climate Change: Vital Signs of the Planet}}
+* ''National Conference of State Legislators''
+**  |date=17 April 2020 |title=State Renewable Portfolio Standards and Goals |website=National Conference of State Legislators |url=https://www.ncsl.org/research/energy/renewable-portfolio-standards.aspx |access-date=3 June 2020}}
+* ''National Geographic''
+**  |last=Welch |first=Craig |url=https://www.nationalgeographic.com/environment/2019/08/arctic-permafrost-is-thawing-it-could-speed-up-climate-change-feature/ |archive-url=https://archive.today/20190814144104/https://www.nationalgeographic.com/environment/2019/08/arctic-permafrost-is-thawing-it-could-speed-up-climate-change-feature/ |archive-date=14 August 2019 |title=Arctic permafrost is thawing fast. That affects us all. |date=13 August 2019 |website=National Geographic |access-date=25 August 2019}}
+* ''National Science Digital Library''
+** 
+* ''Natural Resources Defense Council''
+**  |date=29 September 2017 |title=What Is the Clean Power Plan? |website=Natural Resources Defense Council |url=https://www.nrdc.org/stories/how-clean-power-plan-works-and-why-it-matters |access-date=3 August 2020}}
+* ''The New York Times''
+**  |title=Paris Can't Be Another Copenhagen |work=The New York Times |last=Rudd |first=Kevin |date=25 May 2015 |access-date=26 May 2015 |url=https://www.nytimes.com/2015/05/26/opinion/kevin-rudd-paris-cant-be-another-copenhagen.html |archive-url=https://web.archive.org/web/20180203110636/https://www.nytimes.com/2015/05/26/opinion/kevin-rudd-paris-cant-be-another-copenhagen.html |archive-date=3 February 2018 |url-status=live}}
+* ''NOAA''
+**  |date=10 July 2011 |author=NOAA |url=https://www.climate.gov/news-features/understanding-climate/polar-opposites-arctic-and-antarctic |title=Polar Opposites: the Arctic and Antarctic |access-date=20 February 2019 |archive-url=https://web.archive.org/web/20190222152103/https://www.climate.gov/news-features/understanding-climate/polar-opposites-arctic-and-antarctic |archive-date=22 February 2019}}
+** 
+* ''Our World in Data''
+** 
+**  |last1=Ritchie |first1=Hannah |title=Sector by sector: where do global greenhouse gas emissions come from? |website=Our World in Data |url=https://ourworldindata.org/ghg-emissions-by-sector |access-date=28 October 2020}}
+**  |date=2022 |last1=Roser |first1=Max |title=Why did renewables become so cheap so fast? |website=Our World in Data |url=https://ourworldindata.org/cheap-renewables-growth |access-date=4 April 2022}}
+* ''Pew Research Center''
+**  |first1=Moira |last1=Fagan |first2=Christine |last2=Huang |publisher=Pew Research Center |date=16 October 2020 |title=Many globally are as concerned about climate change as about the spread of infectious diseases |url=https://www.pewresearch.org/fact-tank/2020/10/16/many-globally-are-as-concerned-about-climate-change-as-about-the-spread-of-infectious-diseases/ |access-date=19 August 2021}}
+* ''Politico''
+**  |url=https://www.politico.eu/article/the-commissions-green-deal-plan-unveiled/ |title=Europe's Green Deal plan unveiled |last1=Tamma |first1=Paola |last2=Schaart |first2=Eline |date=11 December 2019 |website=Politico |access-date=29 December 2019 |last3=Gurzu |first3=Anca}}
+* ''RIVM''
+**  |date=11 October 2016 |title=Documentary Sea Blind |medium=Dutch Television |language=nl |url=http://www.rivm.nl/en/Documents_and_publications/Common_and_Present/Newsmessages/2016/Documentary_Sea_Blind_on_Dutch_Television |access-date=26 February 2019 |publisher=RIVM: Netherlands National Institute for Public Health and the Environment |archive-url=https://web.archive.org/web/20180817055817/https://www.rivm.nl/en/Documents_and_publications/Common_and_Present/Newsmessages/2016/Documentary_Sea_Blind_on_Dutch_Television |archive-date=17 August 2018 |url-status=live}}
+* ''Salon''
+**  |first=Evelyn |last=Leopold |title=How leaders planned to avert climate catastrophe at the UN (while Trump hung out in the basement) |url=https://www.salon.com/2019/09/25/how-serious-people-planned-to-avert-climate-catastrophe-at-the-un-while-trump-hung-out-in-the-basement_partner/ |date=25 September 2019 |website=Salon |access-date=20 November 2019}}
+* ''ScienceBlogs''
+**  |last1=Gleick |first1=Peter |title=Statements on Climate Change from Major Scientific Academies, Societies, and Associations (January 2017 update) |date=7 January 2017 |access-date=2 April 2020 |url=https://scienceblogs.com/significantfigures/index.php/2017/01/07/statements-on-climate-change-from-major-scientific-academies-societies-and-associations-january-2017-update |work=ScienceBlogs}}
+* ''Scientific American''
+**  |title=Indian Monsoons Are Becoming More Extreme |last=Ogburn |first=Stephanie Paige |date=29 April 2014 |url=https://www.scientificamerican.com/article/indian-monsoons-are-becoming-more-extreme/ |magazine=Scientific American |archive-url=https://web.archive.org/web/20180622193126/https://www.scientificamerican.com/article/indian-monsoons-are-becoming-more-extreme/ |archive-date=22 June 2018 |url-status=live}}
+* ''Smithsonian''
+**  |url=https://www.smithsonianmag.com/smithsonian-institution/studying-climate-past-essential-preparing-todays-rapidly-changing-climate-180959595/ |title=Studying the Climate of the Past Is Essential for Preparing for Today's Rapidly Changing Climate |last=Wing |first=Scott L. |website=Smithsonian |access-date=8 November 2019 |date=29 June 2016}}
+* ''The Sustainability Consortium''
+**  |website=The Sustainability Consortium |date=13 September 2018 |url=https://www.sustainabilityconsortium.org/2018/09/one-fourth-of-global-forest-loss-permanent-deforestation-is-not-slowing-down/ |title=One-Fourth of Global Forest Loss Permanent: Deforestation Is Not Slowing Down |access-date=1 December 2019}}
+* ''UNFCCC''
+**  |title=What are United Nations Climate Change Conferences? |website=UNFCCC |access-date=12 May 2019 |url=https://unfccc.int/process/conferences/what-are-united-nations-climate-change-conferences |archive-url=https://web.archive.org/web/20190512084017/https://unfccc.int/process/conferences/what-are-united-nations-climate-change-conferences |archive-date=12 May 2019 |url-status=live}}
+**  |title=What is the United Nations Framework Convention on Climate Change? |website=UNFCCC |url=https://unfccc.int/process-and-meetings/the-convention/what-is-the-united-nations-framework-convention-on-climate-change}}
+* ''Union of Concerned Scientists''
+**  |date=8 January 2017 |title=Carbon Pricing 101 |website=Union of Concerned Scientists |url=https://www.ucsusa.org/resources/carbon-pricing-101 |access-date=15 May 2020}}
+* ''Vice''
+**  |website=Vice |last1=Segalov |first1=Michael |title=The UK Has Declared a Climate Emergency: What Now? |url=https://www.vice.com/en/article/uk-climate-emergency-what-does-it-mean/ |access-date=30 June 2019 |date=2 May 2019}}
+* ''The Verge''
+**  |title=2019 was the year of 'climate emergency' declarations |last=Calma |first=Justine |date=27 December 2019 |website=The Verge |url=https://www.theverge.com/2019/12/27/21038949/climate-change-2019-emergency-declaration |access-date=28 March 2020}}
+* ''Vox''
+**  |last1=Roberts |first1=D. |date=20 September 2019 |title=Getting to 100% renewables requires cheap energy storage. But how cheap? |website=Vox |url=https://www.vox.com/energy-and-environment/2019/8/9/20767886/renewable-energy-storage-cost-electricity |access-date=28 May 2020}}
+* ''World Health Organization''
+**  |date=3 November 2023 |title=We must fight one of the world's biggest health threats: climate change |website=World Health Organization |url=https://www.who.int/news-room/commentaries/detail/we-must-fight-one-of-the-world-s-biggest-health-threats-climate-change |access-date=19 September 2024}}
+* ''World Resources Institute''
+**  |date=8 August 2019 |last1=Levin |first1=Kelly |title=How Effective Is Land At Removing Carbon Pollution? The IPCC Weighs In |website=World Resources institute |url=https://www.wri.org/blog/2019/08/how-effective-land-removing-carbon-pollution-ipcc-weighs |access-date=15 May 2020}}
+**  |date=8 December 2019 |first1=Frances |last1=Seymour |first2=David |last2=Gibbs |title=Forests in the IPCC Special Report on Land Use: 7 Things to Know |url=https://www.wri.org/blog/2019/08/forests-ipcc-special-report-land-use-7-things-know/ |website=World Resources Institute}}
+* ''Yale Climate Connections''
+**  |title=Yale Researcher Anthony Leiserowitz on Studying, Communicating with American Public |date=2 November 2010 |last=Peach |first=Sara |publisher=Yale Climate Connections |access-date=30 July 2018 |url=https://www.yaleclimateconnections.org/2010/11/communicating-with-american-public |archive-url=https://web.archive.org/web/20190207130823/https://www.yaleclimateconnections.org/2010/11/communicating-with-american-public/ |archive-date=7 February 2019 |url-status=live}}
+
+##  External links 
+
+* [https://www.ipcc.ch/ Intergovernmental Panel on Climate Change: IPCC] (IPCC)
+* [https://www.un.org/en/climatechange UN: Climate Change] (UN)
+* [http://www.metoffice.gov.uk/climate-guide Met Office: Climate Guide] (Met Office)
+* [https://www.noaa.gov/climate National Oceanic and Atmospheric Administration: Climate] (NOAA)
+* [https://royalsociety.org/news-resources/projects/climate-change-evidence-causes Royal Society. Climate change: Evidence and causes] (Royal Society)
+
+ 
+Category:Anthropocene
+Category:Articles containing video clips
+Category:History of climate variability and change
+Category:Global environmental issues
+Category:Human impact on the environment

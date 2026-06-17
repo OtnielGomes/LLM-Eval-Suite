@@ -1,50 +1,41 @@
 """
 scripts/build_datasets.py
-=========================
-CLI entry point for downloading and curating benchmark datasets.
+Entry point CLI: uv run build-datasets
 
-Downloads samples from MMLU and HumanEval via Hugging Face ``datasets``,
-converts them to a unified JSONL schema, and saves them to
-``src/llm_eval/datasets/``.
+Usage:
+uv run build-datasets
+uv run build-datasets --mmlu-n 500 --humaneval-n 100
+uv run build-datasets --skip-humaneval
+uv run build-datasets --skip-mmlu
+uv run build-datasets --rag-qa-n 3 --rag-qa-model qwen3-coder:480b-cloud
 
-Entry point:
-    uv run build-datasets
+Datasets generated:
+  mmlu_sample.jsonl      → benchmark MCQ  (run_benchmark.py)
+  humaneval_sample.jsonl → benchmark MCQ  (run_benchmark.py)
+  curated_qa.jsonl       → RAG Q&A discursive answers (evaluate_rag.py)
 
-Usage examples:
-    uv run build-datasets
-    uv run build-datasets --mmlu-n 500 --humaneval-n 100
-    uv run build-datasets --skip-humaneval
-    uv run build-datasets --skip-mmlu
-
-Output schema (both datasets):
-    {
-        "question": str,       # question text or code prompt
-        "choices":  list[str], # 4 answer options (A-D)
-        "answer":   str,       # correct letter ("A", "B", "C" or "D")
-        "subject":  str,       # MMLU only — academic subject
-        "task_id":  str,       # HumanEval only — e.g. "HumanEval/42"
-    }
-
-Dependencies:
-    datasets >= 2.0
-    tqdm >= 4.0
+WARNING: curated_qa.jsonl is generated from the RAG corpus .txt files via LLM,
+         NOT as a merge of MMLU data. The two datasets have incompatible schemas
+         and serve different scripts.
 """
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import random
 import re
+import time
 from pathlib import Path
 from typing import Any, cast
 
 from tqdm import tqdm
 
-# Datasets directory resolved relative to this script.
-# No sys.path manipulation needed: llm_eval is installed via uv sync.
-DATASETS_DIR   = Path(__file__).parent.parent / "src" / "llm_eval" / "datasets"
-MMLU_PATH      = DATASETS_DIR / "mmlu_sample.jsonl"
-HUMANEVAL_PATH = DATASETS_DIR / "humaneval_sample.jsonl"
+DATASETS_DIR    = Path(__file__).parent.parent / "src" / "llm_eval" / "datasets"
+MMLU_PATH       = DATASETS_DIR / "mmlu_sample.jsonl"
+HUMANEVAL_PATH  = DATASETS_DIR / "humaneval_sample.jsonl"
+CURATED_QA_PATH = DATASETS_DIR / "curated_qa.jsonl"
+RAW_DIR         = DATASETS_DIR / "raw"
 
 MMLU_SUBJECTS = [
     "abstract_algebra", "anatomy", "astronomy", "college_biology",
@@ -59,44 +50,12 @@ MMLU_SUBJECTS = [
     "world_religions",
 ]
 
-
 # ---------------------------------------------------------------------------
-# MMLU
+# MMLU — schema: {question, choices, answer:"A"|"B"|"C"|"D", subject}
+# Used by: run_benchmark.py
 # ---------------------------------------------------------------------------
 
 def build_mmlu(n: int = 200, seed: int = 42) -> None:
-
-    """Download and sample items from the MMLU benchmark.
-
-    Loads the ``cais/mmlu`` dataset from Hugging Face, draws an equal number
-    of items from each subject (``n // len(MMLU_SUBJECTS)``), shuffles the
-    result with a fixed seed, and writes up to ``n`` items to
-    ``mmlu_sample.jsonl``.
-
-    Each output item follows the schema::
-
-        {
-            "question": str,       # raw question text
-            "choices":  list[str], # exactly 4 answer options
-            "answer":   str,       # correct letter: "A", "B", "C" or "D"
-            "subject":  str,       # originating MMLU subject
-        }
-
-    Args:
-        n:    Total number of items to collect across all subjects.
-              Distributed evenly; subjects with fewer rows are capped at
-              their actual size.
-        seed: Random seed used for both per-subject sampling and the final
-              global shuffle, ensuring reproducibility.
-
-    Raises:
-        SystemExit: If the ``datasets`` package is not installed.
-
-    Note:
-        Subjects that fail to load (network error, missing split, etc.) are
-        skipped with a warning rather than aborting the entire run.
-    """
-
     try:
         from datasets import load_dataset
     except ImportError:
@@ -110,7 +69,7 @@ def build_mmlu(n: int = 200, seed: int = 42) -> None:
 
     for subject in tqdm(MMLU_SUBJECTS, desc=" Subjects"):
         try:
-            ds   = load_dataset("cais/mmlu", subject, split="test", trust_remote_code=True)
+            ds = load_dataset("cais/mmlu", subject, split="test", trust_remote_code=True)
             rows: list[dict[str, Any]] = cast(list[dict[str, Any]], list(ds))
             random.seed(seed)
             sample = random.sample(rows, min(items_per_subject, len(rows)))
@@ -122,65 +81,30 @@ def build_mmlu(n: int = 200, seed: int = 42) -> None:
                     "subject":  subject,
                 })
         except Exception as e:
-            tqdm.write(f" ⚠ Subject '{subject}' fail: {e}")
+            tqdm.write(f" ⚠ Subject '{subject}' failed: {e}")
 
     random.seed(seed)
     random.shuffle(collected)
     collected = collected[:n]
 
     _save_jsonl(collected, MMLU_PATH)
-    print(f" ✓ {len(collected)} Save items in {MMLU_PATH}")
+    print(f" ✓ {len(collected)} items saved to {MMLU_PATH}")
     _print_subject_distribution(collected)
 
 
 def _print_subject_distribution(items: list[dict]) -> None:
-
-    """Print a bar chart of item counts grouped by MMLU subject.
-
-    Uses ASCII block characters (█) as bars. Only the top 10 subjects
-    by frequency are shown to keep the output readable.
-
-    Args:
-        items: List of MMLU items, each expected to have a ``"subject"`` key.
-    """
-    
     from collections import Counter
     dist = Counter(item["subject"] for item in items)
     print("\n Distribution by subject (top 10):")
     for subject, count in dist.most_common(10):
         print(f"   {subject:<40} {count:>3} {'█' * count}")
 
-
 # ---------------------------------------------------------------------------
-# HumanEval
+# HumanEval — schema: {question, choices, answer:"A"|"B"|"C"|"D", task_id}
+# Used by: run_benchmark.py
 # ---------------------------------------------------------------------------
 
 def build_humaneval(n: int = 50, seed: int = 42) -> None:
-
-    """Download and convert HumanEval problems to multiple-choice format.
-
-    Loads the ``openai/openai_humaneval`` dataset from Hugging Face and
-    converts each coding problem into a 4-option MCQ. The canonical solution
-    is used as the correct answer (A-D, randomised), and three syntactically
-    mutated distractors are generated via :func:`_generate_code_choices`.
-
-    Each output item follows the schema::
-
-        {
-            "question": str,       # function signature + docstring as MCQ stem
-            "choices":  list[str], # 4 code snippets (truncated to 120 chars)
-            "answer":   str,       # correct letter: "A", "B", "C" or "D"
-            "task_id":  str,       # original HumanEval ID, e.g. "HumanEval/0"
-        }
-
-    Args:
-        n:    Number of problems to sample. Capped at the dataset size (164).
-        seed: Random seed for reproducible sampling and choice shuffling.
-
-    Raises:
-        SystemExit: If the ``datasets`` package is not installed.
-    """
-
     try:
         from datasets import load_dataset
     except ImportError:
@@ -188,13 +112,13 @@ def build_humaneval(n: int = 50, seed: int = 42) -> None:
         raise SystemExit(1)
 
     print(f"\n[HumanEval] Downloading {n} items...")
-    ds   = load_dataset("openai/openai_humaneval", split="test", trust_remote_code=True)
+    ds = load_dataset("openai/openai_humaneval", split="test", trust_remote_code=True)
     rows: list[dict[str, Any]] = cast(list[dict[str, Any]], list(ds))
     random.seed(seed)
-    sample    = random.sample(rows, min(n, len(rows)))
+    sample = random.sample(rows, min(n, len(rows)))
     collected: list[dict[str, Any]] = []
 
-    for row in tqdm(sample, desc=" Converting for MCQ"):
+    for row in tqdm(sample, desc=" Converting to MCQ"):
         prompt    = row["prompt"].strip()
         canonical = row["canonical_solution"].strip()
         fn_match  = re.search(r"def (\w+)\(", prompt)
@@ -213,32 +137,10 @@ def build_humaneval(n: int = 50, seed: int = 42) -> None:
         })
 
     _save_jsonl(collected, HUMANEVAL_PATH)
-    print(f" ✓ {len(collected)} Save items in {HUMANEVAL_PATH}")
+    print(f" ✓ {len(collected)} items saved to {HUMANEVAL_PATH}")
 
 
 def _generate_code_choices(canonical: str) -> tuple[list[str], str]:
-    """Generate one correct answer and three distractor options for a code MCQ.
-
-    Applies three deterministic mutation strategies to produce syntactically
-    plausible but semantically incorrect variants of the canonical solution:
-
-    - **Operator mutation**: replaces ``>=`` with ``>`` and ``<=`` with ``<``.
-    - **Init mutation**: replaces the first two ``0`` literals with ``1`` and
-      the first ``[]`` with ``{}``.
-    - **Condition mutation**: inserts ``not`` into the first ``if`` condition.
-
-    Mutations that produce output identical to ``canonical`` are discarded.
-    If fewer than 3 distinct distractors remain after filtering, the list is
-    padded with ``"return None  # incomplete implementation"``.
-
-    Args:
-        canonical: The ground-truth solution string from HumanEval.
-
-    Returns:
-        A tuple of ``(choices, answer)`` where:
-        - ``choices`` is a list of 4 strings (each truncated to 120 chars).
-        - ``answer`` is the letter (``"A"``–``"D"``) of the correct option.
-    """
     def mutate_operators(c: str) -> str:
         c = re.sub(r">=", ">", c)
         return re.sub(r"<=", "<", c)
@@ -261,23 +163,137 @@ def _generate_code_choices(canonical: str) -> tuple[list[str], str]:
     choices     = [f"{opt[:120]}..." if len(opt) > 120 else opt for opt in options]
     return choices, chr(65 + correct_idx)
 
+# ---------------------------------------------------------------------------
+# RAG QA — schema: {question, ground_truth, source_file, subject}
+# Used by: evaluate_rag.py  ← the ONLY valid consumer of this dataset
+#
+# Generation: the LLM reads each .txt from the corpus and produces
+# one discursive Q&A pair per document. ground_truth is a prose answer
+# extracted from the text — never an MCQ letter.
+# ---------------------------------------------------------------------------
+
+_QA_SYSTEM = (
+    "You are a dataset curator. Given a text passage, generate exactly ONE "
+    "question-answer pair that tests factual understanding of the passage. "
+    "The answer must be a complete sentence (15-80 words) derived strictly "
+    "from the passage — do not add external knowledge. "
+    "Respond ONLY with valid JSON, no markdown fences:\n"
+    '{"question": "...", "ground_truth": "..."}'
+)
+
+
+def _generate_qa_for_doc(
+    text: str,
+    source_file: str,
+    subject: str,
+    client: Any,
+    model: str,
+    max_chars: int = 3000,
+) -> dict | None:
+    snippet = text[:max_chars].strip()
+    prompt  = f"Passage:\n\n{snippet}\n\nGenerate the JSON now:"
+    try:
+        resp = client.complete(prompt, system=_QA_SYSTEM)
+        raw  = resp.response.strip()
+        # Strip markdown fences if the model ignores the instruction
+        raw  = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.IGNORECASE)
+        raw  = re.sub(r"\s*```$", "", raw)
+        item = json.loads(raw)
+        if "question" not in item or "ground_truth" not in item:
+            raise ValueError("Missing required keys")
+        if len(item["ground_truth"].split()) < 5:
+            raise ValueError(f"ground_truth too short: {item['ground_truth']!r}")
+        item["source_file"] = source_file
+        item["subject"]     = subject
+        return item
+    except Exception as e:
+        tqdm.write(f"   ⚠ Skipped {source_file}: {e}")
+        return None
+
+
+def build_rag_qa(
+    n_per_doc: int = 1,
+    model: str | None = None,
+    seed: int = 42,
+) -> None:
+    """
+    Generate curated_qa.jsonl from the RAG corpus .txt files.
+
+    For each .txt file under datasets/raw/:
+      - Sends the text (truncated to 3k chars) to the LLM
+      - Requests one discursive {question, ground_truth} pair
+      - Appends the result to curated_qa.jsonl
+
+    Requires Ollama Cloud (OLLAMA_API_KEY must be set in .env).
+    """
+    from dotenv import load_dotenv
+    load_dotenv()
+
+    from src.llm_eval.clients.ollama_cloud_cliente import OllamaCloudClient
+    from src.llm_eval.shared.config import OLLAMA_CLOUD_MODEL
+
+    gen_model = model or os.getenv("OLLAMA_CLOUD_MODEL") or OLLAMA_CLOUD_MODEL
+    client    = OllamaCloudClient()
+
+    txt_files = sorted(RAW_DIR.rglob("*.txt"))
+    if not txt_files:
+        print(f" ⚠ No .txt files found in {RAW_DIR}. Run: uv run populate-raw-docs")
+        return
+
+    print(f"\n[RAG QA] Generating Q&A pairs from {len(txt_files)} docs | model: {gen_model}")
+    print(f"         Output → {CURATED_QA_PATH}\n")
+
+    random.seed(seed)
+    collected: list[dict] = []
+
+    for txt_path in tqdm(txt_files, desc=" Docs"):
+        subject = txt_path.parent.name
+        text    = txt_path.read_text(encoding="utf-8")
+        source  = str(txt_path.relative_to(RAW_DIR))
+
+        item = _generate_qa_for_doc(
+            text=text,
+            source_file=source,
+            subject=subject,
+            client=client,
+            model=gen_model,
+        )
+        if item:
+            collected.append(item)
+        time.sleep(0.2)  # avoid rate-limiting
+
+    if not collected:
+        print(" ✗ No Q&A pairs generated. Check your OLLAMA_API_KEY and model.")
+        return
+
+    _save_jsonl(collected, CURATED_QA_PATH)
+    print(f"\n ✓ {len(collected)} Q&A pairs saved to {CURATED_QA_PATH}")
+    _validate_rag_qa(CURATED_QA_PATH)
+
+
+def _validate_rag_qa(path: Path) -> None:
+    print(f"\n Validating {path.name}...")
+    with open(path, encoding="utf-8") as f:
+        for i, line in enumerate(f):
+            if i >= 3:
+                break
+            item    = json.loads(line)
+            missing = [k for k in ("question", "ground_truth") if k not in item]
+            if missing:
+                print(f" ⚠ Row {i+1}: missing fields: {missing}")
+            else:
+                gt_words = len(item["ground_truth"].split())
+                print(
+                    f" ✓ Row {i+1} ({item['subject']}): "
+                    f"Q={item['question'][:55]}... | "
+                    f"GT={gt_words} words"
+                )
 
 # ---------------------------------------------------------------------------
-# Utilities
+# Helpers
 # ---------------------------------------------------------------------------
 
 def _save_jsonl(items: list[dict], path: Path) -> None:
-
-    """Serialise a list of dicts to a JSONL file, one JSON object per line.
-
-    Creates any missing parent directories before writing.
-    Uses ``ensure_ascii=False`` to preserve Unicode characters in questions.
-
-    Args:
-        items: List of dicts to serialise.
-        path:  Destination file path. Parent directories are created if absent.
-    """
-
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         for item in items:
@@ -285,19 +301,7 @@ def _save_jsonl(items: list[dict], path: Path) -> None:
 
 
 def _validate(path: Path, expected_keys: list[str]) -> None:
-
-    """Spot-check the first 3 lines of a JSONL file for required keys.
-
-    Prints a ``✓`` confirmation for each valid line and a ``⚠`` warning
-    listing any missing keys. Intended as a lightweight post-build sanity
-    check rather than a full schema validation.
-
-    Args:
-        path:          Path to the JSONL file to validate.
-        expected_keys: List of keys that must be present in every item.
-    """
-
-    print(f"\n Validatiing {path.name}...")
+    print(f"\n Validating {path.name}...")
     with open(path, encoding="utf-8") as f:
         for i, line in enumerate(f):
             if i >= 3:
@@ -305,50 +309,46 @@ def _validate(path: Path, expected_keys: list[str]) -> None:
             item    = json.loads(line)
             missing = [k for k in expected_keys if k not in item]
             if missing:
-                print(f" ⚠ Line {i+1}: missing fields: {missing}")
+                print(f" ⚠ Row {i+1}: missing fields: {missing}")
             else:
-                print(f" ✓ Line {i+1}: OK — {item['question'][:60]}...")
-
+                print(f" ✓ Row {i+1}: OK — {item['question'][:60]}...")
 
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
 def parse_args() -> argparse.Namespace:
-
-    """Parse command-line arguments for the dataset builder.
-
-    Returns:
-        argparse.Namespace with the following attributes:
-
-        - ``mmlu_n`` (int):          Number of MMLU items to collect (default: 200).
-        - ``humaneval_n`` (int):     Number of HumanEval items to collect (default: 50).
-        - ``seed`` (int):            Random seed for reproducibility (default: 42).
-        - ``skip_mmlu`` (bool):      If True, skips the MMLU download step.
-        - ``skip_humaneval`` (bool): If True, skips the HumanEval download step.
-    """
-
-    parser = argparse.ArgumentParser(description="Download and curate MMLU and HumanEval.")
-    parser.add_argument("--mmlu-n",       type=int, default=200)
-    parser.add_argument("--humaneval-n",  type=int, default=50)
-    parser.add_argument("--seed",         type=int, default=42)
-    parser.add_argument("--skip-mmlu",       action="store_true")
-    parser.add_argument("--skip-humaneval",  action="store_true")
+    parser = argparse.ArgumentParser(
+        description="Build MMLU, HumanEval and RAG QA datasets.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=(
+            "Datasets generated:\n"
+            "  mmlu_sample.jsonl      → run_benchmark.py  (MCQ, answer='A'|'B'|'C'|'D')\n"
+            "  humaneval_sample.jsonl → run_benchmark.py  (MCQ, answer='A'|'B'|'C'|'D')\n"
+            "  curated_qa.jsonl       → evaluate_rag.py   (discursive Q&A, ground_truth=prose)\n"
+        ),
+    )
+    parser.add_argument("--mmlu-n",      type=int, default=200)
+    parser.add_argument("--humaneval-n", type=int, default=50)
+    parser.add_argument(
+        "--rag-qa-n", type=int, default=1,
+        help="Q&A pairs per document for curated_qa.jsonl (default: 1)",
+    )
+    parser.add_argument(
+        "--rag-qa-model", type=str, default=None,
+        help="Model for RAG QA generation (default: OLLAMA_CLOUD_MODEL from .env)",
+    )
+    parser.add_argument("--seed",           type=int, default=42)
+    parser.add_argument("--skip-mmlu",      action="store_true")
+    parser.add_argument("--skip-humaneval", action="store_true")
+    parser.add_argument(
+        "--skip-rag-qa", action="store_true",
+        help="Skip curated_qa.jsonl generation (requires an LLM call)",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
-
-    """Orchestrate the dataset build pipeline.
-
-    Parses CLI arguments and conditionally runs :func:`build_mmlu` and/or
-    :func:`build_humaneval`, followed by a :func:`_validate` spot-check on
-    each generated file.
-
-    This function is registered as the ``build-datasets`` entry point in
-    ``pyproject.toml`` and is invoked via ``uv run build-datasets``.
-    """
-    
     args = parse_args()
     print("=" * 60)
     print(" LLM-Eval-Suite — Dataset Builder")
@@ -362,7 +362,14 @@ def main() -> None:
         build_humaneval(n=args.humaneval_n, seed=args.seed)
         _validate(HUMANEVAL_PATH, ["question", "choices", "answer", "task_id"])
 
-    print("\n ✓ Datasets ready for use with run-benchmark\n")
+    if not args.skip_rag_qa:
+        build_rag_qa(n_per_doc=args.rag_qa_n, model=args.rag_qa_model, seed=args.seed)
+    else:
+        print("\n[RAG QA] Skipped (--skip-rag-qa)")
+
+    print("\n ✅ Datasets ready:")
+    print("    run_benchmark → mmlu_sample.jsonl + humaneval_sample.jsonl")
+    print("    evaluate_rag  → curated_qa.jsonl\n")
 
 
 if __name__ == "__main__":

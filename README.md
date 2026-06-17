@@ -1,245 +1,271 @@
-# LLM Eval Suite
+# llm-eval
 
-Pipeline completo de avaliação de Large Language Models (LLMs) com suporte a benchmarks públicos, avaliação de pipelines RAG e métricas automáticas (BLEU, ROUGE, LLM-as-judge).
-
-***
-
-## Visão Geral
-
-O **LLM Eval Suite** é um framework modular para avaliar modelos de linguagem em múltiplas dimensões:
-
-- **Benchmarks públicos** — MMLU (raciocínio e conhecimento) e HumanEval (geração de código)
-- **Avaliação RAG** — três estratégias de retrieval avaliadas com o framework RAGAS
-- **Métricas automáticas** — BLEU, ROUGE-L e LLM-as-judge via Gemini
-- **Observabilidade** — rastreamento completo de experimentos via LangSmith
+A framework for evaluating Large Language Models using **prompting strategies** (Zero-Shot, Few-Shot, Chain-of-Thought) and **RAG retrieval strategies** (Naive, HyDE, Reranking), with metrics from BLEU, ROUGE, LLM-as-Judge, and RAGAS.
 
 ***
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
-llm-eval-suite/
-│
-├── 01_benchmark/           # Benchmark com MMLU e HumanEval
-│   ├── __init__.py
-│   ├── run_benchmark.py    # Execução dos benchmarks
-│   └── metrics.py          # Cálculo de BLEU, ROUGE, LLM-as-judge
-│
-├── 02_rag_eval/            # Avaliação de pipelines RAG
-│   ├── __init__.py
-│   ├── ingest_docs.py      # Chunking + embeddings → ChromaDB
-│   ├── rag_pipeline.py     # 3 estratégias de retrieval
-│   └── evaluate_rag.py     # Avaliação com RAGAS
-│
-├── 03_dataset/             # Curadoria e build dos datasets
-│   ├── __init__.py
-│   └── build_datasets.py   # Download e processamento dos datasets
-│
-├── shared/                 # Utilitários compartilhados
-│   ├── __init__.py
-│   ├── llm_client.py       # Cliente unificado (Gemini / Ollama)
-│   └── utils.py            # Helpers gerais
-│
-├── scripts/                # Entry points dos scripts CLI
-│   ├── __init__.py
-│   ├── build_datasets.py
-│   ├── run_benchmark.py
-│   ├── ingest_docs.py
-│   └── evaluate_rag.py
-│
-├── tests/                  # Testes automatizados
-│   └── ...
-│
-├── notebooks/              # Análise exploratória e visualizações
-│   └── ...
-│
-├── .env                    # Variáveis de ambiente (não versionar)
-├── .env.example            # Template de variáveis de ambiente
-├── pyrightconfig.json      # Configuração do Pylance/Pyright
-├── pyproject.toml          # Dependências e configuração do projeto
-└── README.md
+llm-eval/
+├── notebooks/
+│   ├── 01_benchmark_analysis.ipynb   # Benchmark results analysis
+│   └── 02_rag_comparison.ipynb       # RAG pipeline results analysis
+├── scripts/
+│   ├── run_benchmark.py              # CLI: benchmark runner
+│   ├── evaluate_rag.py               # CLI: RAG evaluator
+│   ├── ingest.py                     # CLI: document ingestion into ChromaDB
+│   ├── populate_raw_docs.py          # CLI: populate raw document corpus
+│   └── build_datasets.py             # CLI: build JSONL datasets
+├── src/llm_eval/
+│   ├── benchmark/
+│   │   ├── evaluator.py              # BLEU, ROUGE, LLM-as-Judge logic
+│   │   └── prompt_strategies/        # zero_shot, few_shot, chain_of_thought
+│   ├── rag/
+│   │   ├── rag_pipeline.py           # RAG orchestrator
+│   │   └── strategies/               # naive, hyde, reranking
+│   ├── clients/
+│   │   ├── ollama_cliente.py         # Ollama local client
+│   │   └── ollama_cloud_cliente.py   # Ollama Cloud client
+│   ├── datasets/
+│   │   ├── mmlu_sample.jsonl         # MMLU benchmark dataset
+│   │   ├── curated_qa.jsonl          # Curated Q&A for RAG evaluation
+│   │   └── raw/                      # Source documents (26 MMLU domains)
+│   └── shared/
+│       ├── config.py                 # Environment config
+│       ├── langsmith_tracer.py       # LangSmith tracing
+│       └── types.py                  # EvalResult, RAGResult types
+├── results/                          # JSON + CSV outputs per model/strategy
+├── chromadb/                         # Persisted ChromaDB vector store
+├── tests/                            # Unit tests
+└── .env                              # API keys and config (see below)
 ```
 
 ***
 
-## Requisitos
+## Architecture
+
+The project uses a **hybrid inference architecture**:
+
+| Component | Backend | Model | Purpose |
+|---|---|---|---|
+| Generation | Ollama Cloud | Configurable via `.env` | Answer generation |
+| Embeddings | Ollama Local | `nomic-embed-text` | Document & query embeddings |
+| Judge (benchmark) | Ollama Cloud | Configurable via `.env` | LLM-as-Judge scoring |
+| Judge (RAGAS) | Ollama Cloud | `qwen3-coder:480b` (default) | RAGAS metric evaluation |
+| Vector Store | Local | ChromaDB | Document retrieval |
+
+***
+
+## Requirements
 
 - Python 3.11+
-- [uv](https://docs.astral.sh/uv/) (gerenciador de pacotes)
-- Chave de API do Google Gemini
-- Chave de API do LangSmith (opcional, para observabilidade)
-- Ollama (opcional, para modelos locais)
+- [uv](https://docs.astral.sh/uv/) (package manager)
+- [Ollama](https://ollama.com/) running locally on `http://localhost:11434`
+- Ollama Cloud API key ([get one here](https://ollama.com/settings/keys))
 
 ***
 
-## Instalação
+## Setup
+
+### 1. Install dependencies
 
 ```bash
-# 1. Clonar o repositório
-git clone https://github.com/seu-usuario/llm-eval-suite.git
-cd llm-eval-suite
-
-# 2. Instalar uv (se não tiver)
-pip install uv
-
-# 3. Criar ambiente virtual e instalar dependências
 uv sync
-
-# 4. Instalar dependências de desenvolvimento (pytest, ruff, notebooks)
-uv sync --group dev
-
-# 5. Configurar variáveis de ambiente
-cp .env.example .env
-# Edite o .env com suas chaves de API
 ```
 
-***
+### 2. Configure environment
 
-## Configuração
-
-Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+Create a `.env` file at the project root:
 
 ```env
-# Google Gemini
-GEMINI_API_KEY='sua-chave-aqui'
+# Ollama Cloud
+OLLAMA_API_KEY=your-ollama-cloud-key
+OLLAMA_CLOUD_BASE_URL=https://api.ollama.com
+OLLAMA_CLOUD_MODEL=qwen3-coder:480b-cloud
 
-# LangSmith (observabilidade — opcional)
-LANGSMITH_API_KEY='lsv2_pt_sua-chave-aqui'
-LANGSMITH_TRACING=true
-LANGSMITH_PROJECT=llm-eval-suite
-
-# Ollama (modelos locais — opcional)
+# Ollama Local
 OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_EMBED_MODEL=nomic-embed-text
+OLLAMA_LLM_MODEL=llama3.1:8b
+
+# Judge model for RAGAS (use a large model for stable parsing)
+OLLAMA_JUDGE_MODEL=qwen3-coder:480b-cloud
+
+# LangSmith (optional — for tracing)
+LANGCHAIN_API_KEY=your-langsmith-key
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_PROJECT=llm-eval
+```
+
+### 3. Pull the embedding model
+
+```bash
+ollama pull nomic-embed-text
 ```
 
 ***
 
-## Uso
+## Usage
 
-Todos os comandos são executados via `uv run`:
+### Benchmark (Notebook 01)
+
+**Run all prompting strategies:**
 
 ```bash
-# 1. Baixar e processar os datasets (MMLU + HumanEval)
-uv run build-datasets
+uv run run-benchmark --all-strategies --limit 50
+```
 
-# 2. Executar o benchmark completo
-uv run run-benchmark
+**Run a specific strategy:**
 
-# 3. Ingerir documentos no ChromaDB (vetorização)
+```bash
+uv run run-benchmark --strategy zero_shot --limit 25
+uv run run-benchmark --strategy few_shot --limit 25
+uv run run-benchmark --strategy chain_of_thought --limit 25
+```
+
+**Run locally (Ollama local model):**
+
+```bash
+uv run run-benchmark --strategy zero_shot --local --limit 10
+```
+
+Results are saved to `results/` as `.json` and `.csv`.
+
+***
+
+### RAG Evaluation (Notebook 02)
+
+**Step 1 — Ingest documents into ChromaDB:**
+
+```bash
 uv run ingest-docs
+# Reset and re-ingest:
+uv run ingest-docs --reset
+```
 
-# 4. Avaliar as 3 estratégias RAG com RAGAS
+**Step 2 — Run RAG evaluation:**
+
+```bash
+# All strategies, all models
 uv run evaluate-rag
+
+# Specific strategy and model
+uv run evaluate-rag --strategy naive --model qwen3-coder:480b-cloud --limit 10
+uv run evaluate-rag --strategy hyde --limit 5
+uv run evaluate-rag --strategy reranking --limit 5
 ```
 
-Ou, após `pip install -e .`, os comandos ficam disponíveis diretamente no terminal:
+Results are saved to `results/ragas_<strategy>_<model>.json`.
+
+***
+
+## Prompting Strategies
+
+| Strategy | Description | Best for |
+|---|---|---|
+| **Zero-Shot** | Direct question, no examples | Large models with strong priors |
+| **Few-Shot** | 3–5 solved examples prepended to the prompt | Format calibration |
+| **Chain-of-Thought** | Instructs model to reason step-by-step | Smaller models on complex tasks |
+
+***
+
+## RAG Retrieval Strategies
+
+| Strategy | Description | Extra cost |
+|---|---|---|
+| **Naive** | Direct query embedding → vector search → LLM | None |
+| **HyDE** | LLM generates a hypothetical answer → embed hypothesis → vector search → LLM | +1 LLM call per query |
+| **Reranking** | Broad retrieval (top-K) → cross-encoder reranks → top-N → LLM | +K cross-encoder calls |
+
+***
+
+## Evaluation Metrics
+
+### Benchmark Metrics
+
+| Metric | What it measures | Primary? |
+|---|---|---|
+| `judge_correct` | Whether the correct answer letter was selected (binary) | ✅ Yes |
+| `judge_score` | Fluency and completeness of reasoning (1–5, LLM-as-Judge) | ⚠️ Secondary |
+| `ROUGE-L` | Longest common subsequence overlap with reference | ❌ Unreliable for MCQ+CoT |
+| `BLEU` | N-gram overlap with reference | ❌ Unreliable for MCQ+CoT |
+| `latency_ms` | Response time per query in milliseconds | ✅ Operational |
+
+### RAGAS Metrics
+
+| Metric | What it measures |
+|---|---|
+| **Faithfulness** | Are claims in the answer supported by retrieved documents? |
+| **Answer Relevancy** | Does the answer address the user's question? |
+| **Context Recall** | Were all relevant chunks retrieved? |
+| **Context Precision** | Are retrieved chunks genuinely relevant? |
+| **Composite Score** | Mean of all four RAGAS metrics |
+
+***
+
+## Key Results
+
+### Benchmark (MMLU — 50 questions)
+
+| Model | Zero-Shot | Few-Shot | CoT | Mean Accuracy |
+|---|---|---|---|---|
+| **Qwen3-Coder 480B** | 90% | 88% | 90% | **89.3%** |
+| Gemma3 27B | 68% | 64% | 88% | 73.3% |
+| GPT-OSS 20B | 0% | 4% | 8% | 4% |
+
+### RAG Evaluation — Composite RAGAS Score
+
+| Model | Naive | HyDE | Reranking | Mean |
+|---|---|---|---|---|
+| **Gemma3 27B** | 0.968 | **0.988** | 0.969 | **0.975** |
+| Qwen3-Coder 480B | 0.971 | 0.973 | 0.922 | 0.955 |
+| GPT-OSS 20B | 0.651 | 0.000 | 0.653 | 0.435 |
+
+***
+
+## Production Recommendations
+
+| Use Case | Model | Strategy | Reason |
+|---|---|---|---|
+| MCQ / Reasoning tasks | Qwen3-Coder 480B | Zero-Shot | 90% accuracy at ~4.1s, no prompt engineering needed |
+| RAG — max faithfulness | Gemma3 27B | HyDE | Composite 0.988, faithfulness 1.00 |
+| RAG — low latency | Qwen3-Coder 480B | Naive | Composite 0.971, simplest pipeline |
+
+***
+
+## Known Limitations
+
+- **ROUGE-L / BLEU are unreliable for MCQ** when using CoT — long reasoning chains deflate scores against single-letter references. Use `judge_correct` as the primary accuracy metric.
+- **Judge Score measures fluency, not correctness** — a model can receive a high judge score with an incorrect answer. Always cross-reference with `judge_correct`.
+- **HyDE collapses with weak models** — GPT-OSS 20B produced a composite score of 0.000 with HyDE because the model cannot generate coherent hypothetical documents. Add a fallback to Naive when the hypothesis is empty or malformed.
+- **Reranking degrades Qwen3 context recall** — bimodal distribution observed in the violin plot suggests the cross-encoder discards relevant chunks for technical queries.
+
+***
+
+## Observability
+
+LangSmith tracing is supported out of the box. When `LANGCHAIN_TRACING_V2=true` is set in `.env`, every LLM call in the benchmark is traced with:
+
+- Strategy name and model
+- Prompt and response
+- `judge_score`, `judge_correct`, BLEU, ROUGE-L, `latency_ms`
+- Run-level summary per strategy
+
+View traces at [smith.langchain.com](https://smith.langchain.com).
+
+***
+
+## Tests
 
 ```bash
-build-datasets
-run-benchmark
-ingest-docs
-evaluate-rag
+uv run pytest tests/ -v
 ```
 
-***
-
-## Benchmarks Implementados
-
-### MMLU (Massive Multitask Language Understanding)
-
-Avalia o modelo em 57 domínios de conhecimento (matemática, direito, medicina, história, etc.) com questões de múltipla escolha de 4 alternativas.
-
-| Métrica | Descrição |
-|---------|-----------|
-| Accuracy | % de questões respondidas corretamente |
-| Accuracy por domínio | Desempenho segmentado por área |
-
-### HumanEval
-
-Avalia a capacidade do modelo de gerar código Python funcional a partir de docstrings.
-
-| Métrica | Descrição |
-|---------|-----------|
-| pass@1 | % de problemas resolvidos na primeira tentativa |
-| BLEU | Similaridade léxica com solução de referência |
+Test coverage includes the `Evaluator`, Ollama Cloud client, and RAG pipeline.
 
 ***
 
-## Avaliação RAG
+## License
 
-Três estratégias de retrieval são comparadas:
-
-| Estratégia | Descrição |
-|------------|-----------|
-| **Naive RAG** | Chunking fixo + similaridade cosine |
-| **HyDE** | Geração de documento hipotético antes do retrieval |
-| **Reranking** | Retrieval inicial + reranking por relevância |
-
-### Métricas RAGAS
-
-| Métrica | O que mede |
-|---------|------------|
-| `faithfulness` | Respostas fundamentadas nos documentos recuperados |
-| `answer_relevancy` | Relevância da resposta para a pergunta |
-| `context_precision` | Precisão dos chunks recuperados |
-| `context_recall` | Cobertura dos chunks relevantes |
-
-***
-
-## Métricas Automáticas
-
-Além do RAGAS, o projeto implementa:
-
-- **BLEU** — similaridade n-gram entre resposta gerada e referência
-- **ROUGE-L** — sequência comum mais longa entre gerado e referência
-- **LLM-as-judge** — avaliação de qualidade usando Gemini como juiz (escala 1–5)
-
-***
-
-## Observabilidade com LangSmith
-
-Com `LANGSMITH_TRACING=true`, todas as chamadas LLM são rastreadas automaticamente no painel do LangSmith, incluindo:
-
-- Prompts enviados e respostas recebidas
-- Latência e contagem de tokens por chamada
-- Agrupamento de traces por experimento via `LANGSMITH_PROJECT`
-
-***
-
-## Desenvolvimento
-
-```bash
-# Rodar os testes
-uv run pytest
-
-# Rodar com cobertura
-uv run pytest --cov
-
-# Linting e formatação
-uv run ruff check .
-uv run ruff format .
-
-# Type checking
-uv run mypy .
-```
-
-***
-
-## Dependências Principais
-
-| Pacote | Uso |
-|--------|-----|
-| `google-genai` | Cliente oficial da API Gemini |
-| `langchain` + `langchain-google-genai` | Orquestração de pipelines LLM |
-| `chromadb` + `langchain-chroma` | Vector store para RAG |
-| `ragas` | Avaliação automática de pipelines RAG |
-| `datasets` | Acesso aos datasets MMLU e HumanEval (HuggingFace) |
-| `nltk` + `rouge-score` | Métricas BLEU e ROUGE |
-| `langsmith` | Rastreamento e observabilidade |
-| `typer` + `rich` | Interface CLI com output formatado |
-
-***
-
-## Licença
-
-MIT License — veja o arquivo [LICENSE](LICENSE) para detalhes.
+MIT

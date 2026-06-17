@@ -1,39 +1,19 @@
 """
 scripts/ingest.py
-=================
-CLI entry point for loading, chunking, and indexing documents into ChromaDB.
+Entry point CLI: uv run ingest-docs
 
-Reads ``.txt`` and ``.md`` files from a source directory, splits them into
-overlapping chunks, generates embeddings via a local Ollama model, and
-persists the resulting vector store to disk for use by the RAG pipeline.
+Usage:
+uv run ingest-docs
+uv run ingest-docs --source src/llm_eval/datasets/raw --reset
+uv run ingest-docs --status
 
-Entry point:
-    uv run ingest-docs
+Hybrid Architecture:
+Embeddings → Local Ollama (nomic-embed-text) — free, offline, fast
+Generation → Cloud Ollama (llama3.3:70b)     — heavyweight models without hardware
 
-Usage examples:
-    uv run ingest-docs
-    uv run ingest-docs --source src/llm_eval/datasets/raw --reset
-
-Architecture:
-    Embeddings : Ollama local (nomic-embed-text) — free, offline, fast
-    Generation : Ollama Cloud (llama3.3:70b)     — heavy models without local hardware
-
-Prerequisites:
-    ollama pull nomic-embed-text   (274 MB, one-time download)
-
-Configuration (resolved from ``src/llm_eval/shared/config.py``):
-    CHROMA_PERSIST_DIR  : path where ChromaDB persists its SQLite + binary files
-    CHROMA_COLLECTION   : collection name inside ChromaDB
-    CHUNK_SIZE          : maximum token/character size per chunk
-    CHUNK_OVERLAP       : overlap between consecutive chunks to preserve context
-    OLLAMA_EMBED_MODEL  : embedding model name, e.g. ``"nomic-embed-text"``
-    OLLAMA_BASE_URL     : Ollama daemon address, e.g. ``"http://localhost:11434"``
-
-Dependencies:
-    langchain-community, langchain-text-splitters, langchain-ollama,
-    langchain-chroma, python-dotenv
+Prerequisite:
+ollama pull nomic-embed-text  (274MB, one-time)
 """
-
 from __future__ import annotations
 
 import argparse
@@ -58,84 +38,66 @@ from src.llm_eval.shared.config import (
     OLLAMA_BASE_URL,
 )
 
+# Resolve paths relative to the project root, not the current working directory
+PROJECT_ROOT   = Path(__file__).parent.parent
+DEFAULT_SOURCE = PROJECT_ROOT / "src" / "llm_eval" / "datasets" / "raw"
+
 
 def get_embeddings() -> OllamaEmbeddings:
-
-    """Instantiate the local Ollama embeddings model.
-
-    Creates an ``OllamaEmbeddings`` instance pointed at the local Ollama
-    daemon. This function is used both during ingestion (to generate and
-    persist chunk embeddings) and at query time (to embed the user question
-    before similarity search).
-
-    Using the same model and base URL in both contexts ensures that query
-    and document vectors live in the same embedding space — a requirement
-    for meaningful cosine similarity scores.
-
-    Returns:
-        ``OllamaEmbeddings`` configured with ``OLLAMA_EMBED_MODEL`` and
-        ``OLLAMA_BASE_URL`` from ``shared/config.py``.
-
-    Note:
-        The Ollama daemon must be running (``ollama serve``) and the model
-        must be available locally (``ollama pull nomic-embed-text``) before
-        calling this function.
-    """
-
+    """Local embeddings via Ollama daemon (http://localhost:11434)."""
     return OllamaEmbeddings(
-        model=OLLAMA_EMBED_MODEL,   # "nomic-embed-text" (config.py)
-        base_url=OLLAMA_BASE_URL,   # "http://localhost:11434" (config.py)
+        model=OLLAMA_EMBED_MODEL,
+        base_url=OLLAMA_BASE_URL,
     )
 
 
-def ingest(source_dir: str | Path = "src/llm_eval/datasets/raw", reset: bool = False) -> int:
+def get_vectorstore() -> Chroma:
+    """Return the existing vectorstore without re-indexing. Used by evaluate_rag.py."""
+    persist_dir = Path(CHROMA_PERSIST_DIR)
+    if not persist_dir.is_absolute():
+        persist_dir = PROJECT_ROOT / persist_dir
+    if not persist_dir.exists():
+        raise FileNotFoundError(
+            f"ChromaDB not found at: {persist_dir.resolve()}\n"
+            "Run first: uv run ingest-docs"
+        )
+    return Chroma(
+        collection_name=CHROMA_COLLECTION,
+        embedding_function=get_embeddings(),
+        persist_directory=str(persist_dir),
+    )
 
-    """Load, chunk, embed, and persist documents into ChromaDB.
 
-    Full ingestion pipeline:
+def status() -> None:
+    """Print information about the current ChromaDB collection."""
+    try:
+        vs = get_vectorstore()
+        n  = vs._collection.count()
+        print(f"\n ChromaDB status")
+        print(f" ├─ persist_dir : {Path(CHROMA_PERSIST_DIR).resolve()}")
+        print(f" ├─ collection  : {CHROMA_COLLECTION}")
+        print(f" └─ chunks      : {n}\n")
+    except FileNotFoundError as e:
+        print(f"\n ⚠ {e}\n")
 
-    1. **Load** — discovers all ``.txt`` and ``.md`` files under ``source_dir``
-       using two separate ``DirectoryLoader`` instances (one per extension).
-       Glob patterns like ``**/*.{txt,md}`` are intentionally avoided because
-       Python's ``pathlib`` does not expand brace expressions on Windows.
 
-    2. **Split** — applies ``RecursiveCharacterTextSplitter`` with the
-       separators ``["\\n\\n", "\\n", ". ", " ", ""]`` to produce overlapping
-       chunks that respect natural text boundaries (paragraphs → sentences →
-       words → characters).
-
-    3. **Embed & persist** — generates embeddings for all chunks via the local
-       Ollama model and writes them to the ChromaDB collection on disk.
-       If ``reset=True``, the existing collection directory is deleted before
-       writing so that stale chunks from previous runs are not retained.
-
-    Args:
-        source_dir: Path to the directory containing source documents.
-                    Defaults to ``"src/llm_eval/datasets/raw"``.
-        reset:      If ``True``, wipes the existing ChromaDB persist directory
-                    before ingestion. Use when re-indexing updated documents.
-
-    Returns:
-        Total number of chunks stored in the ChromaDB collection after ingestion.
-
-    Raises:
-        FileNotFoundError: If ``source_dir`` does not exist.
-        ValueError:        If no ``.txt`` or ``.md`` files are found under
-                           ``source_dir``.
-    """
-
+def ingest(source_dir: str | Path = DEFAULT_SOURCE, reset: bool = False) -> int:
     source_path = Path(source_dir)
+
+    # Resolve relative paths from project root
+    if not source_path.is_absolute():
+        source_path = PROJECT_ROOT / source_path
+
     if not source_path.exists():
         raise FileNotFoundError(
-            f"Document directory not found: {source_path.resolve()}\n"
-            "Add .txt or .md files before ingesting."
+            f"Document folder not found: {source_path.resolve()}\n"
+            "Run first: uv run populate-raw-docs"
         )
 
     print(f"\n[ingest] Loading documents from '{source_path}'...")
     start = time.monotonic()
 
-    # Two separate loaders are required because glob brace expansion
-    # (e.g. "**/*.{txt,md}") is not supported by pathlib on Windows.
+    # glob "**/*.{txt,md}" does not work on Windows — use two separate loaders
     docs = []
     for pattern in ("**/*.txt", "**/*.md"):
         loader = DirectoryLoader(
@@ -149,8 +111,11 @@ def ingest(source_dir: str | Path = "src/llm_eval/datasets/raw", reset: bool = F
         docs.extend(loader.load())
 
     if not docs:
-        raise ValueError(f"No .txt/.md documents found under '{source_path}'.")
-    print(f" ✓ {len(docs)} document(s) loaded(s)")
+        raise ValueError(
+            f"No .txt/.md files found in '{source_path}'.\n"
+            "Run: uv run populate-raw-docs"
+        )
+    print(f" ✅ {len(docs)} document(s) loaded")
 
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
@@ -158,48 +123,89 @@ def ingest(source_dir: str | Path = "src/llm_eval/datasets/raw", reset: bool = F
         separators=["\n\n", "\n", ". ", " ", ""],
     )
     chunks = splitter.split_documents(docs)
-    print(f" ✓ {len(chunks)} chunks generated (size={CHUNK_SIZE}, overlap={CHUNK_OVERLAP})")
+
+    # Drop empty/whitespace-only chunks — they cause HTTP 400 errors on Ollama
+    chunks = [c for c in chunks if c.page_content.strip()]
+    print(f" ✅ {len(chunks)} chunks generated (size={CHUNK_SIZE}, overlap={CHUNK_OVERLAP})")
 
     persist_dir = Path(CHROMA_PERSIST_DIR)
+
+    # Resolve persist_dir relative to project root if needed
+    if not persist_dir.is_absolute():
+        persist_dir = PROJECT_ROOT / persist_dir
+
     if reset and persist_dir.exists():
         shutil.rmtree(persist_dir)
-        print(f" ✓ Collection '{CHROMA_COLLECTION}' removed (--reset)")
+        print(f" ✅ Collection '{CHROMA_COLLECTION}' dropped (--reset)")
 
-    print(f" Generating embeddings (Ollama local) and persisting in '{persist_dir}'...")
-    vectorstore = Chroma.from_documents(
-        documents=chunks,
-        embedding=get_embeddings(),
-        collection_name=CHROMA_COLLECTION,
-        persist_directory=str(persist_dir),
-    )
+    print(f" Generating embeddings (Ollama local) and persisting to '{persist_dir}'...")
 
-    elapsed  = time.monotonic() - start
+    embeddings  = get_embeddings()
+    BATCH_SIZE  = 100
+    vectorstore = None
+
+    for i in range(0, len(chunks), BATCH_SIZE):
+        batch = chunks[i : i + BATCH_SIZE]
+        pct   = min(i + BATCH_SIZE, len(chunks))
+        print(f" [{pct:>5}/{len(chunks)}] embedding batch...", end="\r")
+
+        if vectorstore is None:
+            vectorstore = Chroma.from_documents(
+                documents=batch,
+                embedding=embeddings,
+                collection_name=CHROMA_COLLECTION,
+                persist_directory=str(persist_dir),
+            )
+        else:
+            vectorstore.add_documents(batch)
+
+    print()
+    elapsed = time.monotonic() - start
+
+    if vectorstore is None:
+        raise RuntimeError("Ingest failed: no chunks were embedded.")
+
     n_chunks = vectorstore._collection.count()
-    print(f" ✓ {n_chunks} Chunks in ChromaDB | {elapsed:.1f}s\n")
+    print(f" ✅ {n_chunks} chunks in ChromaDB | {elapsed:.1f}s")
+    print(f" ✅ Next step: uv run evaluate-rag\n")
     return n_chunks
 
 
-def get_vectorstore() -> Chroma:
-    return Chroma(
-        collection_name=CHROMA_COLLECTION,
-        embedding_function=get_embeddings(),
-        persist_directory=CHROMA_PERSIST_DIR,
-    )
-
-
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Ingest documents into ChromaDB.")
+    parser = argparse.ArgumentParser(
+        description="Ingest documents into ChromaDB.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=(
+            "Examples:\n"
+            "  uv run ingest-docs                        # index datasets/raw/\n"
+            "  uv run ingest-docs --reset                # drop and re-index\n"
+            "  uv run ingest-docs --source my/folder     # custom source\n"
+            "  uv run ingest-docs --status               # inspect ChromaDB\n"
+        ),
+    )
     parser.add_argument(
         "--source",
-        default="src/llm_eval/datasets/raw",
-        help="Folder with archiche .txt/.md (default: src/llm_eval/datasets/raw)",
+        default=str(DEFAULT_SOURCE),
+        help="Folder with .txt/.md files (default: datasets/raw/)",
     )
-    parser.add_argument("--reset", action="store_true", help="Clean the collection before ingesting.")
+    parser.add_argument(
+        "--reset",
+        action="store_true",
+        help="Drop the ChromaDB collection before re-indexing.",
+    )
+    parser.add_argument(
+        "--status",
+        action="store_true",
+        help="Print information about the current collection and exit.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
+    if args.status:
+        status()
+        return
     ingest(source_dir=args.source, reset=args.reset)
 
 

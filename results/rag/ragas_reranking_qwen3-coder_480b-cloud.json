@@ -1,0 +1,136 @@
+{
+  "strategy": "reranking",
+  "gen_model": "qwen3-coder:480b-cloud",
+  "judge_model": "qwen3-coder:480b-cloud",
+  "n": 10,
+  "scores": [
+    {
+      "user_input": "What does abstract algebra study according to the passage?",
+      "retrieved_contexts": [
+        "##  Abstract algebra \n\nAbstract algebra, also called modern algebra, |  }} is the study of algebraic structures. An algebraic structure is a framework for understanding operations on mathematical objects, like the addition of numbers. While elementary algebra and linear algebra work within the confines of particular algebraic structures, abstract algebra takes a more general approach that compares how algebraic structures differ from each other and what types of algebraic structures there are, such as groups, rings, and fields. |  |  |  }} The key difference between these types of algebraic structures lies in the number of operations they use and the laws they obey. In mathematics education, abstract algebra refers to an advanced undergraduate course that mathematics majors take after completing courses in linear algebra.",
+        "# Abstract algebra\n\ns of the Rubik's Cube form a group, a fundamental concept within abstract algebra.]]\n\nIn mathematics, more specifically algebra, '''abstract algebra''' or '''modern algebra''' is the study of algebraic structures, which are sets with specific operations acting on their elements. Algebraic structures include groups, rings, fields, modules, vector spaces, lattices, and algebras over a field. The term ''abstract algebra'' was coined in the early 20th century to distinguish it from older parts of algebra, and more specifically from elementary algebra, the use of variables to represent numbers in computation and reasoning. The abstract perspective on algebra has become so fundamental to advanced mathematics that it is simply called \"algebra\", while the term \"abstract algebra\" is seldom used except in pedagogy.",
+        "Abstract algebra studies algebraic structures, which consist of a set of mathematical objects together with one or several operations defined on that set. It is a generalization of elementary and linear algebra since it allows mathematical objects other than numbers and non-arithmetic operations. It distinguishes between different types of algebraic structures, such as groups, rings, and fields, based on the number of operations they use and the laws they follow, called axioms. Universal algebra and category theory provide general frameworks to investigate abstract patterns that characterize different classes of algebraic structures."
+      ],
+      "response": "According to the passage, abstract algebra studies algebraic structures. These are sets of mathematical objects together with one or several operations defined on that set. It is a generalization of elementary and linear algebra that allows for mathematical objects other than numbers and non-arithmetic operations. Abstract algebra distinguishes between different types of algebraic structures, such as groups, rings, and fields, based on the number of operations they use and the laws (axioms) they follow.",
+      "reference": "Abstract algebra studies algebraic structures, which are sets with specific operations acting on their elements, including groups, rings, fields, modules, vector spaces, lattices, and algebras over a field.",
+      "context_precision": NaN,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000004
+    },
+    {
+      "user_input": "What are the three main historical sources of group theory?",
+      "retrieved_contexts": [
+        "## History\n\nGroup theory has three main historical sources: number theory, the theory of algebraic equations, geometry, and analysis. The number-theoretic strand was begun by Leonhard Euler, and developed by Gauss's work on modular arithmetic and additive and multiplicative groups related to quadratic fields. Early results about permutation groups were obtained by Lagrange, Ruffini, and Abel in their quest for general solutions of polynomial equations of high degree. Évariste Galois coined the term \"group\" and established a connection, now known as Galois theory, between the nascent theory of groups and field theory. In geometry, groups first became important in projective geometry and, later, non-Euclidean geometry. Felix Klein's Erlangen program proclaimed group theory to be the organizing principle of geometry.",
+        "## Early group theory\n\nSeveral areas of mathematics led to the study of groups. Lagrange's 1770 study of the solutions of the quintic equation led to the Galois group of a polynomial. Gauss's 1801 study of Fermat's little theorem led to the ring of integers modulo n, the multiplicative group of integers modulo n, and the more general concepts of cyclic groups and abelian groups. Klein's 1872 Erlangen program studied geometry and led to symmetry groups such as the Euclidean group and the group of projective transformations. In 1874 Lie introduced the theory of Lie groups, aiming for \"the Galois theory of differential equations\". In 1876 Poincaré and Klein introduced the group of Möbius transformations, and its subgroups such as the modular group and Fuchsian group, based on work on automorphic functions in analysis.",
+        "Galois, in the 1830s, was the first to employ groups to determine the solvability of polynomial equations. Arthur Cayley and Augustin Louis Cauchy pushed these investigations further by creating the theory of permutation groups. The second historical source for groups stems from geometrical situations. In an attempt to come to grips with possible geometries (such as  Euclidean, hyperbolic or projective geometry) using group theory, Felix Klein initiated the Erlangen programme. Sophus Lie, in 1884, started using groups (now called Lie groups) attached to analytic problems. Thirdly, groups were, at first implicitly and later explicitly, used in algebraic number theory."
+      ],
+      "response": "The three main historical sources of group theory are:\n\n1. **Number theory** – Initiated by Euler and developed by Gauss, involving modular arithmetic and additive and multiplicative groups related to quadratic fields.\n2. **The theory of algebraic equations** – Explored by Lagrange, Ruffini, Abel, and Galois, leading to the development of permutation groups and Galois theory.\n3. **Geometry** – Beginning with projective geometry and non-Euclidean geometry, further advanced by Felix Klein's Erlangen program, which established group theory as the organizing principle of geometry.",
+      "reference": "The three main historical sources of group theory are number theory, the theory of algebraic equations, and geometry.",
+      "context_precision": NaN,
+      "context_recall": 1.0,
+      "faithfulness": 0.8235294117647058,
+      "answer_relevancy": 1.0
+    },
+    {
+      "user_input": "What are the two main areas of modern mathematics that have driven the development of commutative ring theory?",
+      "retrieved_contexts": [
+        "Commutative rings are much better understood than noncommutative ones. Algebraic geometry and algebraic number theory, which provide many natural examples of commutative rings, have driven much of the development of commutative ring theory, which is now, under the name of ''commutative algebra'', a major area of modern mathematics. Because these three fields (algebraic geometry, algebraic number theory and commutative algebra) are so intimately connected it is usually difficult and meaningless to decide which field a particular result belongs to. For example, Hilbert's Nullstellensatz is a theorem which is fundamental for algebraic geometry, and is stated and proved in terms of commutative algebra. Similarly, Fermat's Last Theorem is stated in terms of elementary arithmetic, which is a part of commutative algebra, but its proof involves deep results of both algebraic number theory and algebraic geometry."
+      ],
+      "response": "Based on the provided context, the two main areas of modern mathematics that have driven the development of commutative ring theory are:\n\n1. Algebraic geometry\n2. Algebraic number theory\n\nThese fields, along with commutative algebra itself, are described as being so intimately connected that it's often difficult to determine which field a particular result belongs to.",
+      "reference": "Algebraic geometry and algebraic number theory have driven much of the development of commutative ring theory.",
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999999
+    },
+    {
+      "user_input": "What are the three main components of the circulatory system in vertebrates?",
+      "retrieved_contexts": [
+        "# Circulatory system\n\n}}\n\nIn vertebrates, the '''circulatory system''' is a system of organs that includes the heart, blood vessels, and blood which is circulated throughout the body. It includes the cardiovascular system, or vascular system, that consists of the heart and blood vessels (from Greek  meaning ''heart'', and Latin  meaning ''vessels''). The circulatory system has two divisions, a systemic circulation or circuit, and a pulmonary circulation or circuit. Some sources use the terms ''cardiovascular system'' and ''vascular system'' interchangeably with ''circulatory system''.",
+        "The network of blood vessels are the great vessels of the heart including large elastic arteries, and large veins; other arteries, smaller arterioles, capillaries that join with venules (small veins), and other veins. The circulatory system is closed in vertebrates, which means that the blood never leaves the network of blood vessels. Many invertebrates such as arthropods have an open circulatory system with a heart that pumps a hemolymph which returns via the body cavity rather than via blood vessels. Diploblasts such as sponges and comb jellies lack a circulatory system.",
+        "The circulatory system is further divided into two major circuits – a pulmonary circulation, and a systemic circulation. The pulmonary circulation is a circuit loop from the right heart taking deoxygenated blood to the lungs where it is oxygenated and returned to the left heart. The systemic circulation is a circuit loop that delivers oxygenated blood from the left heart to the rest of the body, and returns deoxygenated blood back to the right heart via large veins known as the venae cavae. The systemic circulation can also be defined as two parts – a ''macrocirculation'' and a ''microcirculation''. An average adult contains five to six quarts (roughly 4.7 to 5.7 liters) of blood, accounting for approximately 7% of their total body weight. Blood consists of plasma, red blood cells, white blood cells, and platelets. The digestive system also works with the circulatory system to provide the nutrients the system needs to keep the heart pumping."
+      ],
+      "response": "The three main components of the circulatory system in vertebrates are:\n\n1. The heart\n2. Blood vessels\n3. Blood",
+      "reference": "The three main components of the circulatory system in vertebrates are the heart, blood vessels, and blood.",
+      "context_precision": NaN,
+      "context_recall": 1.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 1.0
+    },
+    {
+      "user_input": "What are the two main subdivisions of human anatomy?",
+      "retrieved_contexts": [
+        "# Human anatomy\n\n'''Human anatomy''' (gr. ἀνατομία, \"dissection\", from ἀνά, \"up\", and τέμνειν, \"cut\") is primarily the scientific study of the morphology of the human body. Anatomy is subdivided into gross anatomy and microscopic anatomy. Gross anatomy (also called macroscopic anatomy, topographical anatomy, regional anatomy, or anthropotomy) is the study of anatomical structures that can be seen by the naked eye. Microscopic anatomy is the study of minute anatomical structures assisted with microscopes, which includes histology (the study of the organization of tissues), and cytology (the study of cells). Anatomy, human physiology (the study of function), and biochemistry (the study of the chemistry of living structures) are complementary basic medical sciences that are generally together (or in tandem) to students studying medical sciences.",
+        "Human anatomy, physiology, and biochemistry are basic medical sciences, which are generally taught to medical students in their first year at medical school. Human anatomy can be taught regionally or systemically; that is, respectively, studying anatomy by bodily regions such as the head and chest, or studying by specific systems, such as the nervous or respiratory systems. The major anatomy textbook, ''Gray's Anatomy'', has recently been reorganized from a systems format to a regional format, which is in line with the modern teaching.\n\n##  Anatomy in visual arts"
+      ],
+      "response": "The two main subdivisions of human anatomy are gross anatomy and microscopic anatomy.\n\nGross anatomy (also called macroscopic anatomy, topographical anatomy, regional anatomy, or anthropotomy) is the study of anatomical structures that can be seen by the naked eye. Microscopic anatomy is the study of minute anatomical structures assisted with microscopes, which includes histology (the study of the organization of tissues) and cytology (the study of cells).",
+      "reference": "Human anatomy is subdivided into gross anatomy and microscopic anatomy.",
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "user_input": "What are the two main parts of the vertebrate nervous system?",
+      "retrieved_contexts": [
+        "## Anatomy in vertebrates\n\n (brown in this image) and underlying white matter]]\n\nThe nervous system of vertebrates (including humans) is divided into the central nervous system (CNS) and the peripheral nervous system (PNS).\nThe CNS is the major division, and consists of the brain and the spinal cord. The spinal canal contains the spinal cord, while the cranial cavity contains the brain. The CNS is enclosed and protected by the meninges, a three-layered system of membranes, including a tough, leathery outer layer called the dura mater. The brain is also protected by the skull, and the spinal cord by the vertebrae.",
+        ". Nerves that transmit signals from the brain are called motor nerves (efferent), while those nerves that transmit information from the body to the CNS are called sensory nerves (afferent). The PNS is divided into two separate subsystems, the somatic and autonomic nervous systems. The autonomic nervous system is further subdivided into the sympathetic, parasympathetic and enteric nervous systems. The sympathetic nervous system is activated in cases of emergencies to mobilize energy, while the parasympathetic nervous system is activated when organisms are in a relaxed state. The enteric nervous system functions to control the gastrointestinal system. Nerves that exit from the brain are called cranial nerves while those exiting from the spinal cord are called spinal nerves."
+      ],
+      "response": "The two main parts of the vertebrate nervous system are the central nervous system (CNS) and the peripheral nervous system (PNS).",
+      "reference": "In vertebrates, the nervous system consists of two main parts, the central nervous system (CNS) and the peripheral nervous system (PNS).",
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999997
+    },
+    {
+      "user_input": "What does the term 'astronomy' etymologically mean?",
+      "retrieved_contexts": [
+        "## Etymology\n\n''Astronomy'' (from the Greek ἀστρονομία from ἄστρον ''astron'', \"star\" and -νομία ''-nomia'' from νόμος ''nomos'', \"law\" or \"rule\") means study of celestial objects. Astronomy should not be confused with astrology, the belief system which claims that human affairs are correlated with the positions of celestial objects. The two fields share a common origin but became distinct, astronomy being supported by physics while astrology is not.\n\n## Use of terms \"astronomy\" and \"astrophysics\""
+      ],
+      "response": "Based on the etymology provided, the term 'astronomy' etymologically means \"study of celestial objects.\" It comes from the Greek words ἄστρον (astron), meaning \"star,\" and -νομία (-nomia) from νόμος (nomos), meaning \"law\" or \"rule.\"",
+      "reference": "The term 'astronomy' etymologically means the study of celestial objects, derived from the Greek words 'astron' meaning 'star' and '-nomia' meaning 'law' or 'rule'.",
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "user_input": "What is the boundary called beyond which nothing, including light, can escape from a black hole?",
+      "retrieved_contexts": [
+        "The defining feature of a black hole is the existence of an event horizon, a boundary in spacetime through which matter and light can pass only inward towards the centre of the black hole. Nothing, not even light, can escape from inside the event horizon. [https://books.google.com/books?id=akb2FpZSGnMC&pg=PA26 Extract of page 26]  [https://books.google.com/books?id=x4gaBQAAQBAJ&pg=PA168 Extract of page 168]  The event horizon is referred to as such because if an event occurs within the boundary, information from that event cannot reach or affect an outside observer, making it impossible to determine whether such an event occurred.\nFor non-rotating black holes, the geometry of the event horizon is precisely spherical, while for rotating black holes, the event horizon is oblate."
+      ],
+      "response": "The boundary beyond which nothing, including light, can escape from a black hole is called the event horizon.",
+      "reference": "The boundary of no escape is called the event horizon.",
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9945558835028724
+    },
+    {
+      "user_input": "What percentage of the Solar System's total mass is accounted for by the Sun?",
+      "retrieved_contexts": [
+        "##  Composition \n\nThe principal component of the Solar System is the Sun, a G-type main-sequence star that contains 99.86% of the system's known mass and dominates it gravitationally. The Sun's four largest orbiting bodies, the giant planets, account for 99% of the remaining mass, with Jupiter and Saturn together comprising more than 90%. The remaining objects of the Solar System (including the four terrestrial planets, the dwarf planets, moons, asteroids, and comets) together comprise less than 0.002% of the Solar System's total mass. the Kuiper belt (estimated at 0.1 Earth mass) and the asteroid belt (estimated to be 0.0005 Earth mass) for a total, rounded upwards, of ~37 Earth masses, or 8.1% of the mass in orbit around the Sun. With the combined masses of Uranus and Neptune (~31 Earth masses) subtracted, the remaining ~6 Earth masses of material comprise 1.3% of the total orbiting mass.|name=footnoteD|group=lower-alpha}}"
+      ],
+      "response": "The Sun accounts for 99.86% of the Solar System's total mass.",
+      "reference": "The Sun accounts for 99.86% of the Solar System's total mass.",
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9794915476497131
+    },
+    {
+      "user_input": "Who first observed live cells and in what year?",
+      "retrieved_contexts": [
+        ". This was ultimately concluded by plant scientist Matthias Schleiden and animal scientist Theodor Schwann in 1838, who viewed live cells in plant and animal tissue, respectively. 19 years later, Rudolf Virchow further contributed to the cell theory, adding that all cells come from the division of pre-existing cells. Viruses are not considered in cell biology – they lack the characteristics of a living cell and instead are studied in the microbiology subclass of virology."
+      ],
+      "response": "Based on the context provided, Matthias Schleiden and Theodor Schwann first observed live cells in 1838. Schleiden viewed live cells in plant tissue, while Schwann viewed live cells in animal tissue.",
+      "reference": "Anton Van Leeuwenhoek was the first to analyze live cells in his examination of algae in 1674.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.9061489292672062
+    }
+  ]
+}

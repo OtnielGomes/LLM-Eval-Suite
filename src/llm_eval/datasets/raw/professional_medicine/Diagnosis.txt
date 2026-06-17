@@ -1,0 +1,63 @@
+# Diagnosis
+
+'''Diagnosis''' (: '''diagnoses''') is the identification of the nature and cause of a certain phenomenon. Diagnosis is used in a lot of different disciplines, with variations in the use of logic, analytics, and experience, to determine "cause and effect". In systems engineering and computer science, it is typically used to determine the causes of symptoms, mitigations, and solutions.
+
+## Computer science and networking
+
+* Bayesian network
+* Complex event processing
+* Diagnosis (artificial intelligence)
+* Event correlation
+* Fault management
+* Fault tree analysis
+* Grey problem
+* RPR problem diagnosis
+* Remote diagnostics
+* Root cause analysis
+* Troubleshooting
+* Unified Diagnostic Services
+
+## Mathematics and logic
+
+* Bayesian probability
+* Block Hackam's dictum
+* Occam's razor
+* Regression diagnostics
+* Sutton's law
+
+## Medicine
+
+* Medical diagnosis
+* Molecular diagnostics
+
+## Methods
+
+* CDR computerized assessment system
+* Computer-aided diagnosis
+* Differential diagnosis
+* Retrospective diagnosis
+
+## Tools
+
+* DELTA (taxonomy)
+* DXplain
+* List of diagnostic classification and rating scales used in psychiatry
+
+## Organizational development
+
+* Organizational diagnostics
+
+## Systems engineering
+
+* Five whys
+* Eight disciplines problem solving
+* Fault detection and isolation
+* Problem solving
+
+## References
+
+## External links
+
+* 
+
+Category:Medical terminology

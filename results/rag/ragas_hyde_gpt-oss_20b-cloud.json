@@ -1,0 +1,168 @@
+{
+  "strategy": "hyde",
+  "gen_model": "gpt-oss:20b-cloud",
+  "judge_model": "qwen3-coder:480b-cloud",
+  "n": 10,
+  "scores": [
+    {
+      "user_input": "What does abstract algebra study according to the passage?",
+      "retrieved_contexts": [
+        "]]",
+        "]]",
+        "]]",
+        ")]]",
+        "}}"
+      ],
+      "response": "",
+      "reference": "Abstract algebra studies algebraic structures, which are sets with specific operations acting on their elements, including groups, rings, fields, modules, vector spaces, lattices, and algebras over a field.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0
+    },
+    {
+      "user_input": "What are the three main historical sources of group theory?",
+      "retrieved_contexts": [
+        "]]",
+        "]]",
+        "]]",
+        ")]]",
+        "}}"
+      ],
+      "response": "",
+      "reference": "The three main historical sources of group theory are number theory, the theory of algebraic equations, and geometry.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0
+    },
+    {
+      "user_input": "What are the two main areas of modern mathematics that have driven the development of commutative ring theory?",
+      "retrieved_contexts": [
+        "]]",
+        "]]",
+        "]]",
+        ")]]",
+        "}}"
+      ],
+      "response": "",
+      "reference": "Algebraic geometry and algebraic number theory have driven much of the development of commutative ring theory.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0
+    },
+    {
+      "user_input": "What are the three main components of the circulatory system in vertebrates?",
+      "retrieved_contexts": [
+        "]]",
+        "]]",
+        "]]",
+        ")]]",
+        "}}"
+      ],
+      "response": "",
+      "reference": "The three main components of the circulatory system in vertebrates are the heart, blood vessels, and blood.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0
+    },
+    {
+      "user_input": "What are the two main subdivisions of human anatomy?",
+      "retrieved_contexts": [
+        "]]",
+        "]]",
+        "]]",
+        ")]]",
+        "}}"
+      ],
+      "response": "",
+      "reference": "Human anatomy is subdivided into gross anatomy and microscopic anatomy.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0
+    },
+    {
+      "user_input": "What are the two main parts of the vertebrate nervous system?",
+      "retrieved_contexts": [
+        "]]",
+        "]]",
+        "]]",
+        ")]]",
+        "}}"
+      ],
+      "response": "",
+      "reference": "In vertebrates, the nervous system consists of two main parts, the central nervous system (CNS) and the peripheral nervous system (PNS).",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0
+    },
+    {
+      "user_input": "What does the term 'astronomy' etymologically mean?",
+      "retrieved_contexts": [
+        "]]",
+        "]]",
+        "]]",
+        ")]]",
+        "}}"
+      ],
+      "response": "",
+      "reference": "The term 'astronomy' etymologically means the study of celestial objects, derived from the Greek words 'astron' meaning 'star' and '-nomia' meaning 'law' or 'rule'.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0
+    },
+    {
+      "user_input": "What is the boundary called beyond which nothing, including light, can escape from a black hole?",
+      "retrieved_contexts": [
+        "]]",
+        "]]",
+        "]]",
+        ")]]",
+        "}}"
+      ],
+      "response": "",
+      "reference": "The boundary of no escape is called the event horizon.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0
+    },
+    {
+      "user_input": "What percentage of the Solar System's total mass is accounted for by the Sun?",
+      "retrieved_contexts": [
+        "]]",
+        "]]",
+        "]]",
+        ")]]",
+        "}}"
+      ],
+      "response": "",
+      "reference": "The Sun accounts for 99.86% of the Solar System's total mass.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0
+    },
+    {
+      "user_input": "Who first observed live cells and in what year?",
+      "retrieved_contexts": [
+        "]]",
+        "]]",
+        "]]",
+        ")]]",
+        "}}"
+      ],
+      "response": "",
+      "reference": "Anton Van Leeuwenhoek was the first to analyze live cells in his examination of algae in 1674.",
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0
+    }
+  ]
+}

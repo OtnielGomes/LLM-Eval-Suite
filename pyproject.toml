@@ -2,47 +2,36 @@
 # LLM Eval Suite — pyproject.toml
 # Managed with uv (https://docs.astral.sh/uv)
 #
-# Quick start:
-#   uv sync              → create .venv and install all runtime dependencies
-#   uv sync --group dev  → also install dev tools (pytest, ruff, mypy, notebooks)
-#   uv run run-benchmark → run the benchmark directly via uv (no activate needed)
-#   uv run ingest-docs   → ingest documents into ChromaDB
+# Initial setup:
+# uv sync           → creates .venv and installs all dependencies
+# uv sync --group dev → includes dev tools (pytest, ruff, mypy)
+# uv run run-benchmark → runs the benchmark directly via uv
 #
 # Required environment variables (.env):
-#   OLLAMA_API_KEY      → Ollama Cloud API key (ollama.com/settings/keys)
-#   OLLAMA_CLOUD_MODEL  → generation model, e.g. "llama3.3:70b"
-#   GEMINI_API_KEY      → Gemini API key (optional — requires billing)
-#   LANGSMITH_API_KEY   → LangSmith key (smith.langchain.com/settings)
-#   LANGSMITH_PROJECT   → dashboard project name, e.g. "llm-eval-suite"
-#   LANGSMITH_TRACING   → "true" to enable automatic tracing
+# OLLAMA_API_KEY    → Ollama Cloud key (ollama.com/settings/keys)
+# OLLAMA_CLOUD_MODEL → e.g. llama3.3:70b
+# LANGSMITH_API_KEY → LangSmith key (smith.langchain.com/settings)
+# LANGSMITH_PROJECT → project name in the dashboard (e.g. llm-eval-suite)
+# LANGSMITH_TRACING → true (enables automatic tracing)
 #
-# Hybrid LLM architecture:
-#   Embeddings → Ollama local  (nomic-embed-text) — free, offline, no GPU needed
-#   Generation → Ollama Cloud  (llama3.3:70b)     — free, no local hardware
+# Hybrid architecture:
+# Embeddings → Ollama local (nomic-embed-text) — free, offline
+# Generation → Ollama Cloud (llama3.3:70b)     — no local hardware needed
 #
-# One-time embedding model setup:
-#   ollama pull nomic-embed-text
-#
-# Both the embedding model (ingest) and the vector store query (retrieval)
-# MUST use the same model — changing OLLAMA_EMBED_MODEL after ingestion
-# requires re-running ingest.py to rebuild the vector store.
+# Embedding prerequisite:
+# ollama pull nomic-embed-text
 # =============================================================================
 
 [project]
-name        = "llm-eval-suite"
-version     = "0.1.0"
+name = "llm-eval-suite"
+version = "0.1.0"
 description = "LLM evaluation pipeline with RAG, public benchmarks, and BLEU/ROUGE/LLM-as-judge metrics"
-readme      = "README.md"
-# 3.11 minimum: match statement, tomllib, and Self type used across the codebase.
-# <3.15 upper bound: avoid untested Python releases in CI.
+readme = "README.md"
 requires-python = ">=3.11,<3.15"
 authors = [
-    { name = "Otniel Andrade", email = "" },
+    { name = "Otniel Andrade", email = "" }
 ]
-keywords = [
-    "llm", "rag", "evaluation", "ollama", "gemini",
-    "langchain", "langsmith", "ragas", "benchmark", "observability",
-]
+keywords = ["llm", "rag", "evaluation", "ollama", "langchain", "langsmith", "ragas", "benchmark", "observability"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -52,148 +41,110 @@ classifiers = [
 ]
 
 dependencies = [
-    # ── LLM APIs ──────────────────────────────────────────────────────────────
-    # openai SDK used for Ollama Cloud via its OpenAI-compatible endpoint.
-    # OllamaCloudClient and RAGPipeline both instantiate ChatOpenAI/OpenAI
-    # with base_url="https://ollama.com/api".
-    "openai>=1.0.0",
+    # ── LLMs and APIs ────────────────────────────────────────────────────────
+    "openai>=1.0.0",                      # Ollama Cloud (OpenAI-compatible)
 
-    # ── LangChain 0.3.x stack ─────────────────────────────────────────────────
-    # Pinned to 0.3.x to avoid breaking changes in the 0.4 release series.
-    # All five packages must stay in sync — mismatched minor versions cause
-    # silent import errors with langchain-core's BaseRunnable protocol.
+    # ── LangChain 0.3.x stack ────────────────────────────────────────────────
     "langchain>=0.3.0,<0.4",
     "langchain-core>=0.3.51,<1.0.0",
-    "langchain-openai>=0.3.0,<0.4",         # ChatOpenAI → Ollama Cloud generation
-    "langchain-ollama>=0.3.0,<0.4",         # OllamaEmbeddings → local nomic-embed-text
+    "langchain-openai>=0.3.0,<0.4",       # ChatOpenAI → Ollama Cloud
+    "langchain-ollama>=0.3.0,<0.4",       # OllamaEmbeddings → local
     "langchain-community>=0.3.0,<0.4",
-    "langchain-chroma>=0.2.0,<0.3",         # Chroma vector store integration
-    "langchain-text-splitters>=0.3.0,<0.4", # RecursiveCharacterTextSplitter in ingest.py
+    "langchain-chroma>=0.2.0,<0.3",
+    "langchain-text-splitters>=0.3.0,<0.4",
+    # google-genai removed
+    # langchain-google-genai removed
 
-    # ── LangSmith observability ───────────────────────────────────────────────
-    # @traceable decorator in rag_pipeline.py requires >=0.1.17.
-    # Upper bound avoids API-breaking changes in the 0.4 release.
+    # ── LangSmith ────────────────────────────────────────────────────────────
     "langsmith>=0.1.17,<0.4",
 
-    # ── RAG and vector store ──────────────────────────────────────────────────
-    "chromadb>=0.6.0",    # local persistent vector store (SQLite + binary index)
-    "ragas>=0.2.0,<0.3",  # context_precision, context_recall, faithfulness metrics
+    # ── RAG and vector store ─────────────────────────────────────────────────
+    "chromadb>=0.6.0",
+    "ragas>=0.2.0,<0.3",
 
-    # ── Text evaluation metrics ───────────────────────────────────────────────
-    "nltk>=3.9.0",          # sentence_bleu + punkt_tab tokeniser in evaluator.py
-    "rouge-score>=0.1.2",   # RougeScorer (rouge1, rouge2, rougeL) in evaluator.py
+    # ── Text metrics ─────────────────────────────────────────────────────────
+    "nltk>=3.9.0",
+    "rouge-score>=0.1.2",
 
-    # ── Dataset loading and utilities ─────────────────────────────────────────
-    "datasets>=3.0.0",       # Hugging Face datasets — MMLU loading and RAGAS Dataset
-    "pydantic>=2.0.0",       # JudgeScore BaseModel + Gemini response_schema
-    "python-dotenv>=1.0.0",  # load_dotenv() at module entry points
-    "tqdm>=4.66.0",          # progress bars in run_benchmark.py and ingest.py
-    "httpx>=0.27.0",         # async HTTP client used by LangSmith and openai SDK
+    # ── Datasets and utilities ───────────────────────────────────────────────
+    "datasets>=3.0.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "tqdm>=4.66.0",
+    "httpx>=0.27.0",
 ]
 
-# ── Entry points ──────────────────────────────────────────────────────────────
-# Installed as CLI commands by uv/pip. Run via:
-#   uv run <command>   or   .venv/bin/<command> after activation.
 [project.scripts]
-build-datasets = "scripts.build_datasets:main"  # download + sample MMLU / HumanEval
-run-benchmark  = "scripts.run_benchmark:main"   # run benchmark across strategies/models
-ingest-docs    = "scripts.ingest:main"          # chunk + embed docs into chroma_db/
-evaluate-rag   = "scripts.evaluate_rag:main"    # run RAGAS evaluation on RAG pipeline
+build-datasets = "scripts.build_datasets:main"
+run-benchmark  = "scripts.run_benchmark:main"
+ingest-docs    = "scripts.ingest:main"
+evaluate-rag   = "scripts.evaluate_rag:main"
 
 [project.urls]
-Repository = "https://github.com/OtnielGomes/llm-eval-suite"
-Issues     = "https://github.com/OtnielGomes/llm-eval-suite/issues"
+Repository = "https://github.com/otniel-andrade/llm-eval-suite"
+Issues     = "https://github.com/otniel-andrade/llm-eval-suite/issues"
 
-# ── Build system ──────────────────────────────────────────────────────────────
-# hatchling is the uv-recommended build backend for src/ layout projects.
 [build-system]
-requires      = ["hatchling"]
+requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-# Explicitly include both src packages and scripts/ so that entry points
-# resolve correctly when the package is installed in editable mode (uv sync).
 [tool.hatch.build.targets.wheel]
 packages = ["src/llm_eval", "scripts"]
 
-# package = true enables the src/ layout and editable install.
-# Without this, uv treats the project as a non-package workspace member.
 [tool.uv]
 package = true
 
-# ── Dependency groups ─────────────────────────────────────────────────────────
-# dev group is intentionally separate from runtime dependencies so that CI
-# can install only runtime deps for production image builds.
 [dependency-groups]
 dev = [
     "pytest>=8.0.0",
     "pytest-cov>=5.0.0",
-    "pytest-asyncio>=0.24.0",  # asyncio_mode = "auto" requires this
+    "pytest-asyncio>=0.24.0",
     "ruff>=0.9.0",
     "mypy>=1.11.0",
-    "matplotlib>=3.9.0",       # notebook visualisations (benchmark comparison plots)
-    "seaborn>=0.13.0",         # statistical plots in notebooks
-    "ipykernel>=6.29.0",       # Jupyter kernel for .ipynb notebooks
+    "matplotlib>=3.9.0",
+    "seaborn>=0.13.0",
+    "ipykernel>=6.29.0",
     "notebook>=7.0.0",
 ]
 
-# ── Ruff — linter and formatter ───────────────────────────────────────────────
 [tool.ruff]
 target-version = "py311"
-line-length    = 100
+line-length = 100
 
 [tool.ruff.lint]
-select = [
-    "E",   # pycodestyle errors
-    "W",   # pycodestyle warnings
-    "F",   # pyflakes (unused imports, undefined names)
-    "I",   # isort (import ordering)
-    "B",   # flake8-bugbear (likely bugs and design issues)
-    "UP",  # pyupgrade (modern Python syntax)
-]
-ignore = [
-    "E501",  # line too long — handled by formatter, not linter
-    "B008",  # do not perform function call in default argument
-             # (FastAPI / Pydantic Field patterns trigger this)
-]
+select = ["E", "W", "F", "I", "B", "UP"]
+ignore = ["E501", "B008"]
 
 [tool.ruff.lint.isort]
-# Ensures that llm_eval and scripts imports are grouped as first-party
-# rather than third-party in isort output.
 known-first-party = ["llm_eval", "scripts"]
 
-# ── Mypy — static type checking ───────────────────────────────────────────────
 [tool.mypy]
-python_version         = "3.11"
-warn_return_any        = true   # flag functions that implicitly return Any
-warn_unused_configs    = true
-# ignore_missing_imports = true is required because several dependencies
-# (langsmith, langchain-chroma) do not ship PEP 561 py.typed markers.
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
 ignore_missing_imports = true
 
-# ── Pytest ────────────────────────────────────────────────────────────────────
 [tool.pytest.ini_options]
-testpaths    = ["tests"]
-asyncio_mode = "auto"       # all async test functions are treated as asyncio tests
-addopts      = "-v --tb=short"
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-v --tb=short"
 filterwarnings = [
-    # Suppress deprecation noise from transitive dependencies (pydantic v1 compat,
-    # LangChain internal APIs). Project code warnings are not suppressed.
     "ignore::DeprecationWarning",
     "ignore::PendingDeprecationWarning",
 ]
 
-# ── Coverage ──────────────────────────────────────────────────────────────────
 [tool.coverage.run]
 source = ["src/llm_eval", "scripts"]
-omit   = [
-    "tests/*",        # test code is not counted as production coverage
-    "notebooks/*",    # exploratory notebooks are not part of the tested surface
-    "*/migrations/*", # reserved for future DB migration scripts
+omit = [
+    "tests/*",
+    "notebooks/*",
+    "*/migrations/*",
+    "scripts/run_benchmark.py",      
+    "scripts/build_datasets.py",     
+    "scripts/populate_raw_docs.py",  
+    "scripts/ingest.py",             
+    "src/llm_eval/shared/langsmith_tracer.py",  
+    "src/llm_eval/clients/ollama_cliente.py",   
+    "src/llm_eval/benchmark/prompt_strategies/*",  
 ]
-
-[tool.coverage.report]
-show_missing = true   # list uncovered line numbers in the terminal report
-skip_covered = false  # always show 100%-covered files (confirms they are tested)
-# 60% is the current floor — raise incrementally as test coverage grows.
-# Target: 80% before v1.0.0 release.
-fail_under   = 60
+fail_under = 80          
