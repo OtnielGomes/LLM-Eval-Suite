@@ -1,5 +1,23 @@
 # llm-eval
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/uv-package%20manager-DE5FE9?style=flat&logo=astral&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ollama-local%20%26%20cloud-000000?style=flat&logo=ollama&logoColor=white" />
+  <img src="https://img.shields.io/badge/ChromaDB-vector%20store-F97316?style=flat" />
+  <img src="https://img.shields.io/badge/RAGAS-evaluation-6366F1?style=flat" />
+  <img src="https://img.shields.io/badge/LangSmith-tracing-FF6B35?style=flat&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/license-MIT-22C55E?style=flat" />
+</p>
+
+A framework for evaluating Large Language Models using **prompting strategies** (Zero-Shot, Few-Shot, Chain-of-Thought) and **RAG retrieval strategies** (Naive, HyDE, Reranking), with metrics from BLEU, ROUGE, LLM-as-Judge, and RAGAS.
+
+---
+
+## Project Structure
+
+# llm-eval
+
 A framework for evaluating Large Language Models using **prompting strategies** (Zero-Shot, Few-Shot, Chain-of-Thought) and **RAG retrieval strategies** (Naive, HyDE, Reranking), with metrics from BLEU, ROUGE, LLM-as-Judge, and RAGAS.
 
 ---
@@ -99,9 +117,12 @@ LANGCHAIN_TRACING_V2=true
 LANGCHAIN_PROJECT=llm-eval
 ```
 
-### 3. Pull the embedding model
+### 3. Pull the models
 
 ```bash
+ollama pull nomic-embed-text
+ollama pull gpt-oss:20b-cloud
+ollama pull gemma3:27b-cloud
 ollama pull nomic-embed-text
 ```
 
