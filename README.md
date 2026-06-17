@@ -2,7 +2,7 @@
 
 A framework for evaluating Large Language Models using **prompting strategies** (Zero-Shot, Few-Shot, Chain-of-Thought) and **RAG retrieval strategies** (Naive, HyDE, Reranking), with metrics from BLEU, ROUGE, LLM-as-Judge, and RAGAS.
 
-***
+---
 
 ## Project Structure
 
@@ -36,12 +36,13 @@ llm-eval/
 │       ├── langsmith_tracer.py       # LangSmith tracing
 │       └── types.py                  # EvalResult, RAGResult types
 ├── results/                          # JSON + CSV outputs per model/strategy
+├── docs/assets/                      # Charts and result images
 ├── chromadb/                         # Persisted ChromaDB vector store
 ├── tests/                            # Unit tests
 └── .env                              # API keys and config (see below)
 ```
 
-***
+---
 
 ## Architecture
 
@@ -55,7 +56,7 @@ The project uses a **hybrid inference architecture**:
 | Judge (RAGAS) | Ollama Cloud | `qwen3-coder:480b` (default) | RAGAS metric evaluation |
 | Vector Store | Local | ChromaDB | Document retrieval |
 
-***
+---
 
 ## Requirements
 
@@ -64,7 +65,7 @@ The project uses a **hybrid inference architecture**:
 - [Ollama](https://ollama.com/) running locally on `http://localhost:11434`
 - Ollama Cloud API key ([get one here](https://ollama.com/settings/keys))
 
-***
+---
 
 ## Setup
 
@@ -104,61 +105,34 @@ LANGCHAIN_PROJECT=llm-eval
 ollama pull nomic-embed-text
 ```
 
-***
+---
 
 ## Usage
 
 ### Benchmark (Notebook 01)
 
-**Run all prompting strategies:**
-
 ```bash
+# Run all prompting strategies
 uv run run-benchmark --all-strategies --limit 50
-```
 
-**Run a specific strategy:**
-
-```bash
+# Run a specific strategy
 uv run run-benchmark --strategy zero_shot --limit 25
 uv run run-benchmark --strategy few_shot --limit 25
 uv run run-benchmark --strategy chain_of_thought --limit 25
 ```
 
-**Run locally (Ollama local model):**
-
-```bash
-uv run run-benchmark --strategy zero_shot --local --limit 10
-```
-
-Results are saved to `results/` as `.json` and `.csv`.
-
-***
-
 ### RAG Evaluation (Notebook 02)
 
-**Step 1 — Ingest documents into ChromaDB:**
-
 ```bash
+# Step 1 — Ingest documents
 uv run ingest-docs
-# Reset and re-ingest:
-uv run ingest-docs --reset
-```
 
-**Step 2 — Run RAG evaluation:**
-
-```bash
-# All strategies, all models
+# Step 2 — Run RAG evaluation
 uv run evaluate-rag
-
-# Specific strategy and model
 uv run evaluate-rag --strategy naive --model qwen3-coder:480b-cloud --limit 10
-uv run evaluate-rag --strategy hyde --limit 5
-uv run evaluate-rag --strategy reranking --limit 5
 ```
 
-Results are saved to `results/ragas_<strategy>_<model>.json`.
-
-***
+---
 
 ## Prompting Strategies
 
@@ -168,53 +142,49 @@ Results are saved to `results/ragas_<strategy>_<model>.json`.
 | **Few-Shot** | 3–5 solved examples prepended to the prompt | Format calibration |
 | **Chain-of-Thought** | Instructs model to reason step-by-step | Smaller models on complex tasks |
 
-***
+---
 
 ## RAG Retrieval Strategies
 
 | Strategy | Description | Extra cost |
 |---|---|---|
 | **Naive** | Direct query embedding → vector search → LLM | None |
-| **HyDE** | LLM generates a hypothetical answer → embed hypothesis → vector search → LLM | +1 LLM call per query |
-| **Reranking** | Broad retrieval (top-K) → cross-encoder reranks → top-N → LLM | +K cross-encoder calls |
+| **HyDE** | LLM generates a hypothetical answer → embed → vector search → LLM | +1 LLM call |
+| **Reranking** | Broad retrieval → cross-encoder reranks → top-N → LLM | +K cross-encoder calls |
 
-***
+---
 
-## Evaluation Metrics
+## Results
 
-### Benchmark Metrics
+### Benchmark — Accuracy
 
-| Metric | What it measures | Primary? |
-|---|---|---|
-| `judge_correct` | Whether the correct answer letter was selected (binary) | ✅ Yes |
-| `judge_score` | Fluency and completeness of reasoning (1–5, LLM-as-Judge) | ⚠️ Secondary |
-| `ROUGE-L` | Longest common subsequence overlap with reference | ❌ Unreliable for MCQ+CoT |
-| `BLEU` | N-gram overlap with reference | ❌ Unreliable for MCQ+CoT |
-| `latency_ms` | Response time per query in milliseconds | ✅ Operational |
+![Accuracy per Strategy × Model](docs/assets/benchmark_accuracy_grouped.jpg)
 
-### RAGAS Metrics
-
-| Metric | What it measures |
-|---|---|
-| **Faithfulness** | Are claims in the answer supported by retrieved documents? |
-| **Answer Relevancy** | Does the answer address the user's question? |
-| **Context Recall** | Were all relevant chunks retrieved? |
-| **Context Precision** | Are retrieved chunks genuinely relevant? |
-| **Composite Score** | Mean of all four RAGAS metrics |
-
-***
-
-## Key Results
-
-### Benchmark (MMLU — 50 questions)
-
-| Model | Zero-Shot | Few-Shot | CoT | Mean Accuracy |
+| Model | Zero-Shot | Few-Shot | CoT | Mean |
 |---|---|---|---|---|
 | **Qwen3-Coder 480B** | 90% | 88% | 90% | **89.3%** |
 | Gemma3 27B | 68% | 64% | 88% | 73.3% |
 | GPT-OSS 20B | 0% | 4% | 8% | 4% |
 
-### RAG Evaluation — Composite RAGAS Score
+---
+
+### Benchmark — LLM-as-Judge Score
+
+![Judge Score Heatmap](docs/assets/benchmark_judge_heatmap.jpg)
+
+> ⚠️ Judge Score measures **fluency and reasoning completeness**, not answer correctness. Use `judge_correct` (accuracy) as the primary metric.
+
+---
+
+### Benchmark — Mean Latency
+
+![Mean Latency per Strategy × Model](docs/assets/benchmark_latency.jpg)
+
+---
+
+### RAG — Composite RAGAS Score
+
+![Composite RAGAS Score per Strategy × Model](docs/assets/rag_composite_grouped.jpg)
 
 | Model | Naive | HyDE | Reranking | Mean |
 |---|---|---|---|---|
@@ -222,7 +192,21 @@ Results are saved to `results/ragas_<strategy>_<model>.json`.
 | Qwen3-Coder 480B | 0.971 | 0.973 | 0.922 | 0.955 |
 | GPT-OSS 20B | 0.651 | 0.000 | 0.653 | 0.435 |
 
-***
+---
+
+### RAG — Individual RAGAS Metrics
+
+![RAGAS Metrics — Faithfulness, Answer Relevancy, Context Recall, Context Precision](docs/assets/rag_heatmaps.jpg)
+
+---
+
+### RAG — Context Recall Distribution
+
+![Context Recall Distribution per Question — Strategy × Model](docs/assets/rag_recall_dist.jpg)
+
+> ⚠️ Qwen3-Coder 480B shows a **bimodal distribution under Reranking** — the cross-encoder discards relevant chunks for some technical queries, causing context recall to drop near 0.
+
+---
 
 ## Production Recommendations
 
@@ -232,29 +216,24 @@ Results are saved to `results/ragas_<strategy>_<model>.json`.
 | RAG — max faithfulness | Gemma3 27B | HyDE | Composite 0.988, faithfulness 1.00 |
 | RAG — low latency | Qwen3-Coder 480B | Naive | Composite 0.971, simplest pipeline |
 
-***
+---
 
 ## Known Limitations
 
-- **ROUGE-L / BLEU are unreliable for MCQ** when using CoT — long reasoning chains deflate scores against single-letter references. Use `judge_correct` as the primary accuracy metric.
-- **Judge Score measures fluency, not correctness** — a model can receive a high judge score with an incorrect answer. Always cross-reference with `judge_correct`.
-- **HyDE collapses with weak models** — GPT-OSS 20B produced a composite score of 0.000 with HyDE because the model cannot generate coherent hypothetical documents. Add a fallback to Naive when the hypothesis is empty or malformed.
-- **Reranking degrades Qwen3 context recall** — bimodal distribution observed in the violin plot suggests the cross-encoder discards relevant chunks for technical queries.
+- **ROUGE-L / BLEU are unreliable for MCQ+CoT** — long reasoning chains deflate scores against single-letter references. Use `judge_correct` as primary metric.
+- **Judge Score measures fluency, not correctness** — always cross-reference with `judge_correct`.
+- **HyDE collapses with weak models** — GPT-OSS 20B scores 0.000 composite with HyDE. Add a Naive fallback when the hypothesis is empty or malformed.
+- **Reranking degrades Qwen3 context recall** — bimodal distribution suggests the cross-encoder discards relevant chunks for technical queries.
 
-***
+---
 
 ## Observability
 
-LangSmith tracing is supported out of the box. When `LANGCHAIN_TRACING_V2=true` is set in `.env`, every LLM call in the benchmark is traced with:
-
-- Strategy name and model
-- Prompt and response
-- `judge_score`, `judge_correct`, BLEU, ROUGE-L, `latency_ms`
-- Run-level summary per strategy
+LangSmith tracing is enabled when `LANGCHAIN_TRACING_V2=true`. Every LLM call is traced with strategy, model, prompt, response, `judge_score`, `judge_correct`, BLEU, ROUGE-L, and `latency_ms`.
 
 View traces at [smith.langchain.com](https://smith.langchain.com).
 
-***
+---
 
 ## Tests
 
@@ -262,9 +241,7 @@ View traces at [smith.langchain.com](https://smith.langchain.com).
 uv run pytest tests/ -v
 ```
 
-Test coverage includes the `Evaluator`, Ollama Cloud client, and RAG pipeline.
-
-***
+---
 
 ## License
 
