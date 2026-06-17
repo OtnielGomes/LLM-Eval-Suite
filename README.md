@@ -10,6 +10,16 @@
   <img src="https://img.shields.io/badge/license-MIT-22C55E?style=flat" />
 </p>
 
+---
+
+<div align="center">
+  <a href="https://github.com/OtnielGomes/LLM-Eval-Suite">
+    <img src="docs/assets/project_cover.png" alt="LLM Eval Suite" width="1000" height="350">
+  </a>
+</div>
+
+---
+
 A framework for evaluating Large Language Models using **prompting strategies** (Zero-Shot, Few-Shot, Chain-of-Thought) and **RAG retrieval strategies** (Naive, HyDE, Reranking), with metrics from BLEU, ROUGE, LLM-as-Judge, and RAGAS.
 
 ---
